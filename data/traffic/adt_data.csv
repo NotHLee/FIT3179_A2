@@ -1,791 +1,781 @@
 Station,Location,State,Year,ADT
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2015,"16,736"
-AR 204,Ipoh-Lumut,Perak,2015,"26,494"
-AR 301,Ipoh-Kampar,Perak,2015,"30,592"
-AR 303,Sitiawan-Gopeng,Perak,2015,"78,136"
-AR 501,Ipoh-Kuala Kangsar,Perak,2015,"19,895"
-AR 601,Ipoh-Butterworth,Perak,2015,"20,664"
-AR 603,Sitiawan-Taiping,Perak,2015,"12,949"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2015,"27,249"
-AR 801,Kuala Kangsar-Baling,Perak,2015,"3,139"
-AR 803,Lebuhraya Timur-Barat,Perak,2015,"3,293"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2015,"49,706"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2015,"131,348"
-BR 203,Klang-Morib-Batu Laut,Selangor,2015,"7,890"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2015,"21,611"
-BR 501,Klang-Sabak Bernam,Selangor,2015,"20,838"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2015,"48,737"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2015,"15,538"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2015,"129,579"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2015,"15,702"
-CR 403,Kuantan-Maran,Pahang,2015,"29,856"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2015,"20,827"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2015,"8,063"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2015,"10,741"
-CR 801,Kuantan-Karak,Pahang,2015,"14,874"
-CR 805,Kuantan-Maran,Pahang,2015,"6,369"
-CR 902,Kuantan-Segamat,Pahang,2015,"9,985"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2015,"39,257"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2015,"4,718"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2015,"23,345"
-JR 102,Batu Pahat-Muar,Johor,2015,"17,176"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2015,"16,282"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2015,"11,985"
-JR 204,Jalan Skudai,Johor,2015,"108,858"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2015,"29,045"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2015,"17,359"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2015,"41,632"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2015,"19,745"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2015,"14,672"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2015,"2,656"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2015,"15,945"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2015,"17,751"
-KR 202,Alor Star-Jitra,Kedah,2015,"36,660"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2015,"24,779"
-KR 501,Alor Setar-Sungai Petani,Kedah,2015,"19,854"
-MR 206,Jalan Melaka-Muar,Melaka,2015,"17,182"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2015,"16,885"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2015,"16,916"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2015,"57,613"
-NR 403,Seremban-Tampin,Negeri Sembilan,2015,"12,465"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2015,"11,870"
-NR 505,Seremban-Gemas,Negeri Sembilan,2015,"47,976"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2015,"65,716"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2015,"24,774"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2015,"62,464"
-RR 106,Kangar-Alor Star,Perlis,2015,"14,707"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2015,"23,584"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2015,"28,171"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2015,"4,105"
-TR 402,K. Terengganu-Marang,Terengganu,2015,"24,887"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2015,"9,561"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2015,"111,097"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2015,"211,188"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2015,"162,596"
-HR 103,KK-Sepulut Highway,Sabah,2015,"2,792"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2015,"2,299"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2015,"15,786"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2015,"4,105"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2015,"12,388"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2015,"11,508"
-HR 504,Sg. Segama Crossing,Sabah,2015,"6,335"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2015,"2,310"
-HR 507,Kunak-Lahad Datu,Sabah,2015,"6,700"
-SR 101,Bau-Semantan,Sarawak,2015,"4,090"
-SR 103,Kuching-Serian,Sarawak,2015,"34,874"
-SR 401,Bintulu-Sibu,Sarawak,2015,"5,841"
-SR 402,Bintulu-Miri,Sarawak,2015,"7,452"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2015,"12,329"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2015,"12,807"
-SR 504,Lawas-Trusan,Sarawak,2015,"7,912"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2016,"15,187"
-AR 204,Ipoh-Lumut,Perak,2016,"25,939"
-AR 301,Ipoh-Kampar,Perak,2016,"24,654"
-AR 303,Sitiawan-Gopeng,Perak,2016,"77,483"
-AR 501,Ipoh-Kuala Kangsar,Perak,2016,"19,936"
-AR 601,Ipoh-Butterworth,Perak,2016,"21,327"
-AR 603,Sitiawan-Taiping,Perak,2016,"13,919"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2016,"33,024"
-AR 801,Kuala Kangsar-Baling,Perak,2016,"3,017"
-AR 803,Lebuhraya Timur-Barat,Perak,2016,"3,818"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2016,"47,687"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2016,"128,988"
-BR 203,Klang-Morib-Batu Laut,Selangor,2016,"7,999"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2016,"22,277"
-BR 501,Klang-Sabak Bernam,Selangor,2016,"24,554"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2016,"48,199"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2016,"16,063"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2016,"138,711"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2016,"16,291"
-CR 403,Kuantan-Maran,Pahang,2016,"30,231"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2016,"24,850"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2016,"8,757"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2016,"11,620"
-CR 801,Kuantan-Karak,Pahang,2016,"15,730"
-CR 805,Kuantan-Maran,Pahang,2016,"6,841"
-CR 902,Kuantan-Segamat,Pahang,2016,"10,514"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2016,"28,405"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2016,"6,344"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2016,"21,969"
-JR 102,Batu Pahat-Muar,Johor,2016,"18,177"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2016,"14,554"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2016,"9,733"
-JR 204,Jalan Skudai,Johor,2016,"110,498"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2016,"43,134"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2016,"17,598"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2016,"41,936"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2016,"18,984"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2016,"15,336"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2016,"4,969"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2016,"16,690"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2016,"15,954"
-KR 202,Alor Star-Jitra,Kedah,2016,"38,036"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2016,"21,656"
-KR 501,Alor Setar-Sungai Petani,Kedah,2016,"18,221"
-MR 206,Jalan Melaka-Muar,Melaka,2016,"15,640"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2016,"19,662"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2016,"17,439"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2016,"41,295"
-NR 403,Seremban-Tampin,Negeri Sembilan,2016,"12,737"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2016,"10,984"
-NR 505,Seremban-Gemas,Negeri Sembilan,2016,"48,966"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2016,"59,320"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2016,"23,255"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2016,"56,678"
-RR 106,Kangar-Alor Star,Perlis,2016,"15,279"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2016,"22,605"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2016,"24,852"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2016,"3,992"
-TR 402,K. Terengganu-Marang,Terengganu,2016,"34,408"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2016,"9,047"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2016,"122,688"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2016,"169,218"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2016,"205,686"
-HR 103,KK-Sepulut Highway,Sabah,2016,"2,782"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2016,"6,943"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2016,"15,999"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2016,"3,351"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2016,"13,887"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2016,"11,694"
-HR 504,Sg. Segama Crossing,Sabah,2016,"7,412"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2016,"3,609"
-HR 507,Kunak-Lahad Datu,Sabah,2016,"8,169"
-SR 101,Bau-Semantan,Sarawak,2016,"3,429"
-SR 103,Kuching-Serian,Sarawak,2016,"34,950"
-SR 401,Bintulu-Sibu,Sarawak,2016,"5,563"
-SR 402,Bintulu-Miri,Sarawak,2016,"7,428"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2016,"9,092"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2016,"13,245"
-SR 504,Lawas-Trusan,Sarawak,2016,"11,701"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2017,"14,913"
-AR 204,Ipoh-Lumut,Perak,2017,"27,384"
-AR 301,Ipoh-Kampar,Perak,2017,"29,911"
-AR 303,Sitiawan-Gopeng,Perak,2017,"87,006"
-AR 501,Ipoh-Kuala Kangsar,Perak,2017,"20,443"
-AR 601,Ipoh-Butterworth,Perak,2017,"19,058"
-AR 603,Sitiawan-Taiping,Perak,2017,"9,227"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2017,"26,218"
-AR 801,Kuala Kangsar-Baling,Perak,2017,"2,798"
-AR 803,Lebuhraya Timur-Barat,Perak,2017,"3,923"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2017,"47,521"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2017,"101,893"
-BR 203,Klang-Morib-Batu Laut,Selangor,2017,"5,903"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2017,"21,568"
-BR 501,Klang-Sabak Bernam,Selangor,2017,"21,642"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2017,"46,607"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2017,"13,476"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2017,"153,545"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2017,"18,843"
-CR 403,Kuantan-Maran,Pahang,2017,"33,247"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2017,"30,052"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2017,"8,302"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2017,"11,606"
-CR 801,Kuantan-Karak,Pahang,2017,"16,731"
-CR 805,Kuantan-Maran,Pahang,2017,"6,915"
-CR 902,Kuantan-Segamat,Pahang,2017,"10,416"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2017,"65,518"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2017,"6,300"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2017,"22,160"
-JR 102,Batu Pahat-Muar,Johor,2017,"23,564"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2017,"15,723"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2017,"11,199"
-JR 204,Jalan Skudai,Johor,2017,"145,079"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2017,"42,306"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2017,"20,602"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2017,"43,771"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2017,"17,601"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2017,"15,599"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2017,"4,349"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2017,"13,050"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2017,"16,518"
-KR 202,Alor Star-Jitra,Kedah,2017,"39,669"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2017,"20,749"
-KR 501,Alor Setar-Sungai Petani,Kedah,2017,"17,748"
-MR 206,Jalan Melaka-Muar,Melaka,2017,"16,329"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2017,"17,780"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2017,"18,320"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2017,"48,851"
-NR 403,Seremban-Tampin,Negeri Sembilan,2017,"13,415"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2017,"11,314"
-NR 505,Seremban-Gemas,Negeri Sembilan,2017,"49,199"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2017,"52,095"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2017,"22,006"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2017,"61,819"
-RR 106,Kangar-Alor Star,Perlis,2017,"14,351"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2017,"21,136"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2017,"23,209"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2017,"4,268"
-TR 402,K. Terengganu-Marang,Terengganu,2017,"35,427"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2017,"10,410"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2017,"103,024"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2017,"138,477"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2017,"144,046"
-HR 103,KK-Sepulut Highway,Sabah,2017,"3,137"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2017,"5,618"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2017,"15,892"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2017,"4,307"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2017,"15,654"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2017,"12,649"
-HR 504,Sg. Segama Crossing,Sabah,2017,"6,832"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2017,"2,689"
-HR 507,Kunak-Lahad Datu,Sabah,2017,"8,389"
-SR 101,Bau-Semantan,Sarawak,2017,"5,138"
-SR 103,Kuching-Serian,Sarawak,2017,"22,171"
-SR 401,Bintulu-Sibu,Sarawak,2017,"5,685"
-SR 402,Bintulu-Miri,Sarawak,2017,"8,000"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2017,"9,861"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2017,"15,221"
-SR 504,Lawas-Trusan,Sarawak,2017,"9,640"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2018,"15,068"
-AR 204,Ipoh-Lumut,Perak,2018,"28,011"
-AR 301,Ipoh-Kampar,Perak,2018,"30,321"
-AR 303,Sitiawan-Gopeng,Perak,2018,"87,711"
-AR 501,Ipoh-Kuala Kangsar,Perak,2018,"20,571"
-AR 601,Ipoh-Butterworth,Perak,2018,"20,270"
-AR 603,Sitiawan-Taiping,Perak,2018,"9,449"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2018,"26,687"
-AR 801,Kuala Kangsar-Baling,Perak,2018,"2,872"
-AR 803,Lebuhraya Timur-Barat,Perak,2018,"4,028"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2018,"47,425"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2018,"100,568"
-BR 203,Klang-Morib-Batu Laut,Selangor,2018,"5,930"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2018,"21,697"
-BR 501,Klang-Sabak Bernam,Selangor,2018,"22,118"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2018,"45,441"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2018,"13,626"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2018,"153,914"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2018,"19,144"
-CR 403,Kuantan-Maran,Pahang,2018,"34,204"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2018,"30,768"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2018,"8,595"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2018,"12,370"
-CR 801,Kuantan-Karak,Pahang,2018,"17,493"
-CR 805,Kuantan-Maran,Pahang,2018,"7,061"
-CR 902,Kuantan-Segamat,Pahang,2018,"10,651"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2018,"66,933"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2018,"6,389"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2018,"22,550"
-JR 102,Batu Pahat-Muar,Johor,2018,"23,698"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2018,"15,778"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2018,"11,274"
-JR 204,Jalan Skudai,Johor,2018,"149,199"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2018,"40,952"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2018,"21,216"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2018,"45,045"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2018,"16,527"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2018,"15,459"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2018,"4,378"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2018,"12,985"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2018,"16,819"
-KR 202,Alor Star-Jitra,Kedah,2018,"40,387"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2018,"21,195"
-KR 501,Alor Setar-Sungai Petani,Kedah,2018,"17,695"
-MR 206,Jalan Melaka-Muar,Melaka,2018,"16,525"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2018,"19,098"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2018,"18,593"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2018,"48,557"
-NR 403,Seremban-Tampin,Negeri Sembilan,2018,"13,334"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2018,"11,088"
-NR 505,Seremban-Gemas,Negeri Sembilan,2018,"51,260"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2018,"52,205"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2018,"22,365"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2018,"64,144"
-RR 106,Kangar-Alor Star,Perlis,2018,"14,524"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2018,"20,946"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2018,"23,023"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2018,"4,136"
-TR 402,K. Terengganu-Marang,Terengganu,2018,"36,656"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2018,"9,847"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2018,"98,490"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2018,"134,184"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2018,"140,589"
-HR 103,KK-Sepulut Highway,Sabah,2018,"3,159"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2018,"5,618"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2018,"17,465"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2018,"4,354"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2018,"16,405"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2018,"13,012"
-HR 504,Sg. Segama Crossing,Sabah,2018,"7,028"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2018,"2,721"
-HR 507,Kunak-Lahad Datu,Sabah,2018,"8,629"
-SR 101,Bau-Semantan,Sarawak,2018,"5,320"
-SR 103,Kuching-Serian,Sarawak,2018,"22,587"
-SR 401,Bintulu-Sibu,Sarawak,2018,"5,258"
-SR 402,Bintulu-Miri,Sarawak,2018,"8,208"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2018,"9,792"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2018,"14,901"
-SR 504,Lawas-Trusan,Sarawak,2018,"10,623"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2019,"17,504"
-AR 204,Ipoh-Lumut,Perak,2019,"25,248"
-AR 301,Ipoh-Kampar,Perak,2019,"20,707"
-AR 303,Sitiawan-Gopeng,Perak,2019,"53,711"
-AR 501,Ipoh-Kuala Kangsar,Perak,2019,"22,077"
-AR 601,Ipoh-Butterworth,Perak,2019,"20,186"
-AR 603,Sitiawan-Taiping,Perak,2019,"9,677"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2019,"18,285"
-AR 801,Kuala Kangsar-Baling,Perak,2019,"2,952"
-AR 803,Lebuhraya Timur-Barat,Perak,2019,"4,164"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2019,"63,989"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2019,"89,634"
-BR 203,Klang-Morib-Batu Laut,Selangor,2019,"7,110"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2019,"22,957"
-BR 501,Klang-Sabak Bernam,Selangor,2019,"22,373"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2019,"49,444"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2019,"15,367"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2019,"108,272"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2019,"21,090"
-CR 403,Kuantan-Maran,Pahang,2019,"26,215"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2019,"33,911"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2019,"8,239"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2019,"11,748"
-CR 801,Kuantan-Karak,Pahang,2019,"17,130"
-CR 805,Kuantan-Maran,Pahang,2019,"6,889"
-CR 902,Kuantan-Segamat,Pahang,2019,"12,330"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2019,"34,004"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2019,"6,268"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2019,"21,898"
-JR 102,Batu Pahat-Muar,Johor,2019,"24,753"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2019,"16,114"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2019,"11,702"
-JR 204,Jalan Skudai,Johor,2019,"88,738"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2019,"41,754"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2019,"15,543"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2019,"36,704"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2019,"17,838"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2019,"14,442"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2019,"4,252"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2019,"14,607"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2019,"16,824"
-KR 202,Alor Star-Jitra,Kedah,2019,"31,183"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2019,"19,585"
-KR 501,Alor Setar-Sungai Petani,Kedah,2019,"17,083"
-MR 206,Jalan Melaka-Muar,Melaka,2019,"14,823"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2019,"17,151"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2019,"18,558"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2019,"36,878"
-NR 403,Seremban-Tampin,Negeri Sembilan,2019,"13,449"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2019,"11,339"
-NR 505,Seremban-Gemas,Negeri Sembilan,2019,"48,647"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2019,"51,562"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2019,"29,350"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2019,"56,917"
-RR 106,Kangar-Alor Star,Perlis,2019,"15,891"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2019,"19,092"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2019,"23,148"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2019,"4,202"
-TR 402,K. Terengganu-Marang,Terengganu,2019,"35,124"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2019,"11,561"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2019,"95,537"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2019,"132,621"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2019,"138,507"
-HR 103,KK-Sepulut Highway,Sabah,2019,"3,181"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2019,"4,757"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2019,"16,755"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2019,"5,073"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2019,"15,632"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2019,"13,272"
-HR 504,Sg. Segama Crossing,Sabah,2019,"7,390"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2019,"4,351"
-HR 507,Kunak-Lahad Datu,Sabah,2019,"7,776"
-SR 101,Bau-Semantan,Sarawak,2019,"4,820"
-SR 103,Kuching-Serian,Sarawak,2019,"42,598"
-SR 401,Bintulu-Sibu,Sarawak,2019,"5,017"
-SR 402,Bintulu-Miri,Sarawak,2019,"7,359"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2019,"11,743"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2019,"21,415"
-SR 504,Lawas-Trusan,Sarawak,2019,"9,335"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2020,"15,285"
-AR 204,Ipoh-Lumut,Perak,2020,"22,166"
-AR 301,Ipoh-Kampar,Perak,2020,"17,500"
-AR 303,Sitiawan-Gopeng,Perak,2020,"45,619"
-AR 501,Ipoh-Kuala Kangsar,Perak,2020,"19,160"
-AR 601,Ipoh-Butterworth,Perak,2020,"19,103"
-AR 603,Sitiawan-Taiping,Perak,2020,"8,023"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2020,"15,593"
-AR 801,Kuala Kangsar-Baling,Perak,2020,"2,900"
-AR 803,Lebuhraya Timur-Barat,Perak,2020,"4,112"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2020,"55,013"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2020,"73,585"
-BR 203,Klang-Morib-Batu Laut,Selangor,2020,"6,794"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2020,"19,739"
-BR 501,Klang-Sabak Bernam,Selangor,2020,"19,411"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2020,"41,588"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2020,"13,176"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2020,"92,725"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2020,"18,700"
-CR 403,Kuantan-Maran,Pahang,2020,"22,721"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2020,"30,615"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2020,"8,210"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2020,"10,450"
-CR 801,Kuantan-Karak,Pahang,2020,"15,498"
-CR 805,Kuantan-Maran,Pahang,2020,"6,638"
-CR 902,Kuantan-Segamat,Pahang,2020,"12,383"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2020,"30,008"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2020,"6,123"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2020,"18,967"
-JR 102,Batu Pahat-Muar,Johor,2020,"21,916"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2020,"13,978"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2020,"9,957"
-JR 204,Jalan Skudai,Johor,2020,"77,841"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2020,"35,961"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2020,"13,843"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2020,"32,214"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2020,"14,995"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2020,"12,566"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2020,"4,075"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2020,"12,595"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2020,"14,655"
-KR 202,Alor Star-Jitra,Kedah,2020,"27,076"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2020,"16,611"
-KR 501,Alor Setar-Sungai Petani,Kedah,2020,"14,551"
-MR 206,Jalan Melaka-Muar,Melaka,2020,"12,733"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2020,"15,733"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2020,"16,661"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2020,"30,582"
-NR 403,Seremban-Tampin,Negeri Sembilan,2020,"11,704"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2020,"9,731"
-NR 505,Seremban-Gemas,Negeri Sembilan,2020,"43,883"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2020,"43,931"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2020,"24,991"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2020,"49,901"
-RR 106,Kangar-Alor Star,Perlis,2020,"13,899"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2020,"15,972"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2020,"19,357"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2020,"3,781"
-TR 402,K. Terengganu-Marang,Terengganu,2020,"31,387"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2020,"10,932"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2020,"77,964"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2020,"103,473"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2020,"113,825"
-HR 103,KK-Sepulut Highway,Sabah,2020,"3,101"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2020,"4,891"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2020,"15,240"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2020,"4,628"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2020,"14,156"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2020,"11,861"
-HR 504,Sg. Segama Crossing,Sabah,2020,"6,963"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2020,"4,304"
-HR 507,Kunak-Lahad Datu,Sabah,2020,"7,238"
-SR 101,Bau-Semantan,Sarawak,2020,"4,839"
-SR 103,Kuching-Serian,Sarawak,2020,"36,673"
-SR 401,Bintulu-Sibu,Sarawak,2020,"4,495"
-SR 402,Bintulu-Miri,Sarawak,2020,"7,312"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2020,"10,027"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2020,"18,899"
-SR 504,Lawas-Trusan,Sarawak,2020,"9,854"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2021,"12,871"
-AR 204,Ipoh-Lumut,Perak,2021,"13,578"
-AR 301,Ipoh-Kampar,Perak,2021,"12,642"
-AR 303,Sitiawan-Gopeng,Perak,2021,"48,669"
-AR 501,Ipoh-Kuala Kangsar,Perak,2021,"14,535"
-AR 601,Ipoh-Butterworth,Perak,2021,"14,358"
-AR 603,Sitiawan-Taiping,Perak,2021,"2,101"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2021,"8,826"
-AR 801,Kuala Kangsar-Baling,Perak,2021,"3,930"
-AR 803,Lebuhraya Timur-Barat,Perak,2021,"1,433"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2021,"32,359"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2021,"51,639"
-BR 203,Klang-Morib-Batu Laut,Selangor,2021,"5,231"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2021,"14,364"
-BR 501,Klang-Sabak Bernam,Selangor,2021,"9,052"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2021,"33,772"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2021,"15,599"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2021,"55,377"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2021,"15,414"
-CR 403,Kuantan-Maran,Pahang,2021,"19,103"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2021,"15,611"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2021,"5,976"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2021,"8,678"
-CR 801,Kuantan-Karak,Pahang,2021,"8,659"
-CR 805,Kuantan-Maran,Pahang,2021,"5,006"
-CR 902,Kuantan-Segamat,Pahang,2021,"12,455"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2021,"24,824"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2021,"4,581"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2021,"16,159"
-JR 102,Batu Pahat-Muar,Johor,2021,"24,421"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2021,"11,822"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2021,"13,665"
-JR 204,Jalan Skudai,Johor,2021,"42,046"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2021,"31,034"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2021,"11,058"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2021,"18,986"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2021,"18,645"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2021,"8,800"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2021,"3,648"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2021,"10,766"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2021,"7,547"
-KR 202,Alor Star-Jitra,Kedah,2021,"27,493"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2021,"6,037"
-KR 501,Alor Setar-Sungai Petani,Kedah,2021,"7,794"
-MR 206,Jalan Melaka-Muar,Melaka,2021,"10,841"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2021,"9,773"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2021,"15,088"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2021,"5,808"
-NR 403,Seremban-Tampin,Negeri Sembilan,2021,"5,379"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2021,"3,346"
-NR 505,Seremban-Gemas,Negeri Sembilan,2021,"44,176"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2021,"34,453"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2021,"16,432"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2021,"41,317"
-RR 106,Kangar-Alor Star,Perlis,2021,"11,832"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2021,"14,946"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2021,"16,848"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2021,"3,091"
-TR 402,K. Terengganu-Marang,Terengganu,2021,"25,665"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2021,"8,412"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2021,"51,360"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2021,"76,646"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2021,"90,749"
-HR 103,KK-Sepulut Highway,Sabah,2021,"3,695"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2021,"3,523"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2021,"12,212"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2021,"3,755"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2021,"11,496"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2021,"9,842"
-HR 504,Sg. Segama Crossing,Sabah,2021,"5,396"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2021,"3,126"
-HR 507,Kunak-Lahad Datu,Sabah,2021,"5,712"
-SR 101,Bau-Semantan,Sarawak,2021,"3,560"
-SR 103,Kuching-Serian,Sarawak,2021,"31,432"
-SR 401,Bintulu-Sibu,Sarawak,2021,"3,679"
-SR 402,Bintulu-Miri,Sarawak,2021,"5,388"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2021,"8,639"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2021,"4,194"
-SR 504,Lawas-Trusan,Sarawak,2021,"6,830"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2022,"17,493"
-AR 204,Ipoh-Lumut,Perak,2022,"18,768"
-AR 301,Ipoh-Kampar,Perak,2022,"23,087"
-AR 303,Sitiawan-Gopeng,Perak,2022,"72,260"
-AR 501,Ipoh-Kuala Kangsar,Perak,2022,"20,996"
-AR 601,Ipoh-Butterworth,Perak,2022,"21,075"
-AR 603,Sitiawan-Taiping,Perak,2022,"3,859"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2022,"19,911"
-AR 801,Kuala Kangsar-Baling,Perak,2022,"6,928"
-AR 803,Lebuhraya Timur-Barat,Perak,2022,"3,274"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2022,"59,939"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2022,"125,243"
-BR 203,Klang-Morib-Batu Laut,Selangor,2022,"7,468"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2022,"27,697"
-BR 501,Klang-Sabak Bernam,Selangor,2022,"25,033"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2022,"49,206"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2022,"15,044"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2022,"163,197"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2022,"22,964"
-CR 403,Kuantan-Maran,Pahang,2022,"30,590"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2022,"18,086"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2022,"11,135"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2022,"10,389"
-CR 801,Kuantan-Karak,Pahang,2022,"13,867"
-CR 805,Kuantan-Maran,Pahang,2022,"7,603"
-CR 902,Kuantan-Segamat,Pahang,2022,"8,622"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2022,"29,440"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2022,"8,630"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2022,"25,258"
-JR 102,Batu Pahat-Muar,Johor,2022,"28,202"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2022,"20,931"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2022,"13,508"
-JR 204,Jalan Skudai,Johor,2022,"96,421"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2022,"36,760"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2022,"16,181"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2022,"32,134"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2022,"24,661"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2022,"9,347"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2022,"5,400"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2022,"22,454"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2022,"7,644"
-KR 202,Alor Star-Jitra,Kedah,2022,"44,623"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2022,"16,413"
-KR 501,Alor Setar-Sungai Petani,Kedah,2022,"16,577"
-MR 206,Jalan Melaka-Muar,Melaka,2022,"17,547"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2022,"15,481"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2022,"26,338"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2022,"12,860"
-NR 403,Seremban-Tampin,Negeri Sembilan,2022,"15,466"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2022,"9,901"
-NR 505,Seremban-Gemas,Negeri Sembilan,2022,"58,212"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2022,"46,194"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2022,"33,790"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2022,"61,173"
-RR 106,Kangar-Alor Star,Perlis,2022,"15,481"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2022,"15,580"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2022,"28,498"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2022,"4,941"
-TR 402,K. Terengganu-Marang,Terengganu,2022,"34,818"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2022,"11,208"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2022,"110,491"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2022,"159,348"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2022,"156,066"
-HR 103,KK-Sepulut Highway,Sabah,2022,"4,889"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2022,"5,135"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2022,"7,012"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2022,"4,812"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2022,"15,961"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2022,"15,095"
-HR 504,Sg. Segama Crossing,Sabah,2022,"6,992"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2022,"7,843"
-HR 507,Kunak-Lahad Datu,Sabah,2022,"9,298"
-SR 101,Bau-Semantan,Sarawak,2022,"1,269"
-SR 103,Kuching-Serian,Sarawak,2022,"42,034"
-SR 401,Bintulu-Sibu,Sarawak,2022,"6,788"
-SR 402,Bintulu-Miri,Sarawak,2022,"12,405"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2022,"6,221"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2022,"6,776"
-SR 504,Lawas-Trusan,Sarawak,2022,"8,948"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2023,"16,388"
-AR 204,Ipoh-Lumut,Perak,2023,"18,626"
-AR 301,Ipoh-Kampar,Perak,2023,"25,196"
-AR 303,Sitiawan-Gopeng,Perak,2023,"67,164"
-AR 501,Ipoh-Kuala Kangsar,Perak,2023,"21,334"
-AR 601,Ipoh-Butterworth,Perak,2023,"19,938"
-AR 603,Sitiawan-Taiping,Perak,2023,"4,408"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2023,"15,646"
-AR 801,Kuala Kangsar-Baling,Perak,2023,"13,076"
-AR 803,Lebuhraya Timur-Barat,Perak,2023,"4,793"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2023,"58,077"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2023,"100,254"
-BR 203,Klang-Morib-Batu Laut,Selangor,2023,"6,045"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2023,"26,544"
-BR 501,Klang-Sabak Bernam,Selangor,2023,"24,840"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2023,"54,450"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2023,"13,307"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2023,"128,296"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2023,"19,632"
-CR 403,Kuantan-Maran,Pahang,2023,"35,096"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2023,"22,202"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2023,"10,021"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2023,"9,010"
-CR 801,Kuantan-Karak,Pahang,2023,"17,145"
-CR 805,Kuantan-Maran,Pahang,2023,"7,568"
-CR 902,Kuantan-Segamat,Pahang,2023,"12,312"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2023,"34,303"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2023,"5,948"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2023,"24,769"
-JR 102,Batu Pahat-Muar,Johor,2023,"18,195"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2023,"30,760"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2023,"10,695"
-JR 204,Jalan Skudai,Johor,2023,"91,208"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2023,"34,944"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2023,"16,405"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2023,"25,543"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2023,"28,148"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2023,"15,716"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2023,"4,820"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2023,"10,651"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2023,"8,661"
-KR 202,Alor Star-Jitra,Kedah,2023,"36,444"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2023,"18,092"
-KR 501,Alor Setar-Sungai Petani,Kedah,2023,"11,068"
-MR 206,Jalan Melaka-Muar,Melaka,2023,"16,424"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2023,"13,218"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2023,"23,837"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2023,"12,483"
-NR 403,Seremban-Tampin,Negeri Sembilan,2023,"18,314"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2023,"8,430"
-NR 505,Seremban-Gemas,Negeri Sembilan,2023,"56,809"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2023,"41,802"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2023,"31,960"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2023,"67,932"
-RR 106,Kangar-Alor Star,Perlis,2023,"15,844"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2023,"15,165"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2023,"28,857"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2023,"4,042"
-TR 402,K. Terengganu-Marang,Terengganu,2023,"36,220"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2023,"7,893"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2023,"83,194"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2023,"156,093"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2023,"147,395"
-HR 103,KK-Sepulut Highway,Sabah,2023,"6,256"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2023,"4,243"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2023,"5,946"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2023,"4,336"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2023,"12,648"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2023,"15,988"
-HR 504,Sg. Segama Crossing,Sabah,2023,"8,182"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2023,"8,449"
-HR 507,Kunak-Lahad Datu,Sabah,2023,"10,964"
-SR 101,Bau-Semantan,Sarawak,2023,"4,570"
-SR 103,Kuching-Serian,Sarawak,2023,"34,105"
-SR 401,Bintulu-Sibu,Sarawak,2023,"11,820"
-SR 402,Bintulu-Miri,Sarawak,2023,"10,517"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2023,"7,518"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2023,"5,555"
-SR 504,Lawas-Trusan,Sarawak,2023,"7,140"
-AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2024,"17,150"
-AR 204,Ipoh-Lumut,Perak,2024,"18,131"
-AR 301,Ipoh-Kampar,Perak,2024,"19,898"
-AR 303,Sitiawan-Gopeng,Perak,2024,"71,239"
-AR 501,Ipoh-Kuala Kangsar,Perak,2024,"19,418"
-AR 601,Ipoh-Butterworth,Perak,2024,"20,959"
-AR 603,Sitiawan-Taiping,Perak,2024,"2,412"
-AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2024,"15,032"
-AR 801,Kuala Kangsar-Baling,Perak,2024,"6,340"
-AR 803,Lebuhraya Timur-Barat,Perak,2024,"2,409"
-BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2024,"57,542"
-BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2024,"112,543"
-BR 203,Klang-Morib-Batu Laut,Selangor,2024,"6,532"
-BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2024,"27,392"
-BR 501,Klang-Sabak Bernam,Selangor,2024,"26,917"
-BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2024,"52,402"
-BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2024,"13,799"
-BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2024,"142,247"
-CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2024,"20,238"
-CR 403,Kuantan-Maran,Pahang,2024,"30,699"
-CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2024,"20,360"
-CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2024,"9,781"
-CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2024,"11,904"
-CR 801,Kuantan-Karak,Pahang,2024,"13,411"
-CR 805,Kuantan-Maran,Pahang,2024,"6,724"
-CR 902,Kuantan-Segamat,Pahang,2024,"9,406"
-DR 201,Kota Bharu-Pasir Puteh,Kelantan,2024,"20,790"
-DR 603,Lebuh raya Timur-Barat,Kelantan,2024,"7,564"
-DR 802,Kota Bharu-Kuala Krai,Kelantan,2024,"23,327"
-JR 102,Batu Pahat-Muar,Johor,2024,"26,322"
-JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2024,"20,290"
-JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2024,"11,356"
-JR 204,Jalan Skudai,Johor,2024,"101,669"
-JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2024,"31,654"
-JR 305,Johor Bahru-Ayer Hitam,Johor,2024,"14,175"
-JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2024,"29,715"
-JR 404,Johor Bahru-Kota Tinggi,Johor,2024,"23,714"
-JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2024,"8,081"
-JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2024,"4,800"
-JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2024,"20,287"
-JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2024,"6,915"
-KR 202,Alor Star-Jitra,Kedah,2024,"42,998"
-KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2024,"14,517"
-KR 501,Alor Setar-Sungai Petani,Kedah,2024,"11,819"
-MR 206,Jalan Melaka-Muar,Melaka,2024,"15,470"
-MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2024,"13,045"
-MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2024,"21,905"
-NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2024,"9,515"
-NR 403,Seremban-Tampin,Negeri Sembilan,2024,"13,361"
-NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2024,"9,603"
-NR 505,Seremban-Gemas,Negeri Sembilan,2024,"51,948"
-PR 116,Butterworth-Ipoh,Pulau Pinang,2024,"39,000"
-PR 201,George Town-Telok Bahang,Pulau Pinang,2024,"31,556"
-PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2024,"64,007"
-RR 106,Kangar-Alor Star,Perlis,2024,"21,288"
-TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2024,"17,390"
-TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2024,"24,480"
-TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2024,"5,322"
-TR 402,K. Terengganu-Marang,Terengganu,2024,"35,742"
-TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2024,"9,293"
-WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2024,"82,459"
-WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2024,"160,061"
-WR 103,Kuala Lumpur-Ipoh,Kuala Lumpur,2024,"147,145"
-HR 103,KK-Sepulut Highway,Sabah,2024,"4,177"
-HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2024,"4,419"
-HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2024,"5,475"
-HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2024,"4,979"
-HR 204,KK-Kudat (Kg Mantanau),Sabah,2024,"13,668"
-HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2024,"11,168"
-HR 504,Sg. Segama Crossing,Sabah,2024,"6,906"
-HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2024,"7,956"
-HR 507,Kunak-Lahad Datu,Sabah,2024,"9,176"
-SR 101,Bau-Semantan,Sarawak,2024,"4,991"
-SR 103,Kuching-Serian,Sarawak,2024,"51,605"
-SR 401,Bintulu-Sibu,Sarawak,2024,"7,204"
-SR 402,Bintulu-Miri,Sarawak,2024,"11,931"
-SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2024,"10,163"
-SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2024,"11,895"
-SR 504,Lawas-Trusan,Sarawak,2024,"10,301"
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2015,16736
+AR 204,Ipoh-Lumut,Perak,2015,26494
+AR 301,Ipoh-Kampar,Perak,2015,30592
+AR 303,Sitiawan-Gopeng,Perak,2015,78136
+AR 501,Ipoh-Kuala Kangsar,Perak,2015,19895
+AR 601,Ipoh-Butterworth,Perak,2015,20664
+AR 603,Sitiawan-Taiping,Perak,2015,12949
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2015,27249
+AR 801,Kuala Kangsar-Baling,Perak,2015,3139
+AR 803,Lebuhraya Timur-Barat,Perak,2015,3293
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2015,49706
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2015,131348
+BR 203,Klang-Morib-Batu Laut,Selangor,2015,7890
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2015,21611
+BR 501,Klang-Sabak Bernam,Selangor,2015,20838
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2015,48737
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2015,15538
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2015,129579
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2015,15702
+CR 403,Kuantan-Maran,Pahang,2015,29856
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2015,20827
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2015,8063
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2015,10741
+CR 801,Kuantan-Karak,Pahang,2015,14874
+CR 805,Kuantan-Maran,Pahang,2015,6369
+CR 902,Kuantan-Segamat,Pahang,2015,9985
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2015,39257
+DR 603,Lebuh raya Timur-Barat,Kelantan,2015,4718
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2015,23345
+JR 102,Batu Pahat-Muar,Johor,2015,17176
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2015,16282
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2015,11985
+JR 204,Jalan Skudai,Johor,2015,108858
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2015,29045
+JR 305,Johor Bahru-Ayer Hitam,Johor,2015,17359
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2015,41632
+JR 404,Johor Bahru-Kota Tinggi,Johor,2015,19745
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2015,14672
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2015,2656
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2015,15945
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2015,17751
+KR 202,Alor Star-Jitra,Kedah,2015,36660
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2015,24779
+KR 501,Alor Setar-Sungai Petani,Kedah,2015,19854
+MR 206,Jalan Melaka-Muar,Melaka,2015,17182
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2015,16885
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2015,16916
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2015,57613
+NR 403,Seremban-Tampin,Negeri Sembilan,2015,12465
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2015,11870
+NR 505,Seremban-Gemas,Negeri Sembilan,2015,47976
+PR 116,Butterworth-Ipoh,Pulau Pinang,2015,65716
+PR 201,George Town-Telok Bahang,Pulau Pinang,2015,24774
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2015,62464
+RR 106,Kangar-Alor Star,Perlis,2015,14707
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2015,23584
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2015,28171
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2015,4105
+TR 402,K. Terengganu-Marang,Terengganu,2015,24887
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2015,9561
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2015,111097
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2015,211188
+HR 103,KK-Sepulut Highway,Sabah,2015,2792
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2015,2299
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2015,15786
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2015,4105
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2015,12388
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2015,11508
+HR 504,Sg. Segama Crossing,Sabah,2015,6335
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2015,2310
+HR 507,Kunak-Lahad Datu,Sabah,2015,6700
+SR 101,Bau-Semantan,Sarawak,2015,4090
+SR 103,Kuching-Serian,Sarawak,2015,34874
+SR 401,Bintulu-Sibu,Sarawak,2015,5841
+SR 402,Bintulu-Miri,Sarawak,2015,7452
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2015,12329
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2015,12807
+SR 504,Lawas-Trusan,Sarawak,2015,7912
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2016,15187
+AR 204,Ipoh-Lumut,Perak,2016,25939
+AR 301,Ipoh-Kampar,Perak,2016,24654
+AR 303,Sitiawan-Gopeng,Perak,2016,77483
+AR 501,Ipoh-Kuala Kangsar,Perak,2016,19936
+AR 601,Ipoh-Butterworth,Perak,2016,21327
+AR 603,Sitiawan-Taiping,Perak,2016,13919
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2016,33024
+AR 801,Kuala Kangsar-Baling,Perak,2016,3017
+AR 803,Lebuhraya Timur-Barat,Perak,2016,3818
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2016,47687
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2016,128988
+BR 203,Klang-Morib-Batu Laut,Selangor,2016,7999
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2016,22277
+BR 501,Klang-Sabak Bernam,Selangor,2016,24554
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2016,48199
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2016,16063
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2016,138711
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2016,16291
+CR 403,Kuantan-Maran,Pahang,2016,30231
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2016,24850
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2016,8757
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2016,11620
+CR 801,Kuantan-Karak,Pahang,2016,15730
+CR 805,Kuantan-Maran,Pahang,2016,6841
+CR 902,Kuantan-Segamat,Pahang,2016,10514
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2016,28405
+DR 603,Lebuh raya Timur-Barat,Kelantan,2016,6344
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2016,21969
+JR 102,Batu Pahat-Muar,Johor,2016,18177
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2016,14554
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2016,9733
+JR 204,Jalan Skudai,Johor,2016,110498
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2016,43134
+JR 305,Johor Bahru-Ayer Hitam,Johor,2016,17598
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2016,41936
+JR 404,Johor Bahru-Kota Tinggi,Johor,2016,18984
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2016,15336
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2016,4969
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2016,16690
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2016,15954
+KR 202,Alor Star-Jitra,Kedah,2016,38036
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2016,21656
+KR 501,Alor Setar-Sungai Petani,Kedah,2016,18221
+MR 206,Jalan Melaka-Muar,Melaka,2016,15640
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2016,19662
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2016,17439
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2016,41295
+NR 403,Seremban-Tampin,Negeri Sembilan,2016,12737
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2016,10984
+NR 505,Seremban-Gemas,Negeri Sembilan,2016,48966
+PR 116,Butterworth-Ipoh,Pulau Pinang,2016,59320
+PR 201,George Town-Telok Bahang,Pulau Pinang,2016,23255
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2016,56678
+RR 106,Kangar-Alor Star,Perlis,2016,15279
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2016,22605
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2016,24852
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2016,3992
+TR 402,K. Terengganu-Marang,Terengganu,2016,34408
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2016,9047
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2016,122688
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2016,169218
+HR 103,KK-Sepulut Highway,Sabah,2016,2782
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2016,6943
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2016,15999
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2016,3351
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2016,13887
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2016,11694
+HR 504,Sg. Segama Crossing,Sabah,2016,7412
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2016,3609
+HR 507,Kunak-Lahad Datu,Sabah,2016,8169
+SR 101,Bau-Semantan,Sarawak,2016,3429
+SR 103,Kuching-Serian,Sarawak,2016,34950
+SR 401,Bintulu-Sibu,Sarawak,2016,5563
+SR 402,Bintulu-Miri,Sarawak,2016,7428
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2016,9092
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2016,13245
+SR 504,Lawas-Trusan,Sarawak,2016,11701
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2017,14913
+AR 204,Ipoh-Lumut,Perak,2017,27384
+AR 301,Ipoh-Kampar,Perak,2017,29911
+AR 303,Sitiawan-Gopeng,Perak,2017,87006
+AR 501,Ipoh-Kuala Kangsar,Perak,2017,20443
+AR 601,Ipoh-Butterworth,Perak,2017,19058
+AR 603,Sitiawan-Taiping,Perak,2017,9227
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2017,26218
+AR 801,Kuala Kangsar-Baling,Perak,2017,2798
+AR 803,Lebuhraya Timur-Barat,Perak,2017,3923
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2017,47521
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2017,101893
+BR 203,Klang-Morib-Batu Laut,Selangor,2017,5903
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2017,21568
+BR 501,Klang-Sabak Bernam,Selangor,2017,21642
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2017,46607
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2017,13476
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2017,153545
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2017,18843
+CR 403,Kuantan-Maran,Pahang,2017,33247
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2017,30052
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2017,8302
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2017,11606
+CR 801,Kuantan-Karak,Pahang,2017,16731
+CR 805,Kuantan-Maran,Pahang,2017,6915
+CR 902,Kuantan-Segamat,Pahang,2017,10416
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2017,65518
+DR 603,Lebuh raya Timur-Barat,Kelantan,2017,6300
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2017,22160
+JR 102,Batu Pahat-Muar,Johor,2017,23564
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2017,15723
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2017,11199
+JR 204,Jalan Skudai,Johor,2017,145079
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2017,42306
+JR 305,Johor Bahru-Ayer Hitam,Johor,2017,20602
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2017,43771
+JR 404,Johor Bahru-Kota Tinggi,Johor,2017,17601
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2017,15599
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2017,4349
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2017,13050
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2017,16518
+KR 202,Alor Star-Jitra,Kedah,2017,39669
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2017,20749
+KR 501,Alor Setar-Sungai Petani,Kedah,2017,17748
+MR 206,Jalan Melaka-Muar,Melaka,2017,16329
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2017,17780
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2017,18320
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2017,48851
+NR 403,Seremban-Tampin,Negeri Sembilan,2017,13415
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2017,11314
+NR 505,Seremban-Gemas,Negeri Sembilan,2017,49199
+PR 116,Butterworth-Ipoh,Pulau Pinang,2017,52095
+PR 201,George Town-Telok Bahang,Pulau Pinang,2017,22006
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2017,61819
+RR 106,Kangar-Alor Star,Perlis,2017,14351
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2017,21136
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2017,23209
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2017,4268
+TR 402,K. Terengganu-Marang,Terengganu,2017,35427
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2017,10410
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2017,103024
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2017,138477
+HR 103,KK-Sepulut Highway,Sabah,2017,3137
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2017,5618
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2017,15892
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2017,4307
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2017,15654
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2017,12649
+HR 504,Sg. Segama Crossing,Sabah,2017,6832
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2017,2689
+HR 507,Kunak-Lahad Datu,Sabah,2017,8389
+SR 101,Bau-Semantan,Sarawak,2017,5138
+SR 103,Kuching-Serian,Sarawak,2017,22171
+SR 401,Bintulu-Sibu,Sarawak,2017,5685
+SR 402,Bintulu-Miri,Sarawak,2017,8000
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2017,9861
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2017,15221
+SR 504,Lawas-Trusan,Sarawak,2017,9640
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2018,15068
+AR 204,Ipoh-Lumut,Perak,2018,28011
+AR 301,Ipoh-Kampar,Perak,2018,30321
+AR 303,Sitiawan-Gopeng,Perak,2018,87711
+AR 501,Ipoh-Kuala Kangsar,Perak,2018,20571
+AR 601,Ipoh-Butterworth,Perak,2018,20270
+AR 603,Sitiawan-Taiping,Perak,2018,9449
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2018,26687
+AR 801,Kuala Kangsar-Baling,Perak,2018,2872
+AR 803,Lebuhraya Timur-Barat,Perak,2018,4028
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2018,47425
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2018,100568
+BR 203,Klang-Morib-Batu Laut,Selangor,2018,5930
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2018,21697
+BR 501,Klang-Sabak Bernam,Selangor,2018,22118
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2018,45441
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2018,13626
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2018,153914
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2018,19144
+CR 403,Kuantan-Maran,Pahang,2018,34204
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2018,30768
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2018,8595
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2018,12370
+CR 801,Kuantan-Karak,Pahang,2018,17493
+CR 805,Kuantan-Maran,Pahang,2018,7061
+CR 902,Kuantan-Segamat,Pahang,2018,10651
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2018,66933
+DR 603,Lebuh raya Timur-Barat,Kelantan,2018,6389
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2018,22550
+JR 102,Batu Pahat-Muar,Johor,2018,23698
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2018,15778
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2018,11274
+JR 204,Jalan Skudai,Johor,2018,149199
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2018,40952
+JR 305,Johor Bahru-Ayer Hitam,Johor,2018,21216
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2018,45045
+JR 404,Johor Bahru-Kota Tinggi,Johor,2018,16527
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2018,15459
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2018,4378
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2018,12985
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2018,16819
+KR 202,Alor Star-Jitra,Kedah,2018,40387
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2018,21195
+KR 501,Alor Setar-Sungai Petani,Kedah,2018,17695
+MR 206,Jalan Melaka-Muar,Melaka,2018,16525
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2018,19098
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2018,18593
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2018,48557
+NR 403,Seremban-Tampin,Negeri Sembilan,2018,13334
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2018,11088
+NR 505,Seremban-Gemas,Negeri Sembilan,2018,51260
+PR 116,Butterworth-Ipoh,Pulau Pinang,2018,52205
+PR 201,George Town-Telok Bahang,Pulau Pinang,2018,22365
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2018,64144
+RR 106,Kangar-Alor Star,Perlis,2018,14524
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2018,20946
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2018,23023
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2018,4136
+TR 402,K. Terengganu-Marang,Terengganu,2018,36656
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2018,9847
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2018,98490
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2018,134184
+HR 103,KK-Sepulut Highway,Sabah,2018,3159
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2018,5618
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2018,17465
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2018,4354
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2018,16405
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2018,13012
+HR 504,Sg. Segama Crossing,Sabah,2018,7028
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2018,2721
+HR 507,Kunak-Lahad Datu,Sabah,2018,8629
+SR 101,Bau-Semantan,Sarawak,2018,5320
+SR 103,Kuching-Serian,Sarawak,2018,22587
+SR 401,Bintulu-Sibu,Sarawak,2018,5258
+SR 402,Bintulu-Miri,Sarawak,2018,8208
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2018,9792
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2018,14901
+SR 504,Lawas-Trusan,Sarawak,2018,10623
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2019,17504
+AR 204,Ipoh-Lumut,Perak,2019,25248
+AR 301,Ipoh-Kampar,Perak,2019,20707
+AR 303,Sitiawan-Gopeng,Perak,2019,53711
+AR 501,Ipoh-Kuala Kangsar,Perak,2019,22077
+AR 601,Ipoh-Butterworth,Perak,2019,20186
+AR 603,Sitiawan-Taiping,Perak,2019,9677
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2019,18285
+AR 801,Kuala Kangsar-Baling,Perak,2019,2952
+AR 803,Lebuhraya Timur-Barat,Perak,2019,4164
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2019,63989
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2019,89634
+BR 203,Klang-Morib-Batu Laut,Selangor,2019,7110
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2019,22957
+BR 501,Klang-Sabak Bernam,Selangor,2019,22373
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2019,49444
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2019,15367
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2019,108272
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2019,21090
+CR 403,Kuantan-Maran,Pahang,2019,26215
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2019,33911
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2019,8239
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2019,11748
+CR 801,Kuantan-Karak,Pahang,2019,17130
+CR 805,Kuantan-Maran,Pahang,2019,6889
+CR 902,Kuantan-Segamat,Pahang,2019,12330
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2019,34004
+DR 603,Lebuh raya Timur-Barat,Kelantan,2019,6268
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2019,21898
+JR 102,Batu Pahat-Muar,Johor,2019,24753
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2019,16114
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2019,11702
+JR 204,Jalan Skudai,Johor,2019,88738
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2019,41754
+JR 305,Johor Bahru-Ayer Hitam,Johor,2019,15543
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2019,36704
+JR 404,Johor Bahru-Kota Tinggi,Johor,2019,17838
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2019,14442
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2019,4252
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2019,14607
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2019,16824
+KR 202,Alor Star-Jitra,Kedah,2019,31183
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2019,19585
+KR 501,Alor Setar-Sungai Petani,Kedah,2019,17083
+MR 206,Jalan Melaka-Muar,Melaka,2019,14823
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2019,17151
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2019,18558
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2019,36878
+NR 403,Seremban-Tampin,Negeri Sembilan,2019,13449
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2019,11339
+NR 505,Seremban-Gemas,Negeri Sembilan,2019,48647
+PR 116,Butterworth-Ipoh,Pulau Pinang,2019,51562
+PR 201,George Town-Telok Bahang,Pulau Pinang,2019,29350
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2019,56917
+RR 106,Kangar-Alor Star,Perlis,2019,15891
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2019,19092
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2019,23148
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2019,4202
+TR 402,K. Terengganu-Marang,Terengganu,2019,35124
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2019,11561
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2019,95537
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2019,132621
+HR 103,KK-Sepulut Highway,Sabah,2019,3181
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2019,4757
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2019,16755
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2019,5073
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2019,15632
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2019,13272
+HR 504,Sg. Segama Crossing,Sabah,2019,7390
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2019,4351
+HR 507,Kunak-Lahad Datu,Sabah,2019,7776
+SR 101,Bau-Semantan,Sarawak,2019,4820
+SR 103,Kuching-Serian,Sarawak,2019,42598
+SR 401,Bintulu-Sibu,Sarawak,2019,5017
+SR 402,Bintulu-Miri,Sarawak,2019,7359
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2019,11743
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2019,21415
+SR 504,Lawas-Trusan,Sarawak,2019,9335
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2020,15285
+AR 204,Ipoh-Lumut,Perak,2020,22166
+AR 301,Ipoh-Kampar,Perak,2020,17500
+AR 303,Sitiawan-Gopeng,Perak,2020,45619
+AR 501,Ipoh-Kuala Kangsar,Perak,2020,19160
+AR 601,Ipoh-Butterworth,Perak,2020,19103
+AR 603,Sitiawan-Taiping,Perak,2020,8023
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2020,15593
+AR 801,Kuala Kangsar-Baling,Perak,2020,2900
+AR 803,Lebuhraya Timur-Barat,Perak,2020,4112
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2020,55013
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2020,73585
+BR 203,Klang-Morib-Batu Laut,Selangor,2020,6794
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2020,19739
+BR 501,Klang-Sabak Bernam,Selangor,2020,19411
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2020,41588
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2020,13176
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2020,92725
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2020,18700
+CR 403,Kuantan-Maran,Pahang,2020,22721
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2020,30615
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2020,8210
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2020,10450
+CR 801,Kuantan-Karak,Pahang,2020,15498
+CR 805,Kuantan-Maran,Pahang,2020,6638
+CR 902,Kuantan-Segamat,Pahang,2020,12383
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2020,30008
+DR 603,Lebuh raya Timur-Barat,Kelantan,2020,6123
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2020,18967
+JR 102,Batu Pahat-Muar,Johor,2020,21916
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2020,13978
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2020,9957
+JR 204,Jalan Skudai,Johor,2020,77841
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2020,35961
+JR 305,Johor Bahru-Ayer Hitam,Johor,2020,13843
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2020,32214
+JR 404,Johor Bahru-Kota Tinggi,Johor,2020,14995
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2020,12566
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2020,4075
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2020,12595
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2020,14655
+KR 202,Alor Star-Jitra,Kedah,2020,27076
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2020,16611
+KR 501,Alor Setar-Sungai Petani,Kedah,2020,14551
+MR 206,Jalan Melaka-Muar,Melaka,2020,12733
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2020,15733
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2020,16661
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2020,30582
+NR 403,Seremban-Tampin,Negeri Sembilan,2020,11704
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2020,9731
+NR 505,Seremban-Gemas,Negeri Sembilan,2020,43883
+PR 116,Butterworth-Ipoh,Pulau Pinang,2020,43931
+PR 201,George Town-Telok Bahang,Pulau Pinang,2020,24991
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2020,49901
+RR 106,Kangar-Alor Star,Perlis,2020,13899
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2020,15972
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2020,19357
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2020,3781
+TR 402,K. Terengganu-Marang,Terengganu,2020,31387
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2020,10932
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2020,77964
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2020,103473
+HR 103,KK-Sepulut Highway,Sabah,2020,3101
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2020,4891
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2020,15240
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2020,4628
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2020,14156
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2020,11861
+HR 504,Sg. Segama Crossing,Sabah,2020,6963
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2020,4304
+HR 507,Kunak-Lahad Datu,Sabah,2020,7238
+SR 101,Bau-Semantan,Sarawak,2020,4839
+SR 103,Kuching-Serian,Sarawak,2020,36673
+SR 401,Bintulu-Sibu,Sarawak,2020,4495
+SR 402,Bintulu-Miri,Sarawak,2020,7312
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2020,10027
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2020,18899
+SR 504,Lawas-Trusan,Sarawak,2020,9854
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2021,12871
+AR 204,Ipoh-Lumut,Perak,2021,13578
+AR 301,Ipoh-Kampar,Perak,2021,12642
+AR 303,Sitiawan-Gopeng,Perak,2021,48669
+AR 501,Ipoh-Kuala Kangsar,Perak,2021,14535
+AR 601,Ipoh-Butterworth,Perak,2021,14358
+AR 603,Sitiawan-Taiping,Perak,2021,2101
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2021,8826
+AR 801,Kuala Kangsar-Baling,Perak,2021,3930
+AR 803,Lebuhraya Timur-Barat,Perak,2021,1433
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2021,32359
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2021,51639
+BR 203,Klang-Morib-Batu Laut,Selangor,2021,5231
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2021,14364
+BR 501,Klang-Sabak Bernam,Selangor,2021,9052
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2021,33772
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2021,15599
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2021,55377
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2021,15414
+CR 403,Kuantan-Maran,Pahang,2021,19103
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2021,15611
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2021,5976
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2021,8678
+CR 801,Kuantan-Karak,Pahang,2021,8659
+CR 805,Kuantan-Maran,Pahang,2021,5006
+CR 902,Kuantan-Segamat,Pahang,2021,12455
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2021,24824
+DR 603,Lebuh raya Timur-Barat,Kelantan,2021,4581
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2021,16159
+JR 102,Batu Pahat-Muar,Johor,2021,24421
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2021,11822
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2021,13665
+JR 204,Jalan Skudai,Johor,2021,42046
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2021,31034
+JR 305,Johor Bahru-Ayer Hitam,Johor,2021,11058
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2021,18986
+JR 404,Johor Bahru-Kota Tinggi,Johor,2021,18645
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2021,8800
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2021,3648
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2021,10766
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2021,7547
+KR 202,Alor Star-Jitra,Kedah,2021,27493
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2021,6037
+KR 501,Alor Setar-Sungai Petani,Kedah,2021,7794
+MR 206,Jalan Melaka-Muar,Melaka,2021,10841
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2021,9773
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2021,15088
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2021,5808
+NR 403,Seremban-Tampin,Negeri Sembilan,2021,5379
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2021,3346
+NR 505,Seremban-Gemas,Negeri Sembilan,2021,44176
+PR 116,Butterworth-Ipoh,Pulau Pinang,2021,34453
+PR 201,George Town-Telok Bahang,Pulau Pinang,2021,16432
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2021,41317
+RR 106,Kangar-Alor Star,Perlis,2021,11832
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2021,14946
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2021,16848
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2021,3091
+TR 402,K. Terengganu-Marang,Terengganu,2021,25665
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2021,8412
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2021,51360
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2021,76646
+HR 103,KK-Sepulut Highway,Sabah,2021,3695
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2021,3523
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2021,12212
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2021,3755
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2021,11496
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2021,9842
+HR 504,Sg. Segama Crossing,Sabah,2021,5396
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2021,3126
+HR 507,Kunak-Lahad Datu,Sabah,2021,5712
+SR 101,Bau-Semantan,Sarawak,2021,3560
+SR 103,Kuching-Serian,Sarawak,2021,31432
+SR 401,Bintulu-Sibu,Sarawak,2021,3679
+SR 402,Bintulu-Miri,Sarawak,2021,5388
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2021,8639
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2021,4194
+SR 504,Lawas-Trusan,Sarawak,2021,6830
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2022,17493
+AR 204,Ipoh-Lumut,Perak,2022,18768
+AR 301,Ipoh-Kampar,Perak,2022,23087
+AR 303,Sitiawan-Gopeng,Perak,2022,72260
+AR 501,Ipoh-Kuala Kangsar,Perak,2022,20996
+AR 601,Ipoh-Butterworth,Perak,2022,21075
+AR 603,Sitiawan-Taiping,Perak,2022,3859
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2022,19911
+AR 801,Kuala Kangsar-Baling,Perak,2022,6928
+AR 803,Lebuhraya Timur-Barat,Perak,2022,3274
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2022,59939
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2022,125243
+BR 203,Klang-Morib-Batu Laut,Selangor,2022,7468
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2022,27697
+BR 501,Klang-Sabak Bernam,Selangor,2022,25033
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2022,49206
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2022,15044
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2022,163197
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2022,22964
+CR 403,Kuantan-Maran,Pahang,2022,30590
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2022,18086
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2022,11135
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2022,10389
+CR 801,Kuantan-Karak,Pahang,2022,13867
+CR 805,Kuantan-Maran,Pahang,2022,7603
+CR 902,Kuantan-Segamat,Pahang,2022,8622
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2022,29440
+DR 603,Lebuh raya Timur-Barat,Kelantan,2022,8630
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2022,25258
+JR 102,Batu Pahat-Muar,Johor,2022,28202
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2022,20931
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2022,13508
+JR 204,Jalan Skudai,Johor,2022,96421
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2022,36760
+JR 305,Johor Bahru-Ayer Hitam,Johor,2022,16181
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2022,32134
+JR 404,Johor Bahru-Kota Tinggi,Johor,2022,24661
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2022,9347
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2022,5400
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2022,22454
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2022,7644
+KR 202,Alor Star-Jitra,Kedah,2022,44623
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2022,16413
+KR 501,Alor Setar-Sungai Petani,Kedah,2022,16577
+MR 206,Jalan Melaka-Muar,Melaka,2022,17547
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2022,15481
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2022,26338
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2022,12860
+NR 403,Seremban-Tampin,Negeri Sembilan,2022,15466
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2022,9901
+NR 505,Seremban-Gemas,Negeri Sembilan,2022,58212
+PR 116,Butterworth-Ipoh,Pulau Pinang,2022,46194
+PR 201,George Town-Telok Bahang,Pulau Pinang,2022,33790
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2022,61173
+RR 106,Kangar-Alor Star,Perlis,2022,15481
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2022,15580
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2022,28498
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2022,4941
+TR 402,K. Terengganu-Marang,Terengganu,2022,34818
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2022,11208
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2022,110491
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2022,159348
+HR 103,KK-Sepulut Highway,Sabah,2022,4889
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2022,5135
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2022,7012
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2022,4812
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2022,15961
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2022,15095
+HR 504,Sg. Segama Crossing,Sabah,2022,6992
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2022,7843
+HR 507,Kunak-Lahad Datu,Sabah,2022,9298
+SR 101,Bau-Semantan,Sarawak,2022,1269
+SR 103,Kuching-Serian,Sarawak,2022,42034
+SR 401,Bintulu-Sibu,Sarawak,2022,6788
+SR 402,Bintulu-Miri,Sarawak,2022,12405
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2022,6221
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2022,6776
+SR 504,Lawas-Trusan,Sarawak,2022,8948
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2023,16388
+AR 204,Ipoh-Lumut,Perak,2023,18626
+AR 301,Ipoh-Kampar,Perak,2023,25196
+AR 303,Sitiawan-Gopeng,Perak,2023,67164
+AR 501,Ipoh-Kuala Kangsar,Perak,2023,21334
+AR 601,Ipoh-Butterworth,Perak,2023,19938
+AR 603,Sitiawan-Taiping,Perak,2023,4408
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2023,15646
+AR 801,Kuala Kangsar-Baling,Perak,2023,13076
+AR 803,Lebuhraya Timur-Barat,Perak,2023,4793
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2023,58077
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2023,100254
+BR 203,Klang-Morib-Batu Laut,Selangor,2023,6045
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2023,26544
+BR 501,Klang-Sabak Bernam,Selangor,2023,24840
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2023,54450
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2023,13307
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2023,128296
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2023,19632
+CR 403,Kuantan-Maran,Pahang,2023,35096
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2023,22202
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2023,10021
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2023,9010
+CR 801,Kuantan-Karak,Pahang,2023,17145
+CR 805,Kuantan-Maran,Pahang,2023,7568
+CR 902,Kuantan-Segamat,Pahang,2023,12312
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2023,34303
+DR 603,Lebuh raya Timur-Barat,Kelantan,2023,5948
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2023,24769
+JR 102,Batu Pahat-Muar,Johor,2023,18195
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2023,30760
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2023,10695
+JR 204,Jalan Skudai,Johor,2023,91208
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2023,34944
+JR 305,Johor Bahru-Ayer Hitam,Johor,2023,16405
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2023,25543
+JR 404,Johor Bahru-Kota Tinggi,Johor,2023,28148
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2023,15716
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2023,4820
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2023,10651
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2023,8661
+KR 202,Alor Star-Jitra,Kedah,2023,36444
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2023,18092
+KR 501,Alor Setar-Sungai Petani,Kedah,2023,11068
+MR 206,Jalan Melaka-Muar,Melaka,2023,16424
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2023,13218
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2023,23837
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2023,12483
+NR 403,Seremban-Tampin,Negeri Sembilan,2023,18314
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2023,8430
+NR 505,Seremban-Gemas,Negeri Sembilan,2023,56809
+PR 116,Butterworth-Ipoh,Pulau Pinang,2023,41802
+PR 201,George Town-Telok Bahang,Pulau Pinang,2023,31960
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2023,67932
+RR 106,Kangar-Alor Star,Perlis,2023,15844
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2023,15165
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2023,28857
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2023,4042
+TR 402,K. Terengganu-Marang,Terengganu,2023,36220
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2023,7893
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2023,83194
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2023,156093
+HR 103,KK-Sepulut Highway,Sabah,2023,6256
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2023,4243
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2023,5946
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2023,4336
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2023,12648
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2023,15988
+HR 504,Sg. Segama Crossing,Sabah,2023,8182
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2023,8449
+HR 507,Kunak-Lahad Datu,Sabah,2023,10964
+SR 101,Bau-Semantan,Sarawak,2023,4570
+SR 103,Kuching-Serian,Sarawak,2023,34105
+SR 401,Bintulu-Sibu,Sarawak,2023,11820
+SR 402,Bintulu-Miri,Sarawak,2023,10517
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2023,7518
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2023,5555
+SR 504,Lawas-Trusan,Sarawak,2023,7140
+AR 101,Ipoh-Tanjung Malim (Slim River Toll house),Perak,2024,17150
+AR 204,Ipoh-Lumut,Perak,2024,18131
+AR 301,Ipoh-Kampar,Perak,2024,19898
+AR 303,Sitiawan-Gopeng,Perak,2024,71239
+AR 501,Ipoh-Kuala Kangsar,Perak,2024,19418
+AR 601,Ipoh-Butterworth,Perak,2024,20959
+AR 603,Sitiawan-Taiping,Perak,2024,2412
+AR 703,Ipoh-Teluk Intan-Simpang Empat,Perak,2024,15032
+AR 801,Kuala Kangsar-Baling,Perak,2024,6340
+AR 803,Lebuhraya Timur-Barat,Perak,2024,2409
+BR 102,Klang-Port Klang (Persiaran Raja Muda Musa),Selangor,2024,57542
+BR 108,Federal Highway-North Klang Straits Bypass,Selangor,2024,112543
+BR 203,Klang-Morib-Batu Laut,Selangor,2024,6532
+BR 405,Kuala Lumpur-Kepong-Kuala Selangor,Selangor,2024,27392
+BR 501,Klang-Sabak Bernam,Selangor,2024,26917
+BR 604,Kuala Lumpur-Kajang-Telok Datok (Bt 14 Jln Cheras),Selangor,2024,52402
+BR 701,Kuala Lumpur-Kuala Kubu Bahru Junction,Selangor,2024,13799
+BR 902,Jalan Lingkaran Tengah 2 (MRR2),Selangor,2024,142247
+CR 106,Jalan Kuala Lumpur-Sempadan Kota Bharu,Pahang,2024,20238
+CR 403,Kuantan-Maran,Pahang,2024,30699
+CR 410,Kuantan-Kemaman (Sg. Ular),Pahang,2024,20360
+CR 503,Kuala Lumpur-Kuala Lipis-Kampong Padang Tuanku-Kota Bahru,Pahang,2024,9781
+CR 603,Pekan-Nenasi (In front of JKR Pekan),Pahang,2024,11904
+CR 801,Kuantan-Karak,Pahang,2024,13411
+CR 805,Kuantan-Maran,Pahang,2024,6724
+CR 902,Kuantan-Segamat,Pahang,2024,9406
+DR 201,Kota Bharu-Pasir Puteh,Kelantan,2024,20790
+DR 603,Lebuh raya Timur-Barat,Kelantan,2024,7564
+DR 802,Kota Bharu-Kuala Krai,Kelantan,2024,23327
+JR 102,Batu Pahat-Muar,Johor,2024,26322
+JR 105,Muar-Yong Peng (3.8km South of Yong Peng (U) Interchange),Johor,2024,20290
+JR 108,Yong Peng-Segamat (North of Route 184 junction),Johor,2024,11356
+JR 204,Jalan Skudai,Johor,2024,101669
+JR 218,Jalan Pelabuhan Pasir Gudang,Johor,2024,31654
+JR 305,Johor Bahru-Ayer Hitam,Johor,2024,14175
+JR 306,Batu Pahat-Ayer Hitam-Jemaluang,Johor,2024,29715
+JR 404,Johor Bahru-Kota Tinggi,Johor,2024,23714
+JR 501,Johor Bahru-Endau (2.4km North of Mersing Town),Johor,2024,8081
+JR 503,Johor Bahru-Endau (Southwest of Jemaluang),Johor,2024,4800
+JR 702,Pontian-Batu Pahat (near Hospital Pontian),Johor,2024,20287
+JR 801,Johor Bahru-Segamat-Batu Anam,Johor,2024,6915
+KR 202,Alor Star-Jitra,Kedah,2024,42998
+KR 401,Alor Setar-Sungai Petani-Butterworth,Kedah,2024,14517
+KR 501,Alor Setar-Sungai Petani,Kedah,2024,11819
+MR 206,Jalan Melaka-Muar,Melaka,2024,15470
+MR 301,Lebuh AMJ (Alor Gajah-Kendong),Melaka,2024,13045
+MR 312,Jalan Melaka-Masjid Tanah-Lubok China,Melaka,2024,21905
+NR 304,Seremban-Port Dickson (Lukut),Negeri Sembilan,2024,9515
+NR 403,Seremban-Tampin,Negeri Sembilan,2024,13361
+NR 501,Seremban-Kuala Lumpur (Old road),Negeri Sembilan,2024,9603
+NR 505,Seremban-Gemas,Negeri Sembilan,2024,51948
+PR 116,Butterworth-Ipoh,Pulau Pinang,2024,39000
+PR 201,George Town-Telok Bahang,Pulau Pinang,2024,31556
+PR 203,George Town-Bayan Lepas-Gelugor,Pulau Pinang,2024,64007
+RR 106,Kangar-Alor Star,Perlis,2024,21288
+TR 103,K. Terengganu-Jerteh-Kota Bharu,Terengganu,2024,17390
+TR 202,Kuala Terengganu-Dungun-Kemaman (Kuala Dungun-Paka),Terengganu,2024,24480
+TR 305,Cheneh-K. Terengganu  (Jln. Jabor-Jerangau),Terengganu,2024,5322
+TR 402,K. Terengganu-Marang,Terengganu,2024,35742
+TR 502,K. Terengganu-Ajil-Jerangau,Terengganu,2024,9293
+WR 101,Kuala Lumpur-Kuala Selangor (Jalan Kepong),Kuala Lumpur,2024,82459
+WR 102,Kuala Lumpur-Ipoh,Kuala Lumpur,2024,160061
+HR 103,KK-Sepulut Highway,Sabah,2024,4177
+HR 104,Tenom-Tomani/Bekuku H'way,Sabah,2024,4419
+HR 201,Kota Kinabalu-Sindumin (Kg Mook),Sabah,2024,5475
+HR 202,"A3, KK-Tambunan (8km from A/A31 Intersection)",Sabah,2024,4979
+HR 204,KK-Kudat (Kg Mantanau),Sabah,2024,13668
+HR 501,Tawau-Sandakan Highway (Near Balung Junction),Sabah,2024,11168
+HR 504,Sg. Segama Crossing,Sabah,2024,6906
+HR 506,Jalan Sing-Sing (18km from Bandar Semporna),Sabah,2024,7956
+HR 507,Kunak-Lahad Datu,Sabah,2024,9176
+SR 101,Bau-Semantan,Sarawak,2024,4991
+SR 103,Kuching-Serian,Sarawak,2024,51605
+SR 401,Bintulu-Sibu,Sarawak,2024,7204
+SR 402,Bintulu-Miri,Sarawak,2024,11931
+SR 403,Miri-Bintulu (before junction to Airport),Sarawak,2024,10163
+SR 503,Limbang-Brunei Border (Sg.Padaruan),Sarawak,2024,11895
+SR 504,Lawas-Trusan,Sarawak,2024,10301

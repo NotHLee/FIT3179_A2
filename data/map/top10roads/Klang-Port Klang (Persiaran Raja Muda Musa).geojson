@@ -1,0 +1,1309 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-12T12:35:16Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26829469",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4382136,
+            3.0335832
+          ],
+          [
+            101.437996,
+            3.0334584
+          ],
+          [
+            101.4373255,
+            3.0330732
+          ],
+          [
+            101.4360711,
+            3.0323697
+          ],
+          [
+            101.4329688,
+            3.0306644
+          ],
+          [
+            101.4312638,
+            3.029684
+          ],
+          [
+            101.4306559,
+            3.0293663
+          ],
+          [
+            101.4300556,
+            3.0290489
+          ]
+        ]
+      },
+      "id": "way/26829469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26829485",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4300226,
+            3.0291114
+          ],
+          [
+            101.4307926,
+            3.0295378
+          ],
+          [
+            101.4310966,
+            3.029711
+          ],
+          [
+            101.4327484,
+            3.0306745
+          ],
+          [
+            101.4328973,
+            3.0307578
+          ],
+          [
+            101.4360126,
+            3.0324686
+          ],
+          [
+            101.4368003,
+            3.0328901
+          ]
+        ]
+      },
+      "id": "way/26829485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26829563",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "bridge": "yes",
+        "highway": "trunk",
+        "layer": "1",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2",
+        "source:geometry": "maxar corrected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4300556,
+            3.0290489
+          ],
+          [
+            101.4256839,
+            3.0267199
+          ]
+        ]
+      },
+      "id": "way/26829563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26829573",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4168659,
+            3.0196057
+          ],
+          [
+            101.4165541,
+            3.0192679
+          ]
+        ]
+      },
+      "id": "way/26829573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26829574",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "bridge": "yes",
+        "highway": "trunk",
+        "layer": "1",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2",
+        "source:geometry": "maxar corrected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4255894,
+            3.0267803
+          ],
+          [
+            101.4300226,
+            3.0291114
+          ]
+        ]
+      },
+      "id": "way/26829574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26829575",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3965703,
+            3.0014995
+          ],
+          [
+            101.3967766,
+            3.0015829
+          ]
+        ]
+      },
+      "id": "way/26829575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/157233795",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4416008,
+            3.0354603
+          ],
+          [
+            101.4407512,
+            3.035034
+          ],
+          [
+            101.4399436,
+            3.0345754
+          ]
+        ]
+      },
+      "id": "way/157233795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304047461",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3967766,
+            3.0015829
+          ],
+          [
+            101.3976935,
+            3.0020314
+          ],
+          [
+            101.3981904,
+            3.0022745
+          ],
+          [
+            101.3986211,
+            3.0024852
+          ],
+          [
+            101.3991223,
+            3.0027303
+          ]
+        ]
+      },
+      "id": "way/304047461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304047462",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3968066,
+            3.0015244
+          ],
+          [
+            101.3965994,
+            3.0014351
+          ]
+        ]
+      },
+      "id": "way/304047462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/856759509",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "maxheight": "5.4",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4388056,
+            3.0339227
+          ],
+          [
+            101.4382136,
+            3.0335832
+          ]
+        ]
+      },
+      "id": "way/856759509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/856759510",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4399436,
+            3.0345754
+          ],
+          [
+            101.4388056,
+            3.0339227
+          ]
+        ]
+      },
+      "id": "way/856759510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/856759511",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4402025,
+            3.0348425
+          ],
+          [
+            101.4405549,
+            3.0350099
+          ],
+          [
+            101.4415024,
+            3.035523
+          ]
+        ]
+      },
+      "id": "way/856759511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/856759512",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "maxheight": "5.4",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4381616,
+            3.0336749
+          ],
+          [
+            101.4387567,
+            3.0340255
+          ]
+        ]
+      },
+      "id": "way/856759512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886872478",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4163493,
+            3.0192843
+          ],
+          [
+            101.4164054,
+            3.0193436
+          ]
+        ]
+      },
+      "id": "way/886872478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886872479",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4387567,
+            3.0340255
+          ],
+          [
+            101.4393589,
+            3.0343496
+          ]
+        ]
+      },
+      "id": "way/886872479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886889914",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4256839,
+            3.0267199
+          ],
+          [
+            101.4251488,
+            3.026436
+          ],
+          [
+            101.4240935,
+            3.0258835
+          ],
+          [
+            101.4229263,
+            3.0252574
+          ],
+          [
+            101.42169,
+            3.0246272
+          ],
+          [
+            101.4212869,
+            3.0243812
+          ],
+          [
+            101.4210137,
+            3.0241934
+          ],
+          [
+            101.4207629,
+            3.0239877
+          ],
+          [
+            101.4204763,
+            3.0236925
+          ],
+          [
+            101.419149,
+            3.0222322
+          ],
+          [
+            101.4188897,
+            3.0219321
+          ],
+          [
+            101.4187211,
+            3.021737
+          ],
+          [
+            101.4179572,
+            3.0208576
+          ],
+          [
+            101.4175402,
+            3.0203701
+          ],
+          [
+            101.4174317,
+            3.020257
+          ],
+          [
+            101.4170694,
+            3.0198398
+          ],
+          [
+            101.4169297,
+            3.0196738
+          ],
+          [
+            101.4168659,
+            3.0196057
+          ]
+        ]
+      },
+      "id": "way/886889914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173566882",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4164054,
+            3.0193436
+          ],
+          [
+            101.4166805,
+            3.0196395
+          ]
+        ]
+      },
+      "id": "way/1173566882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173566883",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4166805,
+            3.0196395
+          ],
+          [
+            101.4168463,
+            3.019864
+          ],
+          [
+            101.4187484,
+            3.0219838
+          ],
+          [
+            101.4204718,
+            3.0238535
+          ],
+          [
+            101.4206957,
+            3.024086
+          ],
+          [
+            101.420857,
+            3.0242336
+          ],
+          [
+            101.4211302,
+            3.0244349
+          ],
+          [
+            101.4215646,
+            3.0246898
+          ],
+          [
+            101.4219393,
+            3.0248931
+          ],
+          [
+            101.4230156,
+            3.0254475
+          ],
+          [
+            101.4239655,
+            3.0259368
+          ],
+          [
+            101.4241331,
+            3.0260221
+          ],
+          [
+            101.4255894,
+            3.0267803
+          ]
+        ]
+      },
+      "id": "way/1173566883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173566885",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.416497,
+            3.0192059
+          ],
+          [
+            101.4163201,
+            3.0190143
+          ]
+        ]
+      },
+      "id": "way/1173566885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173566886",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4128112,
+            3.0152796
+          ],
+          [
+            101.4095061,
+            3.0118598
+          ],
+          [
+            101.4079043,
+            3.0101048
+          ],
+          [
+            101.4060107,
+            3.0080905
+          ],
+          [
+            101.4053777,
+            3.0074048
+          ],
+          [
+            101.4046684,
+            3.0066552
+          ],
+          [
+            101.4041817,
+            3.0061659
+          ],
+          [
+            101.4032396,
+            3.0052846
+          ]
+        ]
+      },
+      "id": "way/1173566886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173566890",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4165541,
+            3.0192679
+          ],
+          [
+            101.416497,
+            3.0192059
+          ]
+        ]
+      },
+      "id": "way/1173566890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173652741",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4371198,
+            3.033061
+          ],
+          [
+            101.4381616,
+            3.0336749
+          ]
+        ]
+      },
+      "id": "way/1173652741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173652742",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2",
+        "turn:lanes": "left;through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4368003,
+            3.0328901
+          ],
+          [
+            101.4371198,
+            3.033061
+          ]
+        ]
+      },
+      "id": "way/1173652742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173653844",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4397857,
+            3.0346008
+          ],
+          [
+            101.4402025,
+            3.0348425
+          ]
+        ]
+      },
+      "id": "way/1173653844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173653845",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2",
+        "turn:lanes": "merge_to_right|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4393589,
+            3.0343496
+          ],
+          [
+            101.4394362,
+            3.0343951
+          ],
+          [
+            101.4397857,
+            3.0346008
+          ]
+        ]
+      },
+      "id": "way/1173653845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174917976",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4029307,
+            3.0051485
+          ],
+          [
+            101.4032943,
+            3.005497
+          ],
+          [
+            101.4035193,
+            3.0057142
+          ],
+          [
+            101.4037845,
+            3.0059665
+          ],
+          [
+            101.4040366,
+            3.0062129
+          ],
+          [
+            101.4043638,
+            3.0065424
+          ],
+          [
+            101.4050156,
+            3.0072227
+          ],
+          [
+            101.4058438,
+            3.0080782
+          ],
+          [
+            101.4082256,
+            3.0106144
+          ],
+          [
+            101.4099116,
+            3.0124125
+          ],
+          [
+            101.4138102,
+            3.0165927
+          ],
+          [
+            101.4152154,
+            3.0180771
+          ],
+          [
+            101.4158251,
+            3.0187128
+          ],
+          [
+            101.4161008,
+            3.0190092
+          ],
+          [
+            101.4163493,
+            3.0192843
+          ]
+        ]
+      },
+      "id": "way/1174917976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174917977",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4029201,
+            3.0049774
+          ],
+          [
+            101.4028258,
+            3.0048868
+          ]
+        ]
+      },
+      "id": "way/1174917977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174917979",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4028258,
+            3.0048868
+          ],
+          [
+            101.4026518,
+            3.0047195
+          ],
+          [
+            101.4023141,
+            3.0043918
+          ],
+          [
+            101.402163,
+            3.004277
+          ],
+          [
+            101.4018521,
+            3.0040729
+          ],
+          [
+            101.4015375,
+            3.0038892
+          ],
+          [
+            101.4009972,
+            3.003591
+          ],
+          [
+            101.4006586,
+            3.0034163
+          ],
+          [
+            101.4004094,
+            3.0032842
+          ],
+          [
+            101.4001227,
+            3.0031304
+          ],
+          [
+            101.3996509,
+            3.0028867
+          ],
+          [
+            101.3994372,
+            3.002774
+          ]
+        ]
+      },
+      "id": "way/1174917979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174917980",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4028396,
+            3.0050613
+          ],
+          [
+            101.4029307,
+            3.0051485
+          ]
+        ]
+      },
+      "id": "way/1174917980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174917982",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4032396,
+            3.0052846
+          ],
+          [
+            101.4029201,
+            3.0049774
+          ]
+        ]
+      },
+      "id": "way/1174917982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174921374",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3991738,
+            3.0026356
+          ],
+          [
+            101.3984851,
+            3.0023123
+          ],
+          [
+            101.3974921,
+            3.0018462
+          ],
+          [
+            101.3968066,
+            3.0015244
+          ]
+        ]
+      },
+      "id": "way/1174921374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174921377",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3991223,
+            3.0027303
+          ],
+          [
+            101.3992228,
+            3.0027816
+          ]
+        ]
+      },
+      "id": "way/1174921377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174921379",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3992228,
+            3.0027816
+          ],
+          [
+            101.3997761,
+            3.0030634
+          ],
+          [
+            101.4002702,
+            3.0033139
+          ],
+          [
+            101.4004567,
+            3.0034069
+          ],
+          [
+            101.4005185,
+            3.0034406
+          ],
+          [
+            101.4008556,
+            3.0036203
+          ],
+          [
+            101.4013835,
+            3.003917
+          ],
+          [
+            101.4014425,
+            3.0039476
+          ],
+          [
+            101.4015286,
+            3.0039922
+          ],
+          [
+            101.4016755,
+            3.0040814
+          ],
+          [
+            101.4017023,
+            3.0040988
+          ],
+          [
+            101.4017917,
+            3.0041585
+          ],
+          [
+            101.4019714,
+            3.0042813
+          ],
+          [
+            101.4021906,
+            3.0044556
+          ],
+          [
+            101.4023332,
+            3.0045844
+          ],
+          [
+            101.402527,
+            3.0047617
+          ],
+          [
+            101.4026483,
+            3.0048779
+          ],
+          [
+            101.4028396,
+            3.0050613
+          ]
+        ]
+      },
+      "id": "way/1174921379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174921380",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3992746,
+            3.0026883
+          ],
+          [
+            101.3991738,
+            3.0026356
+          ]
+        ]
+      },
+      "id": "way/1174921380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174921381",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3994372,
+            3.002774
+          ],
+          [
+            101.3992746,
+            3.0026883
+          ]
+        ]
+      },
+      "id": "way/1174921381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1186289993",
+        "alt_name": "Jalan Kuala Lumpur - Pelabuhan Klang",
+        "highway": "secondary",
+        "name": "Persiaran Raja Muda Musa",
+        "name:ms": "Persiaran Raja Muda Musa",
+        "oneway": "yes",
+        "ref": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4163201,
+            3.0190143
+          ],
+          [
+            101.4152649,
+            3.0178602
+          ],
+          [
+            101.4143936,
+            3.0169501
+          ],
+          [
+            101.4140374,
+            3.0165781
+          ],
+          [
+            101.4128112,
+            3.0152796
+          ]
+        ]
+      },
+      "id": "way/1186289993"
+    }
+  ]
+}

@@ -1,0 +1,3494 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-12T11:33:36Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24328116",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4576429,
+            3.0669083
+          ],
+          [
+            101.4575139,
+            3.0669492
+          ],
+          [
+            101.4573045,
+            3.0670144
+          ],
+          [
+            101.4568983,
+            3.0671693
+          ],
+          [
+            101.4565846,
+            3.0673073
+          ],
+          [
+            101.4562579,
+            3.0674734
+          ],
+          [
+            101.4559604,
+            3.0676487
+          ],
+          [
+            101.4556953,
+            3.0678313
+          ],
+          [
+            101.4554279,
+            3.0680451
+          ],
+          [
+            101.4550922,
+            3.0683524
+          ],
+          [
+            101.4546686,
+            3.0688819
+          ],
+          [
+            101.4544267,
+            3.0692888
+          ]
+        ]
+      },
+      "id": "way/24328116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27374663",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4315914,
+            3.0668661
+          ],
+          [
+            101.431517,
+            3.0667607
+          ],
+          [
+            101.431403,
+            3.0666322
+          ],
+          [
+            101.4312634,
+            3.0665057
+          ],
+          [
+            101.4310994,
+            3.0664031
+          ],
+          [
+            101.4308613,
+            3.0662883
+          ],
+          [
+            101.4307322,
+            3.0662433
+          ],
+          [
+            101.4304547,
+            3.0661465
+          ],
+          [
+            101.4302968,
+            3.0661036
+          ],
+          [
+            101.4300272,
+            3.0660301
+          ],
+          [
+            101.4299725,
+            3.0660196
+          ]
+        ]
+      },
+      "id": "way/27374663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27374667",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Pintasan Selat Klang Utara",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.412391,
+            3.0594224
+          ],
+          [
+            101.4122134,
+            3.05931
+          ],
+          [
+            101.4117498,
+            3.059015
+          ],
+          [
+            101.4115788,
+            3.0589082
+          ],
+          [
+            101.4110999,
+            3.0586093
+          ],
+          [
+            101.4110374,
+            3.0585719
+          ],
+          [
+            101.4105882,
+            3.0582903
+          ],
+          [
+            101.4103248,
+            3.0581213
+          ],
+          [
+            101.4096715,
+            3.0577176
+          ],
+          [
+            101.4093104,
+            3.057492
+          ],
+          [
+            101.4090327,
+            3.0573161
+          ],
+          [
+            101.4084732,
+            3.0569617
+          ],
+          [
+            101.4083441,
+            3.0568824
+          ],
+          [
+            101.4080928,
+            3.0567305
+          ],
+          [
+            101.4079687,
+            3.05665
+          ],
+          [
+            101.407734,
+            3.0565008
+          ],
+          [
+            101.4072916,
+            3.0562293
+          ],
+          [
+            101.407099,
+            3.0561173
+          ],
+          [
+            101.4070575,
+            3.0560892
+          ],
+          [
+            101.4067403,
+            3.0558897
+          ],
+          [
+            101.4066182,
+            3.0558129
+          ],
+          [
+            101.4065381,
+            3.0557635
+          ],
+          [
+            101.406287,
+            3.0556087
+          ],
+          [
+            101.4060879,
+            3.055486
+          ],
+          [
+            101.4060735,
+            3.0554764
+          ],
+          [
+            101.4058823,
+            3.055357
+          ],
+          [
+            101.4054876,
+            3.0551077
+          ],
+          [
+            101.4052645,
+            3.0549688
+          ],
+          [
+            101.4051114,
+            3.0548735
+          ],
+          [
+            101.4049315,
+            3.0547604
+          ],
+          [
+            101.4048705,
+            3.054722
+          ],
+          [
+            101.4045766,
+            3.0545468
+          ],
+          [
+            101.4045164,
+            3.0544993
+          ],
+          [
+            101.4044464,
+            3.0544554
+          ],
+          [
+            101.4042157,
+            3.0543096
+          ],
+          [
+            101.4040409,
+            3.0541991
+          ],
+          [
+            101.4040112,
+            3.0541803
+          ],
+          [
+            101.4037806,
+            3.0540346
+          ],
+          [
+            101.403379,
+            3.0537809
+          ],
+          [
+            101.4032465,
+            3.0536972
+          ],
+          [
+            101.4031312,
+            3.0536243
+          ],
+          [
+            101.4031059,
+            3.0536079
+          ],
+          [
+            101.4028913,
+            3.053469
+          ],
+          [
+            101.4027359,
+            3.0533745
+          ],
+          [
+            101.4026464,
+            3.0533179
+          ],
+          [
+            101.4025326,
+            3.053246
+          ],
+          [
+            101.4022766,
+            3.0530843
+          ],
+          [
+            101.4021898,
+            3.0530294
+          ],
+          [
+            101.4020757,
+            3.0529573
+          ],
+          [
+            101.401796,
+            3.0527806
+          ],
+          [
+            101.4017573,
+            3.0527561
+          ],
+          [
+            101.4016662,
+            3.0526986
+          ],
+          [
+            101.4016062,
+            3.0526607
+          ],
+          [
+            101.401378,
+            3.0525174
+          ],
+          [
+            101.4010813,
+            3.052331
+          ],
+          [
+            101.4008062,
+            3.0521494
+          ],
+          [
+            101.400463,
+            3.0519399
+          ],
+          [
+            101.4002303,
+            3.0517941
+          ],
+          [
+            101.3999594,
+            3.0516243
+          ],
+          [
+            101.3997358,
+            3.0514842
+          ],
+          [
+            101.3996726,
+            3.0514446
+          ],
+          [
+            101.3993678,
+            3.0512536
+          ],
+          [
+            101.3990836,
+            3.0510755
+          ],
+          [
+            101.3990145,
+            3.0510325
+          ],
+          [
+            101.398959,
+            3.0509974
+          ],
+          [
+            101.3988157,
+            3.0509076
+          ],
+          [
+            101.398619,
+            3.0507843
+          ],
+          [
+            101.3985448,
+            3.050733
+          ],
+          [
+            101.3983597,
+            3.0506218
+          ],
+          [
+            101.398101,
+            3.0504597
+          ],
+          [
+            101.397947,
+            3.0503632
+          ],
+          [
+            101.3977831,
+            3.0502605
+          ],
+          [
+            101.3974979,
+            3.0500818
+          ],
+          [
+            101.3974464,
+            3.050046
+          ],
+          [
+            101.3972536,
+            3.0499287
+          ],
+          [
+            101.3971762,
+            3.0498786
+          ],
+          [
+            101.396984,
+            3.0497565
+          ],
+          [
+            101.3965141,
+            3.0494652
+          ],
+          [
+            101.3963181,
+            3.0493426
+          ],
+          [
+            101.3959515,
+            3.0491132
+          ],
+          [
+            101.3957147,
+            3.0489656
+          ],
+          [
+            101.3955551,
+            3.0488556
+          ],
+          [
+            101.3947189,
+            3.0483339
+          ],
+          [
+            101.3944485,
+            3.048166
+          ],
+          [
+            101.3943767,
+            3.0481214
+          ],
+          [
+            101.39407,
+            3.0479309
+          ],
+          [
+            101.3938741,
+            3.0478025
+          ],
+          [
+            101.3935993,
+            3.0476204
+          ],
+          [
+            101.3935587,
+            3.0475883
+          ],
+          [
+            101.3933515,
+            3.0474573
+          ],
+          [
+            101.3930876,
+            3.0472906
+          ],
+          [
+            101.392789,
+            3.0470949
+          ]
+        ]
+      },
+      "id": "way/27374667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27374691",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4308548,
+            3.0670706
+          ],
+          [
+            101.4310279,
+            3.0672945
+          ]
+        ]
+      },
+      "id": "way/27374691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162654789",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3889904,
+            3.043304
+          ],
+          [
+            101.3884266,
+            3.0426236
+          ],
+          [
+            101.3879353,
+            3.0420635
+          ],
+          [
+            101.3869078,
+            3.0409385
+          ]
+        ]
+      },
+      "id": "way/162654789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163897610",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "slight_left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4518044,
+            3.0728877
+          ],
+          [
+            101.4514974,
+            3.0730553
+          ],
+          [
+            101.4513491,
+            3.0731284
+          ]
+        ]
+      },
+      "id": "way/163897610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163897612",
+        "highway": "trunk",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4512993,
+            3.0731484
+          ],
+          [
+            101.4512133,
+            3.0731927
+          ],
+          [
+            101.4511272,
+            3.07322
+          ],
+          [
+            101.4510423,
+            3.0732474
+          ],
+          [
+            101.4509357,
+            3.0732772
+          ],
+          [
+            101.4507466,
+            3.0733308
+          ],
+          [
+            101.450531,
+            3.0733844
+          ]
+        ]
+      },
+      "id": "way/163897612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163897707",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.472919,
+            3.0628341
+          ],
+          [
+            101.4728638,
+            3.0629817
+          ],
+          [
+            101.4727724,
+            3.0631702
+          ],
+          [
+            101.4726505,
+            3.0633743
+          ],
+          [
+            101.4725426,
+            3.0635304
+          ],
+          [
+            101.472426,
+            3.0636866
+          ],
+          [
+            101.472328,
+            3.0638101
+          ],
+          [
+            101.4721552,
+            3.0639858
+          ],
+          [
+            101.4715161,
+            3.0646067
+          ]
+        ]
+      },
+      "id": "way/163897707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163897710",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4518319,
+            3.0729592
+          ],
+          [
+            101.4519929,
+            3.0728582
+          ],
+          [
+            101.4521466,
+            3.0727405
+          ],
+          [
+            101.4524639,
+            3.0724802
+          ],
+          [
+            101.4527594,
+            3.0721945
+          ],
+          [
+            101.4532531,
+            3.0715808
+          ],
+          [
+            101.4536914,
+            3.0709465
+          ],
+          [
+            101.4541174,
+            3.0702661
+          ],
+          [
+            101.454507,
+            3.0696859
+          ]
+        ]
+      },
+      "id": "way/163897710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163897719",
+        "bridge": "yes",
+        "highway": "trunk",
+        "layer": "1",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4513813,
+            3.0732091
+          ],
+          [
+            101.4516773,
+            3.0730587
+          ],
+          [
+            101.4518319,
+            3.0729592
+          ]
+        ]
+      },
+      "id": "way/163897719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163932005",
+        "bridge": "yes",
+        "highway": "trunk",
+        "layer": "1",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4492085,
+            3.0732593
+          ],
+          [
+            101.4496755,
+            3.0733588
+          ]
+        ]
+      },
+      "id": "way/163932005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163932006",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4496755,
+            3.0733588
+          ],
+          [
+            101.4498868,
+            3.0733857
+          ],
+          [
+            101.4500454,
+            3.0733986
+          ],
+          [
+            101.450265,
+            3.0734063
+          ],
+          [
+            101.450531,
+            3.0733844
+          ]
+        ]
+      },
+      "id": "way/163932006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163932007",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4468035,
+            3.0725208
+          ],
+          [
+            101.4482582,
+            3.0729784
+          ],
+          [
+            101.4487311,
+            3.0731223
+          ],
+          [
+            101.4492085,
+            3.0732593
+          ]
+        ]
+      },
+      "id": "way/163932007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164880795",
+        "bridge": "yes",
+        "highway": "trunk",
+        "layer": "1",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Pintasan Selat Klang Utara",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.392789,
+            3.0470949
+          ],
+          [
+            101.3925842,
+            3.0469446
+          ]
+        ]
+      },
+      "id": "way/164880795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164880796",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Pintasan Selat Klang Utara",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3925842,
+            3.0469446
+          ],
+          [
+            101.3925254,
+            3.046895
+          ],
+          [
+            101.39234,
+            3.046757
+          ],
+          [
+            101.391935,
+            3.04642
+          ],
+          [
+            101.391632,
+            3.046135
+          ],
+          [
+            101.391228,
+            3.045718
+          ],
+          [
+            101.389554,
+            3.0439283
+          ],
+          [
+            101.3889904,
+            3.043304
+          ]
+        ]
+      },
+      "id": "way/164880796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313908926",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3872654,
+            3.0414906
+          ],
+          [
+            101.3875291,
+            3.0417649
+          ],
+          [
+            101.3880058,
+            3.0423018
+          ],
+          [
+            101.3883919,
+            3.0427127
+          ],
+          [
+            101.3889904,
+            3.043304
+          ]
+        ]
+      },
+      "id": "way/313908926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509044300",
+        "highway": "motorway",
+        "lanes": "3",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "新巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "slight_left;through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4715161,
+            3.0646067
+          ],
+          [
+            101.4711998,
+            3.0648303
+          ],
+          [
+            101.4708219,
+            3.0650375
+          ],
+          [
+            101.4704238,
+            3.0652107
+          ],
+          [
+            101.4700732,
+            3.0653379
+          ],
+          [
+            101.4697056,
+            3.0654469
+          ],
+          [
+            101.4692217,
+            3.0655535
+          ],
+          [
+            101.4687325,
+            3.065612
+          ],
+          [
+            101.4680818,
+            3.0656896
+          ],
+          [
+            101.4671952,
+            3.0657715
+          ]
+        ]
+      },
+      "id": "way/509044300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509044301",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "merge_to_right|through|through|merge_to_left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4748312,
+            3.0576867
+          ],
+          [
+            101.4748817,
+            3.0575052
+          ],
+          [
+            101.4749333,
+            3.0574262
+          ],
+          [
+            101.4749466,
+            3.0574133
+          ]
+        ]
+      },
+      "id": "way/509044301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509044303",
+        "highway": "trunk",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4511587,
+            3.0732881
+          ],
+          [
+            101.4513813,
+            3.0732091
+          ]
+        ]
+      },
+      "id": "way/509044303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509044306",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4468035,
+            3.0725208
+          ],
+          [
+            101.4463395,
+            3.0723891
+          ],
+          [
+            101.4460667,
+            3.0723117
+          ],
+          [
+            101.4458524,
+            3.0722509
+          ],
+          [
+            101.4455242,
+            3.0721578
+          ],
+          [
+            101.4453308,
+            3.072103
+          ],
+          [
+            101.4450219,
+            3.0720153
+          ],
+          [
+            101.4439307,
+            3.0717057
+          ]
+        ]
+      },
+      "id": "way/509044306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509135392",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4439307,
+            3.0717057
+          ],
+          [
+            101.443221,
+            3.0714965
+          ],
+          [
+            101.4430425,
+            3.0714438
+          ],
+          [
+            101.4429274,
+            3.0714099
+          ],
+          [
+            101.4427685,
+            3.071363
+          ],
+          [
+            101.4422962,
+            3.0712238
+          ],
+          [
+            101.442094,
+            3.0711642
+          ],
+          [
+            101.4417146,
+            3.0710524
+          ],
+          [
+            101.4415054,
+            3.0709906
+          ],
+          [
+            101.4414451,
+            3.0709729
+          ],
+          [
+            101.4410526,
+            3.0708572
+          ],
+          [
+            101.440945,
+            3.0708255
+          ],
+          [
+            101.4408177,
+            3.0707879
+          ],
+          [
+            101.4407306,
+            3.0707622
+          ],
+          [
+            101.4404455,
+            3.0706782
+          ],
+          [
+            101.4403423,
+            3.0706477
+          ],
+          [
+            101.4399163,
+            3.0705221
+          ],
+          [
+            101.4397024,
+            3.0704591
+          ],
+          [
+            101.4395695,
+            3.0704199
+          ],
+          [
+            101.4392412,
+            3.0703231
+          ],
+          [
+            101.4390103,
+            3.070255
+          ],
+          [
+            101.4385697,
+            3.0701251
+          ],
+          [
+            101.438223,
+            3.0700229
+          ],
+          [
+            101.4379967,
+            3.0699562
+          ],
+          [
+            101.4378627,
+            3.0699167
+          ],
+          [
+            101.4377524,
+            3.0698842
+          ],
+          [
+            101.4375766,
+            3.0698324
+          ],
+          [
+            101.4371402,
+            3.0697037
+          ],
+          [
+            101.4369622,
+            3.0696512
+          ],
+          [
+            101.4368259,
+            3.069611
+          ],
+          [
+            101.4365609,
+            3.0695329
+          ],
+          [
+            101.4348773,
+            3.0690365
+          ],
+          [
+            101.4340977,
+            3.0688067
+          ],
+          [
+            101.4339499,
+            3.0687631
+          ]
+        ]
+      },
+      "id": "way/509135392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699321379",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4545997,
+            3.0695451
+          ],
+          [
+            101.4552903,
+            3.0685984
+          ],
+          [
+            101.4556605,
+            3.0681781
+          ],
+          [
+            101.456041,
+            3.0678284
+          ]
+        ]
+      },
+      "id": "way/699321379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699321380",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4543049,
+            3.0694908
+          ],
+          [
+            101.4532667,
+            3.0710995
+          ],
+          [
+            101.4529901,
+            3.0715288
+          ],
+          [
+            101.4528636,
+            3.0717416
+          ],
+          [
+            101.4527406,
+            3.0719491
+          ],
+          [
+            101.4525598,
+            3.0722146
+          ]
+        ]
+      },
+      "id": "way/699321380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/850232213",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4317147,
+            3.0670884
+          ],
+          [
+            101.4315914,
+            3.0668661
+          ]
+        ]
+      },
+      "id": "way/850232213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/850232214",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4339499,
+            3.0687631
+          ],
+          [
+            101.4336951,
+            3.0686392
+          ],
+          [
+            101.4334592,
+            3.0685258
+          ],
+          [
+            101.4332042,
+            3.0683566
+          ],
+          [
+            101.4330785,
+            3.0682538
+          ],
+          [
+            101.4327837,
+            3.0680268
+          ],
+          [
+            101.4322109,
+            3.0675418
+          ]
+        ]
+      },
+      "id": "way/850232214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/853494035",
+        "covered": "yes",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4543676,
+            3.0693884
+          ],
+          [
+            101.4543371,
+            3.0694407
+          ],
+          [
+            101.4543049,
+            3.0694908
+          ]
+        ]
+      },
+      "id": "way/853494035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/853494036",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4544267,
+            3.0692888
+          ],
+          [
+            101.4543676,
+            3.0693884
+          ]
+        ]
+      },
+      "id": "way/853494036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/853494037",
+        "covered": "yes",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4545341,
+            3.0696455
+          ],
+          [
+            101.4545686,
+            3.0695941
+          ],
+          [
+            101.4545997,
+            3.0695451
+          ]
+        ]
+      },
+      "id": "way/853494037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/853494038",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.454507,
+            3.0696859
+          ],
+          [
+            101.4545341,
+            3.0696455
+          ]
+        ]
+      },
+      "id": "way/853494038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828463",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "slight_left|through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4731868,
+            3.0621365
+          ],
+          [
+            101.472919,
+            3.0628341
+          ]
+        ]
+      },
+      "id": "way/888828463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828464",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4734206,
+            3.0614726
+          ],
+          [
+            101.4731868,
+            3.0621365
+          ]
+        ]
+      },
+      "id": "way/888828464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828465",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxheight": "5.2",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4744681,
+            3.0582178
+          ],
+          [
+            101.4742434,
+            3.0588965
+          ]
+        ]
+      },
+      "id": "way/888828465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828468",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4745771,
+            3.0578437
+          ],
+          [
+            101.4744681,
+            3.0582178
+          ]
+        ]
+      },
+      "id": "way/888828468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828469",
+        "highway": "trunk",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4755587,
+            3.0568031
+          ],
+          [
+            101.47493,
+            3.0572361
+          ],
+          [
+            101.4748081,
+            3.0573529
+          ],
+          [
+            101.4747084,
+            3.0574785
+          ],
+          [
+            101.4746657,
+            3.0575731
+          ],
+          [
+            101.4745771,
+            3.0578437
+          ]
+        ]
+      },
+      "id": "way/888828469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828474",
+        "highway": "trunk",
+        "lanes": "5",
+        "maxheight": "5.2",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "through|through|through|through|reverse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4739639,
+            3.0604654
+          ],
+          [
+            101.4744472,
+            3.0589619
+          ]
+        ]
+      },
+      "id": "way/888828474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828475",
+        "highway": "trunk",
+        "lanes": "5",
+        "maxheight": "5.2",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4744472,
+            3.0589619
+          ],
+          [
+            101.474653,
+            3.0582646
+          ]
+        ]
+      },
+      "id": "way/888828475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828476",
+        "highway": "trunk",
+        "lanes": "5",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "E20",
+        "turn:lanes": "slight_left|slight_left|through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4735811,
+            3.0614849
+          ],
+          [
+            101.4739639,
+            3.0604654
+          ]
+        ]
+      },
+      "id": "way/888828476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888828477",
+        "highway": "trunk",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:zh": "巴生北部海峡环城大道",
+        "name:zh-Hans": "巴生北部海峡环城大道",
+        "name:zh-Hant": "巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4723334,
+            3.0641001
+          ],
+          [
+            101.4727683,
+            3.0634756
+          ],
+          [
+            101.4730186,
+            3.0630193
+          ],
+          [
+            101.4732421,
+            3.0625495
+          ],
+          [
+            101.4735811,
+            3.0614849
+          ]
+        ]
+      },
+      "id": "way/888828477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/951660348",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.450531,
+            3.0733844
+          ],
+          [
+            101.45071,
+            3.0733683
+          ],
+          [
+            101.4508523,
+            3.0733512
+          ],
+          [
+            101.4511587,
+            3.0732881
+          ]
+        ]
+      },
+      "id": "way/951660348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/962165713",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4756487,
+            3.0568916
+          ],
+          [
+            101.4758365,
+            3.0567411
+          ]
+        ]
+      },
+      "id": "way/962165713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/962165714",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4758767,
+            3.0567076
+          ],
+          [
+            101.4759217,
+            3.0566718
+          ]
+        ]
+      },
+      "id": "way/962165714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/962165715",
+        "bridge": "yes",
+        "highway": "trunk",
+        "layer": "1",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4757791,
+            3.0566342
+          ],
+          [
+            101.4757478,
+            3.0566582
+          ],
+          [
+            101.4755587,
+            3.0568031
+          ]
+        ]
+      },
+      "id": "way/962165715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/962165716",
+        "highway": "trunk",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4759114,
+            3.0565363
+          ],
+          [
+            101.4758271,
+            3.0565994
+          ],
+          [
+            101.475786,
+            3.0566292
+          ],
+          [
+            101.4757791,
+            3.0566342
+          ]
+        ]
+      },
+      "id": "way/962165716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1157670243",
+        "highway": "motorway",
+        "lanes": "3",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "turn:lanes": "left;through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4582713,
+            3.0668102
+          ],
+          [
+            101.4576429,
+            3.0669083
+          ]
+        ]
+      },
+      "id": "way/1157670243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1158726977",
+        "highway": "trunk",
+        "lane_markings": "no",
+        "lanes": "3",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4759217,
+            3.0566718
+          ],
+          [
+            101.4760046,
+            3.0566099
+          ]
+        ]
+      },
+      "id": "way/1158726977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1158729179",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4758365,
+            3.0567411
+          ],
+          [
+            101.4758767,
+            3.0567076
+          ]
+        ]
+      },
+      "id": "way/1158729179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1158729180",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.474653,
+            3.0582646
+          ],
+          [
+            101.4748312,
+            3.0576867
+          ]
+        ]
+      },
+      "id": "way/1158729180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1158729181",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4749466,
+            3.0574133
+          ],
+          [
+            101.4750216,
+            3.0573407
+          ],
+          [
+            101.4753395,
+            3.0571134
+          ],
+          [
+            101.4756487,
+            3.0568916
+          ]
+        ]
+      },
+      "id": "way/1158729181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164420215",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4299725,
+            3.0660196
+          ],
+          [
+            101.4297545,
+            3.0659777
+          ],
+          [
+            101.4294532,
+            3.0659271
+          ],
+          [
+            101.4292798,
+            3.0659112
+          ]
+        ]
+      },
+      "id": "way/1164420215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164420216",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4292798,
+            3.0659112
+          ],
+          [
+            101.4291308,
+            3.0659117
+          ],
+          [
+            101.428905,
+            3.065917
+          ],
+          [
+            101.4285851,
+            3.0659387
+          ],
+          [
+            101.4282984,
+            3.0659652
+          ]
+        ]
+      },
+      "id": "way/1164420216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164421442",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4294968,
+            3.0662402
+          ],
+          [
+            101.4296027,
+            3.0662688
+          ],
+          [
+            101.4297426,
+            3.0663032
+          ],
+          [
+            101.4299626,
+            3.0663847
+          ],
+          [
+            101.4301789,
+            3.0664908
+          ]
+        ]
+      },
+      "id": "way/1164421442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164421443",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4282984,
+            3.0659652
+          ],
+          [
+            101.4286642,
+            3.0660329
+          ],
+          [
+            101.4290258,
+            3.0661177
+          ],
+          [
+            101.4292748,
+            3.0661847
+          ],
+          [
+            101.4293661,
+            3.0662087
+          ],
+          [
+            101.4294968,
+            3.0662402
+          ]
+        ]
+      },
+      "id": "way/1164421443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164421613",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4301789,
+            3.0664908
+          ],
+          [
+            101.4304349,
+            3.0666304
+          ],
+          [
+            101.4306508,
+            3.0668323
+          ],
+          [
+            101.4308548,
+            3.0670706
+          ]
+        ]
+      },
+      "id": "way/1164421613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164436894",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "left|through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4322109,
+            3.0675418
+          ],
+          [
+            101.4321003,
+            3.0674521
+          ]
+        ]
+      },
+      "id": "way/1164436894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164436895",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4321003,
+            3.0674521
+          ],
+          [
+            101.4320439,
+            3.0674183
+          ],
+          [
+            101.4318562,
+            3.0672651
+          ],
+          [
+            101.4317147,
+            3.0670884
+          ]
+        ]
+      },
+      "id": "way/1164436895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1165103593",
+        "highway": "motorway",
+        "lanes": "4",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "新巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "turn:lanes": "slight_left|through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4661686,
+            3.0658733
+          ],
+          [
+            101.4658238,
+            3.0659049
+          ]
+        ]
+      },
+      "id": "way/1165103593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1165103594",
+        "highway": "motorway",
+        "lanes": "3",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "新巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "turn:lanes": "slight_left;through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4671952,
+            3.0657715
+          ],
+          [
+            101.4670819,
+            3.0657842
+          ],
+          [
+            101.4664744,
+            3.0658444
+          ],
+          [
+            101.4661686,
+            3.0658733
+          ]
+        ]
+      },
+      "id": "way/1165103594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1165103595",
+        "highway": "motorway",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:ms": "Lebuhraya Baru Selat Klang Utara",
+        "name:zh": "新巴生北部海峡环城大道",
+        "name:zh-Hans": "新巴生北部海峡环城大道",
+        "name:zh-Hant": "新巴生北部海峽環城大道",
+        "oneway": "yes",
+        "ref": "E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4658238,
+            3.0659049
+          ],
+          [
+            101.4649937,
+            3.0660042
+          ],
+          [
+            101.4630562,
+            3.0662338
+          ],
+          [
+            101.4611392,
+            3.0664619
+          ],
+          [
+            101.4601451,
+            3.0665871
+          ],
+          [
+            101.4592707,
+            3.0666966
+          ],
+          [
+            101.4585799,
+            3.066774
+          ],
+          [
+            101.4583217,
+            3.0668043
+          ],
+          [
+            101.4582713,
+            3.0668102
+          ]
+        ]
+      },
+      "id": "way/1165103595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1168905880",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4310279,
+            3.0672945
+          ],
+          [
+            101.4312113,
+            3.0674539
+          ],
+          [
+            101.4314217,
+            3.0676126
+          ],
+          [
+            101.4319076,
+            3.0679244
+          ],
+          [
+            101.4323853,
+            3.0682138
+          ],
+          [
+            101.4325236,
+            3.0682966
+          ],
+          [
+            101.4327481,
+            3.0684018
+          ],
+          [
+            101.4328575,
+            3.0684463
+          ],
+          [
+            101.4329098,
+            3.0684616
+          ],
+          [
+            101.4331109,
+            3.0685361
+          ],
+          [
+            101.4333136,
+            3.0686032
+          ],
+          [
+            101.4339499,
+            3.0687631
+          ]
+        ]
+      },
+      "id": "way/1168905880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1169872596",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20;E30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4742434,
+            3.0588965
+          ],
+          [
+            101.4737261,
+            3.0606615
+          ],
+          [
+            101.4734206,
+            3.0614726
+          ]
+        ]
+      },
+      "id": "way/1169872596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174029349",
+        "highway": "motorway",
+        "lanes": "3",
+        "name": "Lebuhraya Baru Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "新巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "E30",
+        "toll": "yes",
+        "turn:lanes": "|slight_left;through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4525598,
+            3.0722146
+          ],
+          [
+            101.4524062,
+            3.0723918
+          ],
+          [
+            101.4521311,
+            3.0726429
+          ],
+          [
+            101.4518044,
+            3.0728877
+          ]
+        ]
+      },
+      "id": "way/1174029349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174034738",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "oneway": "yes",
+        "ref": "20",
+        "turn:lanes": "slight_left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4513491,
+            3.0731284
+          ],
+          [
+            101.4512993,
+            3.0731484
+          ]
+        ]
+      },
+      "id": "way/1174034738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1183340232",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.413204,
+            3.059901
+          ],
+          [
+            101.4129926,
+            3.0597657
+          ],
+          [
+            101.4124729,
+            3.0594375
+          ],
+          [
+            101.412391,
+            3.0594224
+          ]
+        ]
+      },
+      "id": "way/1183340232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1183340233",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4132548,
+            3.0599308
+          ],
+          [
+            101.413204,
+            3.059901
+          ]
+        ]
+      },
+      "id": "way/1183340233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1183340234",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.413214,
+            3.0599921
+          ],
+          [
+            101.4133763,
+            3.0600956
+          ],
+          [
+            101.4137326,
+            3.0603179
+          ],
+          [
+            101.4138305,
+            3.0603326
+          ]
+        ]
+      },
+      "id": "way/1183340234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1183340235",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4131643,
+            3.0599615
+          ],
+          [
+            101.413214,
+            3.0599921
+          ]
+        ]
+      },
+      "id": "way/1183340235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1183340242",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.412391,
+            3.0594224
+          ],
+          [
+            101.412433,
+            3.059505
+          ],
+          [
+            101.4129541,
+            3.0598261
+          ],
+          [
+            101.4130554,
+            3.0598908
+          ],
+          [
+            101.4131643,
+            3.0599615
+          ]
+        ]
+      },
+      "id": "way/1183340242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1183340243",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4138305,
+            3.0603326
+          ],
+          [
+            101.413778,
+            3.0602543
+          ],
+          [
+            101.4134127,
+            3.0600311
+          ],
+          [
+            101.4132728,
+            3.0599416
+          ],
+          [
+            101.4132548,
+            3.0599308
+          ]
+        ]
+      },
+      "id": "way/1183340243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1183340244",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4282984,
+            3.0659652
+          ],
+          [
+            101.4282728,
+            3.0659659
+          ],
+          [
+            101.4281249,
+            3.0659526
+          ],
+          [
+            101.4279853,
+            3.0659391
+          ],
+          [
+            101.4278407,
+            3.0659225
+          ],
+          [
+            101.4276007,
+            3.0658984
+          ],
+          [
+            101.4273717,
+            3.0658699
+          ],
+          [
+            101.4270396,
+            3.0658227
+          ],
+          [
+            101.4267352,
+            3.0657744
+          ],
+          [
+            101.4266425,
+            3.065757
+          ],
+          [
+            101.4263146,
+            3.0656804
+          ],
+          [
+            101.4262183,
+            3.0656575
+          ],
+          [
+            101.4260916,
+            3.0656253
+          ],
+          [
+            101.4260359,
+            3.0656055
+          ],
+          [
+            101.4259594,
+            3.0655828
+          ],
+          [
+            101.425901,
+            3.0655632
+          ],
+          [
+            101.4256956,
+            3.0655012
+          ],
+          [
+            101.4256343,
+            3.0654827
+          ],
+          [
+            101.4254454,
+            3.0654191
+          ],
+          [
+            101.4253321,
+            3.0653782
+          ],
+          [
+            101.424954,
+            3.065234
+          ],
+          [
+            101.424865,
+            3.0651975
+          ]
+        ]
+      },
+      "id": "way/1183340244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1236532256",
+        "highway": "trunk",
+        "maxspeed": "80",
+        "name": "Lebuhraya Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "yes",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4718549,
+            3.0645829
+          ],
+          [
+            101.4721016,
+            3.0643484
+          ],
+          [
+            101.4723334,
+            3.0641001
+          ]
+        ]
+      },
+      "id": "way/1236532256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424709412",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4243045,
+            3.0649456
+          ],
+          [
+            101.4242926,
+            3.0649403
+          ],
+          [
+            101.4242424,
+            3.0649201
+          ]
+        ]
+      },
+      "id": "way/1424709412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424709413",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4242424,
+            3.0649201
+          ],
+          [
+            101.4237209,
+            3.0647114
+          ],
+          [
+            101.4236556,
+            3.0646845
+          ],
+          [
+            101.4234497,
+            3.0645995
+          ],
+          [
+            101.4234176,
+            3.0645862
+          ],
+          [
+            101.423232,
+            3.0645128
+          ],
+          [
+            101.422889,
+            3.0643656
+          ],
+          [
+            101.4228441,
+            3.0643472
+          ],
+          [
+            101.422258,
+            3.064082
+          ],
+          [
+            101.4219064,
+            3.0639321
+          ],
+          [
+            101.421864,
+            3.063914
+          ],
+          [
+            101.4216789,
+            3.0638394
+          ],
+          [
+            101.4212003,
+            3.063631
+          ],
+          [
+            101.4211294,
+            3.0636007
+          ],
+          [
+            101.4209568,
+            3.0635271
+          ],
+          [
+            101.4207181,
+            3.0634253
+          ],
+          [
+            101.4204578,
+            3.0633152
+          ],
+          [
+            101.4203602,
+            3.063272
+          ],
+          [
+            101.4203456,
+            3.0632665
+          ],
+          [
+            101.4203329,
+            3.0632617
+          ],
+          [
+            101.4198619,
+            3.063065
+          ],
+          [
+            101.4196277,
+            3.0629648
+          ],
+          [
+            101.4195415,
+            3.062928
+          ],
+          [
+            101.4195187,
+            3.0629182
+          ],
+          [
+            101.4192798,
+            3.0628206
+          ],
+          [
+            101.4190178,
+            3.0627112
+          ],
+          [
+            101.4186114,
+            3.0625414
+          ],
+          [
+            101.4185213,
+            3.0625075
+          ],
+          [
+            101.4183523,
+            3.0624335
+          ],
+          [
+            101.4181883,
+            3.0623666
+          ],
+          [
+            101.4179945,
+            3.0622876
+          ],
+          [
+            101.4177689,
+            3.0621926
+          ],
+          [
+            101.4176088,
+            3.0621251
+          ],
+          [
+            101.4173321,
+            3.0620102
+          ],
+          [
+            101.4172694,
+            3.0619814
+          ],
+          [
+            101.4170502,
+            3.0618895
+          ],
+          [
+            101.4169347,
+            3.0618411
+          ],
+          [
+            101.4168844,
+            3.06182
+          ],
+          [
+            101.4165298,
+            3.0616719
+          ],
+          [
+            101.416339,
+            3.0615922
+          ],
+          [
+            101.4161248,
+            3.0615027
+          ],
+          [
+            101.4160222,
+            3.0614598
+          ],
+          [
+            101.415923,
+            3.0614184
+          ],
+          [
+            101.4158712,
+            3.0613967
+          ],
+          [
+            101.4154139,
+            3.0612057
+          ],
+          [
+            101.4153861,
+            3.0611941
+          ],
+          [
+            101.414998,
+            3.061032
+          ],
+          [
+            101.4146581,
+            3.060847
+          ],
+          [
+            101.414513,
+            3.060768
+          ],
+          [
+            101.4140944,
+            3.0605012
+          ],
+          [
+            101.4139785,
+            3.0604273
+          ],
+          [
+            101.4138667,
+            3.060356
+          ],
+          [
+            101.4138305,
+            3.0603326
+          ]
+        ]
+      },
+      "id": "way/1424709413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424709414",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4244982,
+            3.0650321
+          ],
+          [
+            101.4243045,
+            3.0649456
+          ]
+        ]
+      },
+      "id": "way/1424709414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424709415",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4245363,
+            3.0650491
+          ],
+          [
+            101.4244982,
+            3.0650321
+          ]
+        ]
+      },
+      "id": "way/1424709415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424709416",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.4246659,
+            3.065107
+          ],
+          [
+            101.4245363,
+            3.0650491
+          ]
+        ]
+      },
+      "id": "way/1424709416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424709419",
+        "highway": "trunk",
+        "name": "Pintasan Selat Klang Utara",
+        "name:en": "North Klang Straits Bypass",
+        "name:zh": "巴生北部海峡环城大道",
+        "oneway": "no",
+        "ref": "20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.424865,
+            3.0651975
+          ],
+          [
+            101.4247141,
+            3.0651285
+          ],
+          [
+            101.4246659,
+            3.065107
+          ]
+        ]
+      },
+      "id": "way/1424709419"
+    }
+  ]
+}

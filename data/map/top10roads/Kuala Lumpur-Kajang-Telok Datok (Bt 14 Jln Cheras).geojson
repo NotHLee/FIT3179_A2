@@ -1,0 +1,2898 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-12T12:56:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22582745",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7823823,
+            3.0046889
+          ],
+          [
+            101.7824551,
+            3.0044836
+          ],
+          [
+            101.7824691,
+            3.0043943
+          ]
+        ]
+      },
+      "id": "way/22582745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155551392",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7861575,
+            2.9981056
+          ],
+          [
+            101.7862978,
+            2.9979755
+          ]
+        ]
+      },
+      "id": "way/155551392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155551393",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7862978,
+            2.9979755
+          ],
+          [
+            101.7867005,
+            2.9975958
+          ]
+        ]
+      },
+      "id": "way/155551393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232002081",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7748139,
+            3.0234688
+          ],
+          [
+            101.7747307,
+            3.0236581
+          ]
+        ]
+      },
+      "id": "way/232002081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232002085",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7735136,
+            3.0263324
+          ],
+          [
+            101.7735358,
+            3.0263041
+          ],
+          [
+            101.7735825,
+            3.0262467
+          ],
+          [
+            101.7736199,
+            3.0261922
+          ],
+          [
+            101.7737411,
+            3.0259796
+          ],
+          [
+            101.7738097,
+            3.0258132
+          ],
+          [
+            101.7738423,
+            3.0257327
+          ],
+          [
+            101.7739498,
+            3.0254422
+          ],
+          [
+            101.7739819,
+            3.0253649
+          ],
+          [
+            101.7740765,
+            3.0251181
+          ],
+          [
+            101.7741098,
+            3.0250414
+          ],
+          [
+            101.7741674,
+            3.0249085
+          ],
+          [
+            101.7742771,
+            3.0246697
+          ],
+          [
+            101.7743758,
+            3.0244622
+          ],
+          [
+            101.7744445,
+            3.0243177
+          ],
+          [
+            101.774625,
+            3.0239247
+          ],
+          [
+            101.7746946,
+            3.0237401
+          ],
+          [
+            101.7747307,
+            3.0236581
+          ]
+        ]
+      },
+      "id": "way/232002085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482541396",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7876777,
+            2.9934312
+          ],
+          [
+            101.7876674,
+            2.9941714
+          ],
+          [
+            101.7876356,
+            2.9947708
+          ],
+          [
+            101.7876211,
+            2.9951772
+          ]
+        ]
+      },
+      "id": "way/482541396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587415384",
+        "destination": "Kajang",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7828141,
+            3.0028508
+          ],
+          [
+            101.7828533,
+            3.0027341
+          ],
+          [
+            101.7829016,
+            3.0025904
+          ],
+          [
+            101.7830036,
+            3.0022222
+          ]
+        ]
+      },
+      "id": "way/587415384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429393",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "sidewalk": "both",
+        "source": "Bing corrected",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7823823,
+            3.0046889
+          ],
+          [
+            101.7823801,
+            3.0047073
+          ],
+          [
+            101.7823602,
+            3.004798
+          ],
+          [
+            101.7823419,
+            3.0048924
+          ],
+          [
+            101.7822763,
+            3.0051341
+          ],
+          [
+            101.782224,
+            3.0053433
+          ],
+          [
+            101.7822095,
+            3.0053991
+          ],
+          [
+            101.7820911,
+            3.0058541
+          ],
+          [
+            101.7820238,
+            3.0061106
+          ],
+          [
+            101.7819529,
+            3.0063433
+          ],
+          [
+            101.7819306,
+            3.0064207
+          ],
+          [
+            101.7818829,
+            3.0065839
+          ],
+          [
+            101.7818271,
+            3.0067798
+          ],
+          [
+            101.7818071,
+            3.0068493
+          ],
+          [
+            101.7817196,
+            3.0070911
+          ],
+          [
+            101.7816399,
+            3.0072676
+          ],
+          [
+            101.7815419,
+            3.0074426
+          ],
+          [
+            101.7814641,
+            3.0075841
+          ],
+          [
+            101.7812023,
+            3.0080386
+          ],
+          [
+            101.7809324,
+            3.0085005
+          ],
+          [
+            101.7806747,
+            3.0089414
+          ],
+          [
+            101.7805996,
+            3.0090699
+          ],
+          [
+            101.7803507,
+            3.0094957
+          ],
+          [
+            101.7798736,
+            3.0103129
+          ],
+          [
+            101.7798507,
+            3.0103499
+          ],
+          [
+            101.7796364,
+            3.0106962
+          ],
+          [
+            101.7795156,
+            3.0108889
+          ],
+          [
+            101.7794972,
+            3.0109184
+          ],
+          [
+            101.7792844,
+            3.0112579
+          ],
+          [
+            101.7790761,
+            3.0115924
+          ],
+          [
+            101.7788454,
+            3.0119204
+          ],
+          [
+            101.7788083,
+            3.0119731
+          ],
+          [
+            101.7785548,
+            3.0123524
+          ],
+          [
+            101.7783999,
+            3.0126031
+          ],
+          [
+            101.7783657,
+            3.0126547
+          ],
+          [
+            101.7782283,
+            3.012874
+          ],
+          [
+            101.7780822,
+            3.0130883
+          ],
+          [
+            101.7780616,
+            3.0131181
+          ],
+          [
+            101.7778353,
+            3.0134462
+          ],
+          [
+            101.7776713,
+            3.0137353
+          ],
+          [
+            101.777604,
+            3.0138552
+          ]
+        ]
+      },
+      "id": "way/587429393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429394",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7827502,
+            3.0027104
+          ],
+          [
+            101.7825861,
+            3.0032463
+          ]
+        ]
+      },
+      "id": "way/587429394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429396",
+        "destination:lanes": "|Sungai Sekamat|Semenyih;Saujana Impian",
+        "highway": "primary",
+        "lanes": "3",
+        "maxheight": "5.2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7825861,
+            3.0032463
+          ],
+          [
+            101.7824152,
+            3.0039705
+          ]
+        ]
+      },
+      "id": "way/587429396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429402",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt",
+        "turn:lanes": "slight_right|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7872456,
+            2.9969704
+          ],
+          [
+            101.7868971,
+            2.9972835
+          ]
+        ]
+      },
+      "id": "way/587429402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429404",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7830036,
+            3.0022222
+          ],
+          [
+            101.7830908,
+            3.0019012
+          ],
+          [
+            101.7832543,
+            3.0015452
+          ],
+          [
+            101.7833616,
+            3.0013974
+          ],
+          [
+            101.7835062,
+            3.0012124
+          ]
+        ]
+      },
+      "id": "way/587429404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429408",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "sidewalk": "left",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7844167,
+            3.0001434
+          ],
+          [
+            101.7846257,
+            2.9998815
+          ],
+          [
+            101.7850168,
+            2.9994033
+          ],
+          [
+            101.7850659,
+            2.9993432
+          ]
+        ]
+      },
+      "id": "way/587429408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429410",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "sidewalk": "left",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7851266,
+            2.9991582
+          ],
+          [
+            101.7850103,
+            2.9992949
+          ],
+          [
+            101.7849595,
+            2.9993588
+          ],
+          [
+            101.7848762,
+            2.9994607
+          ],
+          [
+            101.7848214,
+            2.9995276
+          ],
+          [
+            101.7844864,
+            2.9999368
+          ],
+          [
+            101.7841697,
+            3.0003046
+          ],
+          [
+            101.7839964,
+            3.0005059
+          ],
+          [
+            101.7839646,
+            3.000545
+          ],
+          [
+            101.7839269,
+            3.0005913
+          ],
+          [
+            101.7837047,
+            3.0008646
+          ],
+          [
+            101.7834159,
+            3.0012198
+          ],
+          [
+            101.7833173,
+            3.0013376
+          ],
+          [
+            101.7831356,
+            3.0015821
+          ]
+        ]
+      },
+      "id": "way/587429410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429411",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7862332,
+            2.997921
+          ],
+          [
+            101.7860968,
+            2.9980587
+          ]
+        ]
+      },
+      "id": "way/587429411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587429412",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|reverse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7871111,
+            2.9972301
+          ],
+          [
+            101.7873158,
+            2.997041
+          ]
+        ]
+      },
+      "id": "way/587429412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683368344",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7830511,
+            3.0017208
+          ],
+          [
+            101.7830116,
+            3.0018404
+          ],
+          [
+            101.7829874,
+            3.0019237
+          ]
+        ]
+      },
+      "id": "way/683368344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683368345",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|left;through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7829056,
+            3.0021607
+          ],
+          [
+            101.7828694,
+            3.0023152
+          ],
+          [
+            101.7828214,
+            3.0024745
+          ]
+        ]
+      },
+      "id": "way/683368345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683368347",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7831356,
+            3.0015821
+          ],
+          [
+            101.7830511,
+            3.0017208
+          ]
+        ]
+      },
+      "id": "way/683368347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683705175",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7876064,
+            2.9955918
+          ],
+          [
+            101.7875967,
+            2.9958579
+          ]
+        ]
+      },
+      "id": "way/683705175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683705179",
+        "destination": "Cheras;Kuala Lumpur;Semenyih",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "ref:to": "E7",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7875526,
+            2.9964951
+          ],
+          [
+            101.7875102,
+            2.9966191
+          ],
+          [
+            101.7874379,
+            2.9967484
+          ],
+          [
+            101.7872456,
+            2.9969704
+          ]
+        ]
+      },
+      "id": "way/683705179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683705182",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7876701,
+            2.9965249
+          ],
+          [
+            101.7876803,
+            2.9964589
+          ]
+        ]
+      },
+      "id": "way/683705182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683706529",
+        "destination": "Cheras;Kuala Lumpur;Semenyih",
+        "destination:lanes": "||Jalan Kantan|Jalan Timur",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "ref:to": "E7",
+        "surface": "asphalt",
+        "turn:lanes": "||right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7875967,
+            2.9958579
+          ],
+          [
+            101.787582,
+            2.9963743
+          ],
+          [
+            101.7875678,
+            2.9964328
+          ]
+        ]
+      },
+      "id": "way/683706529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683715482",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7877057,
+            2.9956532
+          ],
+          [
+            101.787704,
+            2.9951764
+          ],
+          [
+            101.7877278,
+            2.9947715
+          ],
+          [
+            101.7877565,
+            2.9943292
+          ],
+          [
+            101.7877743,
+            2.9937929
+          ]
+        ]
+      },
+      "id": "way/683715482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/747495919",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7730458,
+            3.026789
+          ],
+          [
+            101.7729436,
+            3.0268209
+          ],
+          [
+            101.772887,
+            3.026869
+          ],
+          [
+            101.772649,
+            3.0270694
+          ],
+          [
+            101.7725562,
+            3.0271475
+          ]
+        ]
+      },
+      "id": "way/747495919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/747495920",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Maxar P",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7707628,
+            3.0286901
+          ],
+          [
+            101.7709146,
+            3.0285544
+          ],
+          [
+            101.7711603,
+            3.0283538
+          ],
+          [
+            101.7713082,
+            3.0282382
+          ],
+          [
+            101.7714277,
+            3.028145
+          ],
+          [
+            101.7715297,
+            3.0280664
+          ],
+          [
+            101.7716013,
+            3.0280112
+          ],
+          [
+            101.7718145,
+            3.027847
+          ]
+        ]
+      },
+      "id": "way/747495920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/749452282",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7718145,
+            3.027847
+          ],
+          [
+            101.7722971,
+            3.0274767
+          ],
+          [
+            101.7724662,
+            3.0273329
+          ]
+        ]
+      },
+      "id": "way/749452282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/749452283",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Maxar P",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7717604,
+            3.0277787
+          ],
+          [
+            101.7715364,
+            3.0279577
+          ],
+          [
+            101.771503,
+            3.0279844
+          ],
+          [
+            101.7713791,
+            3.0280814
+          ],
+          [
+            101.7712569,
+            3.0281765
+          ],
+          [
+            101.7711139,
+            3.0282883
+          ],
+          [
+            101.7708623,
+            3.0284818
+          ],
+          [
+            101.7707052,
+            3.0286216
+          ],
+          [
+            101.7706983,
+            3.0286278
+          ]
+        ]
+      },
+      "id": "way/749452283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773819337",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉赖路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7877572,
+            2.9932894
+          ],
+          [
+            101.7876777,
+            2.9934312
+          ]
+        ]
+      },
+      "id": "way/773819337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773819861",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through;right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7877743,
+            2.9937929
+          ],
+          [
+            101.7877862,
+            2.9934348
+          ]
+        ]
+      },
+      "id": "way/773819861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773821366",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7732453,
+            3.0265989
+          ],
+          [
+            101.7734203,
+            3.0264353
+          ],
+          [
+            101.7734825,
+            3.0263679
+          ],
+          [
+            101.7735136,
+            3.0263324
+          ]
+        ]
+      },
+      "id": "way/773821366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773821367",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7730458,
+            3.026789
+          ],
+          [
+            101.7731148,
+            3.0267242
+          ],
+          [
+            101.7732453,
+            3.0265989
+          ]
+        ]
+      },
+      "id": "way/773821367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773824968",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7753509,
+            3.0221761
+          ],
+          [
+            101.7753225,
+            3.0222521
+          ],
+          [
+            101.7752668,
+            3.0223967
+          ],
+          [
+            101.7752502,
+            3.0224369
+          ],
+          [
+            101.7752168,
+            3.0225175
+          ],
+          [
+            101.7751381,
+            3.0227078
+          ]
+        ]
+      },
+      "id": "way/773824968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773824969",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7751381,
+            3.0227078
+          ],
+          [
+            101.7750986,
+            3.0228031
+          ],
+          [
+            101.7750512,
+            3.0229177
+          ],
+          [
+            101.7748139,
+            3.0234688
+          ]
+        ]
+      },
+      "id": "way/773824969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773828251",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.777604,
+            3.0138552
+          ],
+          [
+            101.777502,
+            3.0140903
+          ],
+          [
+            101.7774262,
+            3.0143005
+          ]
+        ]
+      },
+      "id": "way/773828251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773828252",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7774079,
+            3.0143607
+          ],
+          [
+            101.7773562,
+            3.0145272
+          ],
+          [
+            101.7773264,
+            3.0146388
+          ]
+        ]
+      },
+      "id": "way/773828252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773828253",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7773264,
+            3.0146388
+          ],
+          [
+            101.7772821,
+            3.0148214
+          ],
+          [
+            101.7772259,
+            3.01506
+          ],
+          [
+            101.7771217,
+            3.0154759
+          ]
+        ]
+      },
+      "id": "way/773828253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773828254",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7771217,
+            3.0154759
+          ],
+          [
+            101.777086,
+            3.0156142
+          ],
+          [
+            101.7770706,
+            3.0156795
+          ],
+          [
+            101.77695,
+            3.0161605
+          ]
+        ]
+      },
+      "id": "way/773828254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773828255",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes:backward": "through|right",
+        "turn:lanes:forward": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7768888,
+            3.0164046
+          ],
+          [
+            101.7768778,
+            3.0164486
+          ],
+          [
+            101.7768259,
+            3.0166554
+          ]
+        ]
+      },
+      "id": "way/773828255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773828256",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7768164,
+            3.0166935
+          ],
+          [
+            101.7768021,
+            3.0167505
+          ],
+          [
+            101.7767656,
+            3.016896
+          ],
+          [
+            101.7767476,
+            3.0169678
+          ],
+          [
+            101.7767178,
+            3.0170869
+          ],
+          [
+            101.7766948,
+            3.0171784
+          ],
+          [
+            101.7766705,
+            3.0172754
+          ],
+          [
+            101.7765808,
+            3.0176333
+          ],
+          [
+            101.7765705,
+            3.0176726
+          ],
+          [
+            101.776519,
+            3.0178797
+          ],
+          [
+            101.7764399,
+            3.0181953
+          ]
+        ]
+      },
+      "id": "way/773828256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773828257",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7764399,
+            3.0181953
+          ],
+          [
+            101.7764276,
+            3.0182444
+          ],
+          [
+            101.7764019,
+            3.0183361
+          ],
+          [
+            101.776321,
+            3.0186694
+          ],
+          [
+            101.7762693,
+            3.0188758
+          ],
+          [
+            101.7762354,
+            3.0190109
+          ],
+          [
+            101.7761124,
+            3.0194922
+          ],
+          [
+            101.7760992,
+            3.0195438
+          ],
+          [
+            101.7760137,
+            3.0198937
+          ],
+          [
+            101.7759751,
+            3.0200475
+          ],
+          [
+            101.7759381,
+            3.0201993
+          ],
+          [
+            101.775889,
+            3.0203988
+          ],
+          [
+            101.775748,
+            3.0209889
+          ],
+          [
+            101.7757211,
+            3.0210883
+          ],
+          [
+            101.7756905,
+            3.0211945
+          ],
+          [
+            101.7755849,
+            3.0215052
+          ],
+          [
+            101.7754885,
+            3.0217871
+          ],
+          [
+            101.7754382,
+            3.0219343
+          ],
+          [
+            101.775393,
+            3.0220665
+          ],
+          [
+            101.7753834,
+            3.0220953
+          ],
+          [
+            101.7753509,
+            3.0221761
+          ]
+        ]
+      },
+      "id": "way/773828257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773867212",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing (corrected)",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7875656,
+            2.9967633
+          ],
+          [
+            101.7876701,
+            2.9965249
+          ]
+        ]
+      },
+      "id": "way/773867212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/774854335",
+        "destination": "Kajang",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7827015,
+            3.0032725
+          ],
+          [
+            101.7827153,
+            3.0032208
+          ]
+        ]
+      },
+      "id": "way/774854335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127884",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "oneway": "yes",
+        "ref": "1",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.785215,
+            2.9990468
+          ],
+          [
+            101.7851577,
+            2.9991158
+          ],
+          [
+            101.7851266,
+            2.9991582
+          ]
+        ]
+      },
+      "id": "way/775127884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127885",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "sidewalk": "left",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7860968,
+            2.9980587
+          ],
+          [
+            101.7856545,
+            2.99853
+          ],
+          [
+            101.7855216,
+            2.998688
+          ],
+          [
+            101.7854184,
+            2.9988088
+          ],
+          [
+            101.7853019,
+            2.9989452
+          ],
+          [
+            101.785215,
+            2.9990468
+          ]
+        ]
+      },
+      "id": "way/775127885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127887",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7868971,
+            2.9972835
+          ],
+          [
+            101.7866911,
+            2.9974816
+          ],
+          [
+            101.7863915,
+            2.9977698
+          ],
+          [
+            101.7862332,
+            2.997921
+          ]
+        ]
+      },
+      "id": "way/775127887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127888",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7869045,
+            2.9974126
+          ],
+          [
+            101.7871111,
+            2.9972301
+          ]
+        ]
+      },
+      "id": "way/775127888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127889",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7867005,
+            2.9975958
+          ],
+          [
+            101.7867413,
+            2.9975591
+          ],
+          [
+            101.7869045,
+            2.9974126
+          ]
+        ]
+      },
+      "id": "way/775127889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127894",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7841689,
+            3.0004387
+          ],
+          [
+            101.7844167,
+            3.0001434
+          ]
+        ]
+      },
+      "id": "way/775127894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127895",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7839639,
+            3.0006865
+          ],
+          [
+            101.7841689,
+            3.0004387
+          ]
+        ]
+      },
+      "id": "way/775127895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775127896",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7835062,
+            3.0012124
+          ],
+          [
+            101.7839639,
+            3.0006865
+          ]
+        ]
+      },
+      "id": "way/775127896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775324750",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7876211,
+            2.9951772
+          ],
+          [
+            101.7876064,
+            2.9955918
+          ]
+        ]
+      },
+      "id": "way/775324750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775324751",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing (corrected)",
+        "surface": "asphalt",
+        "turn:lanes": "left|through;left|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7873158,
+            2.997041
+          ],
+          [
+            101.7874517,
+            2.9969211
+          ],
+          [
+            101.787508,
+            2.9968541
+          ],
+          [
+            101.7875656,
+            2.9967633
+          ]
+        ]
+      },
+      "id": "way/775324751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/776352967",
+        "highway": "primary",
+        "lanes": "3",
+        "maxheight": "5.2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7825315,
+            3.0039911
+          ],
+          [
+            101.782637,
+            3.0035414
+          ],
+          [
+            101.7827015,
+            3.0032725
+          ]
+        ]
+      },
+      "id": "way/776352967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/776352968",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7824152,
+            3.0039705
+          ],
+          [
+            101.7823721,
+            3.0043624
+          ]
+        ]
+      },
+      "id": "way/776352968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164413393",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "|left;through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7828214,
+            3.0024745
+          ],
+          [
+            101.7827502,
+            3.0027104
+          ]
+        ]
+      },
+      "id": "way/1164413393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164413394",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7829874,
+            3.0019237
+          ],
+          [
+            101.7829056,
+            3.0021607
+          ]
+        ]
+      },
+      "id": "way/1164413394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164416787",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7824691,
+            3.0043943
+          ],
+          [
+            101.7825315,
+            3.0039911
+          ]
+        ]
+      },
+      "id": "way/1164416787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171475749",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7823721,
+            3.0043624
+          ],
+          [
+            101.7823601,
+            3.0044684
+          ],
+          [
+            101.7823651,
+            3.0045235
+          ],
+          [
+            101.7823823,
+            3.0046889
+          ]
+        ]
+      },
+      "id": "way/1171475749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171475750",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "sidewalk": "left",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7850659,
+            2.9993432
+          ],
+          [
+            101.7851672,
+            2.9992194
+          ]
+        ]
+      },
+      "id": "way/1171475750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171475751",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "sidewalk": "left",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7851672,
+            2.9992194
+          ],
+          [
+            101.785521,
+            2.9987868
+          ],
+          [
+            101.7857899,
+            2.9984852
+          ],
+          [
+            101.7858558,
+            2.9984151
+          ],
+          [
+            101.7861575,
+            2.9981056
+          ]
+        ]
+      },
+      "id": "way/1171475751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171475752",
+        "destination": "Kajang",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7827153,
+            3.0032208
+          ],
+          [
+            101.7828141,
+            3.0028508
+          ]
+        ]
+      },
+      "id": "way/1171475752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171807802",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7725929,
+            3.0272211
+          ],
+          [
+            101.7726478,
+            3.0271737
+          ]
+        ]
+      },
+      "id": "way/1171807802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171807804",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7726478,
+            3.0271737
+          ],
+          [
+            101.7726986,
+            3.0271303
+          ],
+          [
+            101.7728245,
+            3.0270229
+          ],
+          [
+            101.77293,
+            3.0269356
+          ],
+          [
+            101.7729954,
+            3.0268755
+          ],
+          [
+            101.7730458,
+            3.026789
+          ]
+        ]
+      },
+      "id": "way/1171807804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171807805",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7724662,
+            3.0273329
+          ],
+          [
+            101.7725506,
+            3.0272585
+          ],
+          [
+            101.7725929,
+            3.0272211
+          ]
+        ]
+      },
+      "id": "way/1171807805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171807806",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7725562,
+            3.0271475
+          ],
+          [
+            101.7724928,
+            3.0271995
+          ],
+          [
+            101.7724423,
+            3.0272436
+          ]
+        ]
+      },
+      "id": "way/1171807806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171807807",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "aligned Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7724423,
+            3.0272436
+          ],
+          [
+            101.7719595,
+            3.0276364
+          ],
+          [
+            101.7717604,
+            3.0277787
+          ]
+        ]
+      },
+      "id": "way/1171807807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171920782",
+        "destination": "Cheras;Kuala Lumpur;Semenyih",
+        "destination:lanes": "||Jalan Kantan|Jalan Timur",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "oneway": "yes",
+        "ref": "1",
+        "ref:to": "E7",
+        "surface": "asphalt",
+        "turn:lanes": "||right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7875678,
+            2.9964328
+          ],
+          [
+            101.7875526,
+            2.9964951
+          ]
+        ]
+      },
+      "id": "way/1171920782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1171920783",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "name:zh": "蕉赖路",
+        "name:zh-Hans": "蕉赖路",
+        "name:zh-Hant": "蕉賴路",
+        "oneway": "yes",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7876803,
+            2.9964589
+          ],
+          [
+            101.7876895,
+            2.9963848
+          ],
+          [
+            101.7877057,
+            2.9956532
+          ]
+        ]
+      },
+      "id": "way/1171920783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174914147",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt",
+        "turn:lanes:backward": "through|right",
+        "turn:lanes:forward": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7768259,
+            3.0166554
+          ],
+          [
+            101.7768164,
+            3.0166935
+          ]
+        ]
+      },
+      "id": "way/1174914147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174914148",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "name:ms": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.77695,
+            3.0161605
+          ],
+          [
+            101.7768888,
+            3.0164046
+          ]
+        ]
+      },
+      "id": "way/1174914148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1333166094",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cheras",
+        "ref": "1",
+        "source": "Bing",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.7774262,
+            3.0143005
+          ],
+          [
+            101.7774079,
+            3.0143607
+          ]
+        ]
+      },
+      "id": "way/1333166094"
+    }
+  ]
+}
