@@ -1,0 +1,153 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 770,
+    "height": 270,
+    "projection": {
+        "type": "mercator",
+        "center": [109.5, 4],
+        "scale": 2200
+    },
+    "layer": [
+        {
+            "data": {
+                "sphere": true
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "#cbe5fc",
+                "stroke": null
+            }
+        },
+        {
+            "data": {
+                "graticule": {
+                    "step": [2, 2]
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": null,
+                "stroke": "white",
+                "strokeWidth": 1,
+                "opacity": 0.7
+            }
+        },
+        {
+            "data": {
+                "url": "../data/map/geoBoundaries.topojson",
+                "format": {
+                    "type": "topojson",
+                    "feature": "MYSADM1gbOpen"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            }
+        },
+        {
+            "data": {
+                "url": "../data/map/geoBoundaries.topojson",
+                "format": {
+                    "type": "topojson",
+                    "feature": "PHLADM0gbOpen"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            }
+        },
+        {
+            "data": {
+                "url": "../data/map/geoBoundaries.topojson",
+                "format": {
+                    "type": "topojson",
+                    "feature": "THAADM0gbOpen"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            }
+        },
+        {
+            "data": {
+                "url": "../data/map/geoBoundaries.topojson",
+                "format": {
+                    "type": "topojson",
+                    "feature": "IDNADM0gbOpen"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            }
+        },
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_Homework_W9/refs/heads/main/malaysia_aqi.csv"
+            },
+            "mark": {
+                "type": "circle",
+                "size": 100,
+                "tooltip": {
+                    "content": "data"
+                }
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "color": {
+                    "field": "aqi",
+                    "title": "Air Quality Index (AQI)",
+                    "type": "quantitative",
+                    "scale": {
+                        "scheme": "viridis",
+                        "domain": [0, 130]
+                    },
+                    "legend": {
+                        "tickCount": 7
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "station_location",
+                        "type": "nominal",
+                        "title": "Location"
+                    },
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "aqi",
+                        "type": "quantitative",
+                        "title": "AQI"
+                    },
+                    {
+                        "field": "lat",
+                        "type": "quantitative",
+                        "title": "Latitude"
+                    },
+                    {
+                        "field": "lon",
+                        "type": "quantitative",
+                        "title": "Longitude"
+                    }
+                ]
+            }
+        }
+    ]
+}
