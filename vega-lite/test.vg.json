@@ -1,0 +1,91 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 800,
+    "projection": {
+        "type": "mercator",
+        "center": [102, 4],
+        "scale": 8000
+    },
+    "params": [
+        {
+            "name": "year_select",
+            "value": null,
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021",
+                    "2022",
+                    "2023",
+                    "2024"
+                ],
+                "labels": [
+                    "None",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021",
+                    "2022",
+                    "2023",
+                    "2024"
+                ],
+                "name": "Year select: "
+            }
+        }
+    ],
+    "data": {
+        "url": "../data/map/merged_traffic_roads.geojson",
+        "format": {"type": "json", "property": "features"}
+    },
+    "transform": [
+        {"filter": "datum.properties.Year == year_select"},
+        {"filter": "datum.properties.rank <= 10"}
+    ],
+    "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "orange",
+        "strokeWidth": 3
+    },
+    "encoding": {
+        "stroke": {
+            "field": "properties.ADT",
+            "type": "quantitative",
+            "scale": {
+                "scheme": "orangered"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "properties.Year",
+                "type": "nominal",
+                "title": "Year"
+            },
+            {
+                "field": "properties.Location",
+                "type": "nominal",
+                "title": "Road"
+            },
+            {
+                "field": "properties.ADT",
+                "type": "quantitative",
+                "title": "ADT"
+            },
+            {
+                "field": "properties.rank",
+                "type": "quantitative",
+                "title": "Rank"
+            }
+        ]
+    }
+}

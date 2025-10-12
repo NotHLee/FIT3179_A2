@@ -1,12 +1,48 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 770,
-    "height": 270,
+    "width": 800,
+    "height": 800,
     "projection": {
         "type": "mercator",
-        "center": [109.5, 4],
-        "scale": 2200
+        "center": [102, 4],
+        "scale": 8000
     },
+    "params": [
+        {
+            "name": "year_select",
+            "value": null,
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021",
+                    "2022",
+                    "2023",
+                    "2024"
+                ],
+                "labels": [
+                    "None",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021",
+                    "2022",
+                    "2023",
+                    "2024"
+                ],
+                "name": "Year select: "
+            }
+        }
+    ],
     "layer": [
         {
             "data": {
@@ -34,7 +70,7 @@
         },
         {
             "data": {
-                "url": "../data/map/geoBoundaries.topojson",
+                "url": "../data/map/malaysia only.topojson",
                 "format": {
                     "type": "topojson",
                     "feature": "MYSADM1gbOpen"
@@ -42,280 +78,60 @@
             },
             "mark": {
                 "type": "geoshape",
-                "fill": "#e8e8e8",
+                "fill": "#1e272e",
                 "stroke": "white",
                 "strokeWidth": 1.5
             }
         },
         {
             "data": {
-                "url": "../data/map/geoBoundaries.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "PHLADM0gbOpen"
-                }
+                "url": "../data/map/merged_traffic_roads.geojson",
+                "format": {"type": "json", "property": "features"}
             },
-            "mark": {
-                "type": "geoshape",
-                "fill": "lightgray",
-                "stroke": "white"
-            }
-        },
-        {
-            "data": {
-                "url": "../data/map/geoBoundaries.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "THAADM0gbOpen"
-                }
-            },
-            "mark": {
-                "type": "geoshape",
-                "fill": "lightgray",
-                "stroke": "white"
-            }
-        },
-        {
-            "data": {
-                "url": "../data/map/geoBoundaries.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "IDNADM0gbOpen"
-                }
-            },
-            "mark": {
-                "type": "geoshape",
-                "fill": "lightgray",
-                "stroke": "white"
-            }
-        },
-        {
-            "data": {
-                "url": "../data/map/roads/Ipoh-Kampar.geojson",
-                "format": {
-                    "type": "json",
-                    "property": "features"
-                }
-            },
-            "transform": [
-                {
-                    "filter": "datum.geometry.type == 'LineString'"
-                },
-                {
-                    "calculate": "'Ipoh-Kampar'",
-                    "as": "location"
-                },
-                {
-                    "lookup": "location",
-                    "from": {
-                        "data": {
-                            "url": "../data/traffic/road_data.csv"
-                        },
-                        "key": "Location",
-                        "fields": ["ADT", "Station", "Route", "Route Name"]
-                    }
-                },
-                {
-                    "calculate": "toNumber(replace(datum.ADT, ',', ''))",
-                    "as": "ADT_numeric"
-                }
+             "transform": [
+                {"filter": "datum.properties.Year == year_select"},
+                {"filter": "datum.properties.rank <= 10"}
             ],
             "mark": {
                 "type": "geoshape",
                 "fill": null,
-                "strokeWidth": 2,
-                "opacity": 0.8
+                "stroke": "orange",
+                "strokeWidth": 3
             },
             "encoding": {
                 "stroke": {
-                    "field": "ADT_numeric",
+                    "field": "properties.ADT",
                     "type": "quantitative",
                     "scale": {
-                        "scheme": "orangered"
+                        "scheme": "orangered",
+                        "domain": [0, 200000]
                     },
-                    "legend": {
-                        "title": "Average Daily Traffic"
-                    }
+                    "title": "Average Daily Traffic (ADT)"
                 },
                 "tooltip": [
-                    {"field": "location", "type": "nominal", "title": "Road"},
-                    {"field": "ADT_numeric", "type": "quantitative", "title": "Average Daily Traffic", "format": ","},
-                    {"field": "Station", "type": "nominal", "title": "Station"},
-                    {"field": "Route", "type": "nominal", "title": "Route"},
-                    {"field": "Route Name", "type": "nominal", "title": "Route Name"}
-                ]
-            }
-        },
-        {
-            "data": {
-                "url": "../data/map/roads/Ipoh-Lumut.geojson",
-                "format": {
-                    "type": "json",
-                    "property": "features"
-                }
-            },
-            "transform": [
-                {
-                    "filter": "datum.geometry.type == 'LineString'"
-                },
-                {
-                    "calculate": "'Ipoh-Lumut'",
-                    "as": "location"
-                },
-                {
-                    "lookup": "location",
-                    "from": {
-                        "data": {
-                            "url": "../data/traffic/road_data.csv"
-                        },
-                        "key": "Location",
-                        "fields": ["ADT", "Station", "Route", "Route Name"]
-                    }
-                },
-                {
-                    "calculate": "toNumber(replace(datum.ADT, ',', ''))",
-                    "as": "ADT_numeric"
-                }
-            ],
-            "mark": {
-                "type": "geoshape",
-                "fill": null,
-                "strokeWidth": 2,
-                "opacity": 0.8
-            },
-            "encoding": {
-                "stroke": {
-                    "field": "ADT_numeric",
-                    "type": "quantitative",
-                    "scale": {
-                        "scheme": "orangered"
+                    {
+                        "field": "properties.Year",
+                        "type": "nominal",
+                        "title": "Year"
                     },
-                    "legend": {
-                        "title": "Average Daily Traffic"
-                    }
-                },
-                "tooltip": [
-                    {"field": "location", "type": "nominal", "title": "Road"},
-                    {"field": "ADT_numeric", "type": "quantitative", "title": "Average Daily Traffic", "format": ","},
-                    {"field": "Station", "type": "nominal", "title": "Station"},
-                    {"field": "Route", "type": "nominal", "title": "Route"},
-                    {"field": "Route Name", "type": "nominal", "title": "Route Name"}
-                ]
-            }
-        },
-        {
-            "data": {
-                "url": "../data/map/roads/Ipoh-Tanjung Malim.geojson",
-                "format": {
-                    "type": "json",
-                    "property": "features"
-                }
-            },
-            "transform": [
-                {
-                    "filter": "datum.geometry.type == 'LineString'"
-                },
-                {
-                    "calculate": "'Ipoh-Tanjung Malim (Slim River Toll house)'",
-                    "as": "location"
-                },
-                {
-                    "lookup": "location",
-                    "from": {
-                        "data": {
-                            "url": "../data/traffic/road_data.csv"
-                        },
-                        "key": "Location",
-                        "fields": ["ADT", "Station", "Route", "Route Name"]
-                    }
-                },
-                {
-                    "calculate": "toNumber(replace(datum.ADT, ',', ''))",
-                    "as": "ADT_numeric"
-                }
-            ],
-            "mark": {
-                "type": "geoshape",
-                "fill": null,
-                "strokeWidth": 2,
-                "opacity": 0.8
-            },
-            "encoding": {
-                "stroke": {
-                    "field": "ADT_numeric",
-                    "type": "quantitative",
-                    "scale": {
-                        "scheme": "orangered"
+                    {
+                        "field": "properties.Location",
+                        "type": "nominal",
+                        "title": "Road"
                     },
-                    "legend": {
-                        "title": "Average Daily Traffic"
-                    }
-                },
-                "tooltip": [
-                    {"field": "location", "type": "nominal", "title": "Road"},
-                    {"field": "ADT_numeric", "type": "quantitative", "title": "Average Daily Traffic", "format": ","},
-                    {"field": "Station", "type": "nominal", "title": "Station"},
-                    {"field": "Route", "type": "nominal", "title": "Route"},
-                    {"field": "Route Name", "type": "nominal", "title": "Route Name"}
-                ]
-            }
-        },
-        {
-            "data": {
-                "url": "../data/map/roads/Sitiawan-Gopeng.geojson",
-                "format": {
-                    "type": "json",
-                    "property": "features"
-                }
-            },
-            "transform": [
-                {
-                    "filter": "datum.geometry.type == 'LineString'"
-                },
-                {
-                    "calculate": "'Sitiawan-Gopeng'",
-                    "as": "location"
-                },
-                {
-                    "lookup": "location",
-                    "from": {
-                        "data": {
-                            "url": "../data/traffic/road_data.csv"
-                        },
-                        "key": "Location",
-                        "fields": ["ADT", "Station", "Route", "Route Name"]
-                    }
-                },
-                {
-                    "calculate": "toNumber(replace(datum.ADT, ',', ''))",
-                    "as": "ADT_numeric"
-                }
-            ],
-            "mark": {
-                "type": "geoshape",
-                "fill": null,
-                "strokeWidth": 2,
-                "opacity": 0.8
-            },
-            "encoding": {
-                "stroke": {
-                    "field": "ADT_numeric",
-                    "type": "quantitative",
-                    "scale": {
-                        "scheme": "orangered"
+                    {
+                        "field": "properties.ADT",
+                        "type": "quantitative",
+                        "title": "ADT"
                     },
-                    "legend": {
-                        "title": "Average Daily Traffic"
+                    {
+                        "field": "properties.rank",
+                        "type": "quantitative",
+                        "title": "Rank"
                     }
-                },
-                "tooltip": [
-                    {"field": "location", "type": "nominal", "title": "Road"},
-                    {"field": "ADT_numeric", "type": "quantitative", "title": "Average Daily Traffic", "format": ","},
-                    {"field": "Station", "type": "nominal", "title": "Station"},
-                    {"field": "Route", "type": "nominal", "title": "Route"},
-                    {"field": "Route Name", "type": "nominal", "title": "Route Name"}
                 ]
             }
         }
     ]
 }
+
