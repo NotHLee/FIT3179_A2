@@ -103,8 +103,9 @@
                     "field": "properties.ADT",
                     "type": "quantitative",
                     "scale": {
-                        "scheme": "orangered",
-                        "domain": [0, 200000]
+                        "type": "threshold",
+                        "domain": [39894, 71954, 112099, 147756, 211188],
+                        "range": ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026", "#800026"]
                     },
                     "title": "Average Daily Traffic (ADT)"
                 },
