@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
   "description": "A radar chart example, showing multiple dimensions in a radial layout.",
-  "width": 400,
-  "height": 400,
+  "width": 500,
+  "height": 500,
   "padding": 40,
   "autosize": {"type": "none", "contains": "padding"},
 
@@ -13,14 +13,13 @@
   "data": [
     {
         "name": "table",
-        "url": "../data/pollutants/air_pollution.csv",
+        "url": "../data/pollutants/air_pollution_yearly.csv",
         "format": {"type":"csv"},
         "transform": [
-            {
-                "type": "filter",
-                "expr": "datum.date == '2017-01-01'"
-            }
-
+          {
+            "type": "filter",
+            "expr": "datum.year >= 2018"
+          }
         ]
     },
     {
@@ -48,31 +47,40 @@
       "range": {"signal": "[0, radius]"},
       "zero": true,
       "nice": false,
-      "domain": {"data": "table", "field": "concentration"},
+      "domain": [0, 150],
       "domainMin": 0
     },
     {
       "name": "color",
       "type": "ordinal",
-      "domain": {"data": "table", "field": "date"},
+      "domain": {"data": "table", "field": "year"},
       "range": {"scheme": "category10"}
     }
   ],
-
+  "legends": [
+    {
+      "fill": "color",
+      "title": "This is the Title",
+      "orient": "top-right",
+      "encode": {
+        "symbols": {"enter": {"fillOpacity": {"value": 0.5}}},
+        "labels": {"update": {"text": {"field": "value"}}}
+      }
+    }
+  ],
   "encode": {
     "enter": {
       "x": {"signal": "radius"},
       "y": {"signal": "radius"}
     }
   },
-
   "marks": [
     {
       "type": "group",
       "name": "categories",
       "zindex": 1,
       "from": {
-        "facet": {"data": "table", "name": "facet", "groupby": ["category"]}
+        "facet": {"data": "table", "name": "facet", "groupby": ["year"]}
       },
       "marks": [
         {
@@ -82,27 +90,12 @@
           "encode": {
             "enter": {
               "interpolate": {"value": "linear-closed"},
-              "x": {"signal": "scale('radial', datum.concentration) * cos(scale('angular', datum.pollutant))"},
-              "y": {"signal": "scale('radial', datum.concentration) * sin(scale('angular', datum.pollutant))"},
-              "stroke": {"scale": "color", "field": "category"},
+              "x": {"signal": "scale('radial', datum.percentage) * cos(scale('angular', datum.pollutant))"},
+              "y": {"signal": "scale('radial', datum.percentage) * sin(scale('angular', datum.pollutant))"},
+              "stroke": {"scale": "color", "field": "year"},
               "strokeWidth": {"value": 1},
-              "fill": {"scale": "color", "field": "category"},
+              "fill": {"scale": "color", "field": "year"},
               "fillOpacity": {"value": 0.1}
-            }
-          }
-        },
-        {
-          "type": "text",
-          "name": "value-text",
-          "from": {"data": "category-line"},
-          "encode": {
-            "enter": {
-              "x": {"signal": "datum.x"},
-              "y": {"signal": "datum.y"},
-              "text": {"signal": "datum.datum.concentration"},
-              "align": {"value": "center"},
-              "baseline": {"value": "middle"},
-              "fill": {"value": "black"}
             }
           }
         }
@@ -110,7 +103,7 @@
     },
     {
       "type": "rule",
-      "name": "radial-grid",
+      "name": "radial-grid-150",
       "from": {"data": "keys"},
       "zindex": 0,
       "encode": {
@@ -119,6 +112,38 @@
           "y": {"value": 0},
           "x2": {"signal": "radius * cos(scale('angular', datum.pollutant))"},
           "y2": {"signal": "radius * sin(scale('angular', datum.pollutant))"},
+          "stroke": {"value": "lightgray"},
+          "strokeWidth": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "name": "radial-grid-100",
+      "from": {"data": "keys"},
+      "zindex": 0,
+      "encode": {
+        "enter": {
+          "x": {"value": 0},
+          "y": {"value": 0},
+          "x2": {"signal": "(radius * 2/3) * cos(scale('angular', datum.pollutant))"},
+          "y2": {"signal": "(radius * 2/3) * sin(scale('angular', datum.pollutant))"},
+          "stroke": {"value": "lightgray"},
+          "strokeWidth": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "name": "radial-grid-50",
+      "from": {"data": "keys"},
+      "zindex": 0,
+      "encode": {
+        "enter": {
+          "x": {"value": 0},
+          "y": {"value": 0},
+          "x2": {"signal": "(radius * 1/3) * cos(scale('angular', datum.pollutant))"},
+          "y2": {"signal": "(radius * 1/3) * sin(scale('angular', datum.pollutant))"},
           "stroke": {"value": "lightgray"},
           "strokeWidth": {"value": 1}
         }
@@ -161,8 +186,36 @@
     },
     {
       "type": "line",
-      "name": "outer-line",
-      "from": {"data": "radial-grid"},
+      "name": "outer-line-150",
+      "from": {"data": "radial-grid-150"},
+      "encode": {
+        "enter": {
+          "interpolate": {"value": "linear-closed"},
+          "x": {"field": "x2"},
+          "y": {"field": "y2"},
+          "stroke": {"value": "lightgray"},
+          "strokeWidth": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "line",
+      "name": "outer-line-100",
+      "from": {"data": "radial-grid-100"},
+      "encode": {
+        "enter": {
+          "interpolate": {"value": "linear-closed"},
+          "x": {"field": "x2"},
+          "y": {"field": "y2"},
+          "stroke": {"value": "red"},
+          "strokeWidth": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "line",
+      "name": "outer-line-50",
+      "from": {"data": "radial-grid-50"},
       "encode": {
         "enter": {
           "interpolate": {"value": "linear-closed"},
