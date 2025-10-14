@@ -1,0 +1,83 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": {
+        "url": "../data/api/APIMS-monthly-avg-by-state.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "width": 350,
+    "height": 290,
+    "params": [
+        {
+            "name": "time_select",
+            "value": 9
+        },
+        {
+            "name": "highlight",
+            "select": {
+                "type": "point",
+                "on": "pointerover"
+            }
+        },
+        {
+            "name": "selected_state",
+            "select": {
+                "type": "point",
+                "fields": ["state"],
+                "on": "click"
+            },
+            "value": null
+        }
+    ],
+    "transform": [
+        {
+            "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
+        }
+    ],
+    "mark": {
+        "type": "bar",
+        "color": "orangered",
+        "opacity": 0.75
+    },
+    "encoding": {
+        "y": {
+            "field": "state",
+            "type": "nominal",
+            "axis": {
+                "labelAngle": 0,
+                "title": null
+            },
+            "sort": "-x"
+        },
+        "x": {
+            "field": "aqi",
+            "type": "quantitative"
+        },
+        "fillOpacity": {
+            "condition": {"param": "selected_state", "value": 1},
+            "value": 0.3
+        },
+        "strokeWidth": {
+            "condition": [
+                {
+                    "param": "selected_state",
+                    "empty": false,
+                    "value": 2
+                },
+                {
+                    "param": "highlight",
+                    "empty": false,
+                    "value": 1
+                }
+            ],
+            "value": 0
+        }
+    },
+    "config": {
+        "scale": {
+            "bandPaddingInner": 0.2
+        }
+    }
+}

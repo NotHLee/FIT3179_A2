@@ -11,6 +11,10 @@
         {
             "name": "time_select",
             "value": 9
+        },
+        {
+            "name": "selected_state",
+            "value": null
         }
     ],
     "layer": [
@@ -48,9 +52,18 @@
             },
             "mark": {
                 "type": "geoshape",
-                "fill": "#e8e8e8",
                 "stroke": "white",
                 "strokeWidth": 1.5
+            },
+           
+            "encoding": {
+                "color": {
+                    "value": "#e8e8e8",
+                    "condition": {
+                        "test": "(datum.properties.shapeName == selected_state) || (datum.properties.shapeName == 'Malacca' && selected_state == 'Melaka') || (datum.properties.shapeName == 'Penang' && selected_state == 'Pulau Pinang') || ((datum.properties.shapeName == 'Kuala Lumpur' || datum.properties.shapeName == 'Putrajaya' || datum.properties.shapeName == 'Labuan') && selected_state == 'Wilayah Persekutuan')",
+                        "value": "#00bfff"
+                    }
+                }
             }
         },
         {
@@ -125,7 +138,7 @@
                     "title": "Air Quality Index (AQI)",
                     "type": "quantitative",
                     "scale": {
-                        "scheme": "viridis",
+                        "scheme": "orangered",
                         "domain": [0, 100]
                     },
                     "legend": {

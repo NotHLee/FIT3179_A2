@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,51 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 
-<div class="m-8 w-fit">
-  <div class="flex flex-col">
-    <div id="stations"></div>
-    <input type="range" id="timeSlider" min="0" max="199" value="199" step="1" class="mt-4 mr-44">
-    <span id="timeLabel" class="text-lg font-semibold">May 2022</span>
-  </div>
-</div>
-</div>
+<body>
+  <!-- Introduction to Air Pollution in Malaysia -->
+  <section class="h-screen sticky top-0">
+    <div class="flex flex-row ml-16 mr-16 w-fit h-full">
+      <div class="flex flex-col">
+        <span id="timeLabel" class="text-lg font-semibold">Oct 2005</span>
+        <div class="flex flex-row">
+          <div id="stations"></div>
+          <div class="p-8">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+          </div>
+        </div>
+        <input type="range" id="timeSlider" min="9" max="208" value="9" step="1" class="mt-4 w-[1280px]"
+          autocomplete="off">
+        <div class="-translate-x-8 flex flex-row">
+          <div id="aqi_monthly"></div>
+          <div id="aqi_states"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Air Pollution content  -->
+  <section class="h-screen sticky top-0 bg-white">
+    <div class="p-16">
+      <h2 class="text-3xl font-bold mb-4">Pollutants</h2>
+      <div id="radar"></div>
+    </div>
+  </section>
+
+  <!-- Factors of Air Pollution -->
+  <section class="h-screen sticky top-0 mt-[100vh] bg-white">
+    <div class="p-16">
+      <h2 class="text-3xl font-bold mb-4">Next Section 2.0</h2>
+      <div id="roads"></div>
+    </div>
+  </section>
+
+  <!-- Effects of Air Pollution    -->
+  <section class="h-screen sticky top-0 mt-[100vh] bg-white">
+    <div class="p-16">
+      <h2 class="text-3xl font-bold mb-4">Next Section 3.0</h2>
+      <p>Your next content here...</p>
+    </div>
+  </section>
+</body>
+
 </html>

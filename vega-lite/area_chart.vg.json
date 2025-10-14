@@ -1,0 +1,84 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "data": {
+        "url": "../data/api/APIMS-monthly-avg.csv"
+    },
+    "width": 1270,
+    "height": 290,
+    "layer": [
+        {
+            "mark": {
+                "type": "area",
+                "line": {
+                    "color": "orange"
+                },
+                "color": {
+                    "x1": 1,
+                    "y1": 1,
+                    "x2": 1,
+                    "y2": 0,
+                    "gradient": "linear",
+                    "stops": [
+                        {
+                            "offset": 0,
+                            "color": "white"
+                        },
+                        {
+                            "offset": 1,
+                            "color": "orangered"
+                        }
+                    ]
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal"
+                },
+                "y": {
+                    "field": "aqi",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "aqi",
+                        "type": "quantitative",
+                        "title": "AQI"
+                    },
+                    {
+                        "field": "date",
+                        "type": "temporal",
+                        "title": "Date"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "dx": -2,
+                "dy": 0,
+                "fontSize": 14,
+                "fontWeight": "normal"
+            },
+            "encoding": {
+                "x": {
+                    "datum": {"year": 2016, "month": 4},
+                    "type": "temporal"
+                },
+                "y": {
+                    "datum": 45,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "Missing Data"
+                },
+                "color": {
+                    "value": "gray"
+                }
+            }
+        }
+    ]
+}

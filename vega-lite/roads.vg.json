@@ -1,11 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 800,
+    "width": 600,
+    "height": 600,
     "projection": {
         "type": "mercator",
         "center": [102, 4],
-        "scale": 8000
+        "scale": 6000
     },
     "params": [
         {
