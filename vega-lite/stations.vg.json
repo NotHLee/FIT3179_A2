@@ -1,12 +1,18 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 770,
-    "height": 270,
+    "width": 1270,
+    "height": 445,
     "projection": {
         "type": "mercator",
         "center": [109.5, 4],
-        "scale": 2200
+        "scale": 3635
     },
+    "params": [
+        {
+            "name": "time_select",
+            "value": 9
+        }
+    ],
     "layer": [
         {
             "data": {
@@ -91,8 +97,13 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_Homework_W9/refs/heads/main/malaysia_aqi.csv"
+                "url": "../data/api/APIMS-monthly.csv"
             },
+            "transform": [
+                {
+                    "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
+                }
+            ],
             "mark": {
                 "type": "circle",
                 "size": 100,
@@ -115,7 +126,7 @@
                     "type": "quantitative",
                     "scale": {
                         "scheme": "viridis",
-                        "domain": [0, 130]
+                        "domain": [0, 100]
                     },
                     "legend": {
                         "tickCount": 7
@@ -123,7 +134,7 @@
                 },
                 "tooltip": [
                     {
-                        "field": "station_location",
+                        "field": "station",
                         "type": "nominal",
                         "title": "Location"
                     },
@@ -146,6 +157,11 @@
                         "field": "lon",
                         "type": "quantitative",
                         "title": "Longitude"
+                    },
+                    {
+                        "field": "date",
+                        "type": "nominal",
+                        "title": "Date"
                     }
                 ]
             }

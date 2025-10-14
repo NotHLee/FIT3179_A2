@@ -1,9 +1,1 @@
-@import "tailwindcss";  
-
-.card {
-  @apply bg-white rounded-lg shadow-lg p-6 border border-gray-200 transition-shadow duration-300;
-}
-
-.card:hover {
-  @apply shadow-xl;
-}
+@import "tailwindcss";
