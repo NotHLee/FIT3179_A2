@@ -57,7 +57,7 @@ vegaEmbed('#aqi_states', vg_5).then(function(result) {
         views.aqi_states.signal('time_select', value).run();
     });
 
-    // Listen for state selection and update all charts
+    // Listen for state selection and update stations chart
     result.view.addSignalListener('selected_state', (name, value) => {    
         var selectedState;
         try {
@@ -69,4 +69,9 @@ vegaEmbed('#aqi_states', vg_5).then(function(result) {
 
         views.stations.signal('selected_state', selectedState).run();
     });
+
+    // listen for hover event to update
+    
+
+
 }).catch(console.error);

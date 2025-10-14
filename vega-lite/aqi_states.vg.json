@@ -39,7 +39,9 @@
     "mark": {
         "type": "bar",
         "color": "orangered",
-        "opacity": 0.75
+        "opacity": 0.75,
+        "stroke": "black",
+        "cursor": "pointer"
     },
     "encoding": {
         "y": {
