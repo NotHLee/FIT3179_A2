@@ -54,7 +54,11 @@
                 "labelAngle": 0,
                 "title": null
             },
-            "sort": "-x"
+            "sort": {
+                "field": "aqi",
+                "op": "max",
+                "order": "descending"
+            }
         },
         "x": {
             "field": "aqi",
