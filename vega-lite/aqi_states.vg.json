@@ -66,7 +66,10 @@
             "field": "Aqi",
             "type": "quantitative",
             "scale": {
-                "domain": [0, 130]
+                "domain": [0, 120]
+            },
+            "axis": {
+                "title": "AQI"
             }
         },
         "fillOpacity": {
@@ -90,14 +93,19 @@
         },
         "tooltip": [
             {
-                "field": "state",
-                "type": "nominal",
-                "title": "State"
-            },
-            {
                 "field": "aqi",
                 "type": "quantitative",
                 "title": "AQI"
+            },
+            {
+                "field": "date",
+                "type": "temporal",
+                "title": "Date"
+            },
+            {
+                "field": "state",
+                "type": "nominal",
+                "title": "State"
             }
         ]
     },

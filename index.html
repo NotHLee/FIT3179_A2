@@ -11,11 +11,26 @@
   <script src="./src/scripts.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <!-- <link href="./src/output.css" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    .header-title {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
 </head>
-
 
 <!-- Air Quality in Malaysia -->
 <div class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+  
+  <header class="bg-gradient-to-r from-slate-800 to-slate-900 text-white py-12 px-8 shadow-xl">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="header-title text-6xl font-black mb-3 tracking-tight">Air Pollution in Malaysia</h1>
+      <p class="text-slate-300 text-lg font-light">Tracking air quality across the nation</p>
+    </div>
+  </header>
+
   <div class="flex flex-row min-h-screen justify-center">
     <div class="flex flex-col my-8 mx-16">
       <span id="timeLabel" class="text-lg font-semibold">Oct 2005</span>

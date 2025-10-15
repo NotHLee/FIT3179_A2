@@ -60,6 +60,9 @@
                     "type": "quantitative",
                     "scale": {
                         "domain": [0, 130]
+                    },
+                    "axis": {
+                        "title": "AQI"
                     }
                 },
                 "tooltip": [
@@ -88,7 +91,7 @@
                 "baseline": "middle",
                 "dx": -2,
                 "dy": 0,
-                "fontSize": 14,
+                "fontSize": 12,
                 "fontWeight": "normal"
             },
             "encoding": {
@@ -105,6 +108,87 @@
                 },
                 "color": {
                     "value": "gray"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "dx": 4,
+                "dy": -72,
+                "fontSize": 14,
+                "fontWeight": "normal"
+            },
+            "encoding": {
+                "x": {
+                    "datum": {"year": 2006, "month": 9},
+                    "type": "temporal"
+                },
+                "y": {
+                    "datum": 45,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": ["2006 Southeast Asian", "haze"]
+                },
+                "color": {
+                    "value": "orangered"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "dx": 4,
+                "dy": -84,
+                "fontSize": 14,
+                "fontWeight": "normal"
+            },
+            "encoding": {
+                "x": {
+                    "datum": {"year": 2013, "month": 5},
+                    "type": "temporal"
+                },
+                "y": {
+                    "datum": 45,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": ["2013 Southeast Asian", "haze"]
+                },
+                "color": {
+                    "value": "orangered"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "line-top",
+                "dx": 4,
+                "dy": -128,
+                "fontSize": 14,
+                "fontWeight": "normal"
+            },
+            "encoding": {
+                "x": {
+                    "datum": {"year": 2019, "month": 8},
+                    "type": "temporal"
+                },
+                "y": {
+                    "datum": 45,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": ["2019 Southeast Asian", "haze"]
+                },
+                "color": {
+                    "value": "orangered"
                 }
             }
         },
