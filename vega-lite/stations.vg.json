@@ -58,11 +58,14 @@
            
             "encoding": {
                 "color": {
-                    "value": "#e8e8e8",
+                    "value": "#e8e8e8"
+                },
+                "opacity": {
                     "condition": {
-                        "test": "(datum.properties.shapeName == selected_state) || (datum.properties.shapeName == 'Malacca' && selected_state == 'Melaka') || (datum.properties.shapeName == 'Penang' && selected_state == 'Pulau Pinang') || ((datum.properties.shapeName == 'Kuala Lumpur' || datum.properties.shapeName == 'Putrajaya' || datum.properties.shapeName == 'Labuan') && selected_state == 'Wilayah Persekutuan')",
-                        "value": "#00bfff"
-                    }
+                        "test": "(datum.properties.shapeName == selected_state) || (datum.properties.shapeName == 'Malacca' && selected_state == 'Melaka') || (datum.properties.shapeName == 'Penang' && selected_state == 'Pulau Pinang') || ((datum.properties.shapeName == 'Kuala Lumpur' || datum.properties.shapeName == 'Putrajaya' || datum.properties.shapeName == 'Labuan') && selected_state == 'Wilayah Persekutuan') || selected_state == null",
+                        "value": 1
+                    },
+                    "value": 0.3
                 }
             }
         },
@@ -115,6 +118,9 @@
             "transform": [
                 {
                     "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
+                },
+                {
+                    "filter": "selected_state == null || datum.state == selected_state"
                 }
             ],
             "mark": {

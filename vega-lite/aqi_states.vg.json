@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-    "description": "A simple bar chart with embedded data.",
+    "title": "State ranking by AQI",
     "data": {
         "url": "../data/api/APIMS-monthly-avg-by-state.csv",
         "format": {
@@ -55,7 +55,10 @@
         },
         "x": {
             "field": "aqi",
-            "type": "quantitative"
+            "type": "quantitative",
+            "scale": {
+                "domain": [0, 130]
+            }
         },
         "fillOpacity": {
             "condition": {"param": "selected_state", "value": 1},
@@ -75,7 +78,19 @@
                 }
             ],
             "value": 0
-        }
+        },
+        "tooltip": [
+            {
+                "field": "state",
+                "type": "nominal",
+                "title": "State"
+            },
+            {
+                "field": "aqi",
+                "type": "quantitative",
+                "title": "AQI"
+            }
+        ]
     },
     "config": {
         "scale": {
