@@ -7,10 +7,18 @@
         {
             "name": "selected_state",
             "value": null
+        },
+        {
+            "name": "time_select",
+            "value": 9
         }
     ],
     "transform": [
-        {"filter": "(selected_state == null && datum.state == 'Malaysia') || datum.state == selected_state"}
+        {"filter": "(selected_state == null && datum.state == 'Malaysia') || datum.state == selected_state"},
+        {
+            "calculate": "datetime((floor(time_select / 12) + 2005), (time_select % 12), 1)",
+            "as": "selected_date"
+        }
     ],
     "width": 1270,
     "height": 290,
@@ -94,6 +102,15 @@
                 },
                 "color": {
                     "value": "gray"
+                }
+            }
+        },
+        {
+            "mark": {"type": "rule", "color": "gray", "strokeWidth": 0.1, "strokeDash": [4, 2]},
+            "encoding": {
+                "x": {
+                    "field": "selected_date",
+                    "type": "temporal"
                 }
             }
         }
