@@ -33,6 +33,9 @@
     ],
     "transform": [
         {
+            "filter": "datum.state != 'Malaysia'"
+        },
+        {
             "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
         }
     ],

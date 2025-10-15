@@ -57,7 +57,7 @@ vegaEmbed('#aqi_states', vg_5).then(function(result) {
         views.aqi_states.signal('time_select', value).run();
     });
 
-    // Listen for state selection and update stations chart
+    // listen to state selection changes
     result.view.addSignalListener('selected_state', (name, value) => {    
         var selectedState;
         try {
@@ -67,11 +67,11 @@ vegaEmbed('#aqi_states', vg_5).then(function(result) {
             selectedState = null
         }
 
+        // update dot map to focus on state
         views.stations.signal('selected_state', selectedState).run();
+
+        // update area chart to focus on state
+        views.aqi_monthly.signal('selected_state', selectedState).run();
     });
-
-    // listen for hover event to update
-    
-
 
 }).catch(console.error);

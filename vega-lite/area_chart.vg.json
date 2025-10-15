@@ -1,8 +1,17 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
     "data": {
-        "url": "../data/api/APIMS-monthly-avg.csv"
+        "url": "../data/api/APIMS-monthly-avg-by-state.csv"
     },
+    "params": [
+        {
+            "name": "selected_state",
+            "value": null
+        }
+    ],
+    "transform": [
+        {"filter": "(selected_state == null && datum.state == 'Malaysia') || datum.state == selected_state"}
+    ],
     "width": 1270,
     "height": 290,
     "layer": [
@@ -37,7 +46,10 @@
                 },
                 "y": {
                     "field": "aqi",
-                    "type": "quantitative"
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [0, 130]
+                    }
                 },
                 "tooltip": [
                     {
@@ -49,6 +61,11 @@
                         "field": "date",
                         "type": "temporal",
                         "title": "Date"
+                    },
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
                     }
                 ]
             }
