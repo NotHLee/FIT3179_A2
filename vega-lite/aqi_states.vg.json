@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
     "title": "State ranking by AQI",
     "data": {
-        "url": "../data/api/APIMS-monthly-avg-by-state.csv",
+        "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/APIMS-monthly-avg-by-state.csv",
         "format": {
             "type": "csv"
         }

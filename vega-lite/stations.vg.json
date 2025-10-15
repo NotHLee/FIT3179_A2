@@ -44,7 +44,7 @@
         },
         {
             "data": {
-                "url": "../data/map/geoBoundaries.topojson",
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/geoBoundaries.topojson",
                 "format": {
                     "type": "topojson",
                     "feature": "MYSADM1gbOpen"
@@ -71,7 +71,7 @@
         },
         {
             "data": {
-                "url": "../data/map/geoBoundaries.topojson",
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/geoBoundaries.topojson",
                 "format": {
                     "type": "topojson",
                     "feature": "PHLADM0gbOpen"
@@ -85,7 +85,7 @@
         },
         {
             "data": {
-                "url": "../data/map/geoBoundaries.topojson",
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/geoBoundaries.topojson",
                 "format": {
                     "type": "topojson",
                     "feature": "THAADM0gbOpen"
@@ -99,7 +99,7 @@
         },
         {
             "data": {
-                "url": "../data/map/geoBoundaries.topojson",
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/geoBoundaries.topojson",
                 "format": {
                     "type": "topojson",
                     "feature": "IDNADM0gbOpen"
@@ -113,7 +113,7 @@
         },
         {
             "data": {
-                "url": "../data/api/APIMS-monthly.csv"
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/APIMS-monthly-by-station.csv"
             },
             "transform": [
                 {
