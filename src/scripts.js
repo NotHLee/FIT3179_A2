@@ -1,8 +1,8 @@
-var vg_1 = "../vega-lite/radar_chart.vg.json"
-var vg_2 = "../vega-lite/roads.vg.json"
-var vg_3 = "../vega-lite/stations.vg.json"
-var vg_4 = "../vega-lite/area_chart.vg.json"
-var vg_5 = "../vega-lite/aqi_states.vg.json"
+var vg_1 = "./vega-lite/radar_chart.vg.json"
+var vg_2 = "./vega-lite/roads_chart.vg.json"
+var vg_3 = "./vega-lite/stations.vg.json"
+var vg_4 = "./vega-lite/area_chart.vg.json"
+var vg_5 = "./vega-lite/aqi_states.vg.json"
 
 // store views globally
 let views = {};
