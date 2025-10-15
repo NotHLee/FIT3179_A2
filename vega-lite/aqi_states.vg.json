@@ -37,7 +37,8 @@
         },
         {
             "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
-        }
+        },
+        {"calculate": "toNumber(datum.aqi)", "as": "Aqi"}
     ],
     "mark": {
         "type": "bar",
@@ -55,13 +56,13 @@
                 "title": null
             },
             "sort": {
-                "field": "aqi",
-                "op": "max",
+                "field": "Aqi",
+                "op": "mean",
                 "order": "descending"
             }
         },
         "x": {
-            "field": "aqi",
+            "field": "Aqi",
             "type": "quantitative",
             "scale": {
                 "domain": [0, 130]
