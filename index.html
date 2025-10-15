@@ -9,56 +9,52 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
   <script src="./src/scripts.js"></script>
-  <link href="./src/output.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- <link href="./src/output.css" rel="stylesheet"> -->
 </head>
 
-<body>
-  <!-- Introduction to Air Pollution in Malaysia -->
-  <section class="h-screen sticky top-0">
-    <div class="flex flex-row ml-16 mr-16 w-fit h-full">
-      <div class="flex flex-col">
-        <span id="timeLabel" class="text-lg font-semibold">Oct 2005</span>
-        <div class="flex flex-row">
-          <div id="stations"></div>
-          <div class="p-8">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-          </div>
-        </div>
-        <input type="range" id="timeSlider" min="9" max="208" value="9" step="1" class="mt-4 w-[1280px]"
-          autocomplete="off">
-        <div class="-translate-x-8 flex flex-row">
-          <div id="aqi_monthly"></div>
-          <div class="pb-4">
-            <div id="aqi_states"></div>
+
+<!-- Air Quality in Malaysia -->
+<div class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+  <div class="flex flex-row min-h-screen justify-center">
+    <div class="flex flex-col my-8 mx-16">
+      <span id="timeLabel" class="text-lg font-semibold">Oct 2005</span>
+      <div class="flex flex-row">
+        <div id="stations" class=""></div>
+        <div class="bg-white rounded-lg shadow-lg p-6 max-w-md ml-4">
+          <h2 class="text-xl font-bold mb-3 text-gray-800">Air Quality Index in Malaysia</h2>
+          <p class="text-gray-700 mb-4">
+            The Air Quality Index (AQI) measures air pollution levels across Malaysia's monitoring stations.
+            It ranges from 0-500, with higher values indicating greater health concerns. Values are categorized
+            as Good (0-50), Moderate (51-100), Unhealthy (101-200), Very Unhealthy (201-300), and Hazardous (301+).
+          </p>
+          <div class="border-t pt-4 mt-4">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800">Interactive Guide</h3>
+            <ul class="text-sm text-gray-600 space-y-2">
+              <li class="flex items-start">
+                <span class="mr-2">🕒</span>
+                <span>Use the <strong>slider below the map</strong> to navigate through different time periods</span>
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2">📊</span>
+                <span>Click on any <strong>bar in the chart below</strong> to select and highlight a specific state</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+      <input type="range" id="timeSlider" min="9" max="208" value="9" step="1" class="mt-4 w-[1280px]"
+        autocomplete="off">
+      <div class="flex flex-row">
+        <div id="aqi_monthly" class="-translate-x-8"></div>
+        <div id="aqi_states" class=""></div>
+      </div>
     </div>
-  </section>
+  </div>
+</div>
 
-  <!-- Air Pollution content  -->
-  <section class="h-screen sticky top-0 bg-white">
-    <div class="p-16">
-      <h2 class="text-3xl font-bold mb-4">Pollutants</h2>
-      <div id="radar"></div>
-    </div>
-  </section>
 
-  <!-- Factors of Air Pollution -->
-  <section class="h-screen sticky top-0 mt-[100vh] bg-white">
-    <div class="p-16">
-      <h2 class="text-3xl font-bold mb-4">Next Section 2.0</h2>
-      <div id="roads"></div>
-    </div>
-  </section>
 
-  <!-- Effects of Air Pollution    -->
-  <section class="h-screen sticky top-0 mt-[100vh] bg-white">
-    <div class="p-16">
-      <h2 class="text-3xl font-bold mb-4">Next Section 3.0</h2>
-      <p>Your next content here...</p>
-    </div>
-  </section>
-</body>
+
 
 </html>

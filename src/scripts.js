@@ -7,15 +7,15 @@ var vg_5 = "./vega-lite/aqi_states.vg.json"
 // store views globally
 let views = {};
 
-vegaEmbed("#radar", vg_1).then(function (result) {
+vegaEmbed("#radar", vg_1, {"actions": false}).then(function (result) {
     views.radar = result.view;
 }).catch(console.error);
 
-vegaEmbed("#roads", vg_2).then(function (result) {
+vegaEmbed("#roads", vg_2, {"actions": false}).then(function (result) {
     views.roads = result.view;
 }).catch(console.error);
 
-vegaEmbed("#stations", vg_3).then(function (result) {
+vegaEmbed("#stations", vg_3, {"actions": false}).then(function (result) {
     views.stations = result.view;
     const slider = document.getElementById('timeSlider');
     const label = document.getElementById('timeLabel');
@@ -38,12 +38,12 @@ vegaEmbed("#stations", vg_3).then(function (result) {
 
 }).catch(console.error);
 
-vegaEmbed("#aqi_monthly", vg_4).then(function (result) {
+vegaEmbed("#aqi_monthly", vg_4, {"actions": false}).then(function (result) {
     views.aqi_monthly = result.view;
 
 }).catch(console.error);
 
-vegaEmbed('#aqi_states', vg_5).then(function (result) {
+vegaEmbed('#aqi_states', vg_5, {"actions": false}).then(function (result) {
     views.aqi_states = result.view;
 
     // listen to state selection changes

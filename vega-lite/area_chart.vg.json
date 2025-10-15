@@ -3,6 +3,8 @@
     "data": {
         "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/APIMS-monthly-avg-by-state.csv"
     },
+    "background": null,
+    "title": "Air Quality Over Time (2005 - 2022)",
     "params": [
         {
             "name": "selected_state",

@@ -1,12 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-    "title": "State ranking by AQI",
+    "title": "Air Quality State Rankings",
     "data": {
         "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/APIMS-monthly-avg-by-state.csv",
         "format": {
             "type": "csv"
         }
     },
+    "background": null,
     "width": 350,
     "height": 290,
     "params": [
