@@ -1,19 +1,9 @@
-var vg_1 = "./vega-lite/radar_chart.vg.json"
-var vg_2 = "./vega-lite/roads_chart.vg.json"
 var vg_3 = "./vega-lite/stations.vg.json"
 var vg_4 = "./vega-lite/area_chart.vg.json"
 var vg_5 = "./vega-lite/aqi_states.vg.json"
 
 // store views globally
 let views = {};
-
-vegaEmbed("#radar", vg_1, {"actions": false}).then(function (result) {
-    views.radar = result.view;
-}).catch(console.error);
-
-vegaEmbed("#roads", vg_2, {"actions": false}).then(function (result) {
-    views.roads = result.view;
-}).catch(console.error);
 
 vegaEmbed("#stations", vg_3, {"actions": false}).then(function (result) {
     views.stations = result.view;

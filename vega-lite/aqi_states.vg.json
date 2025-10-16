@@ -39,7 +39,14 @@
         {
             "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
         },
-        {"calculate": "toNumber(datum.aqi)", "as": "Aqi"}
+        {
+            "aggregate": [{
+            "op": "mean",
+            "field": "aqi",
+            "as": "mean_aqi"
+            }],
+            "groupby": ["shapeiso", "date", "state"]
+        }
     ],
     "mark": {
         "type": "bar",
@@ -57,13 +64,13 @@
                 "title": null
             },
             "sort": {
-                "field": "Aqi",
+                "field": "mean_aqi",
                 "op": "mean",
                 "order": "descending"
             }
         },
         "x": {
-            "field": "Aqi",
+            "field": "mean_aqi",
             "type": "quantitative",
             "scale": {
                 "domain": [0, 120]
@@ -93,7 +100,7 @@
         },
         "tooltip": [
             {
-                "field": "aqi",
+                "field": "mean_aqi",
                 "type": "quantitative",
                 "title": "AQI"
             },
