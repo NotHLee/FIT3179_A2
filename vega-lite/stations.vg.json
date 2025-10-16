@@ -6,7 +6,10 @@
     "height": 445,
     "projection": {
         "type": "mercator",
-        "center": [109.5, 4],
+        "center": [
+            109.5,
+            4
+        ],
         "scale": 3635
     },
     "params": [
@@ -33,7 +36,10 @@
         {
             "data": {
                 "graticule": {
-                    "step": [2, 2]
+                    "step": [
+                        2,
+                        2
+                    ]
                 }
             },
             "mark": {
@@ -49,47 +55,6 @@
                 "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/geoBoundaries.topojson",
                 "format": {
                     "type": "topojson",
-                    "feature": "MYSADM1gbOpen"
-                }
-            },
-            "mark": {
-                "type": "geoshape",
-                "stroke": "white",
-                "strokeWidth": 1.5
-            },
-           
-            "encoding": {
-                "color": {
-                    "value": "#e8e8e8"
-                },
-                "opacity": {
-                    "condition": {
-                        "test": "(datum.properties.shapeName == selected_state) || (datum.properties.shapeName == 'Malacca' && selected_state == 'Melaka') || (datum.properties.shapeName == 'Penang' && selected_state == 'Pulau Pinang') || ((datum.properties.shapeName == 'Kuala Lumpur' || datum.properties.shapeName == 'Putrajaya' || datum.properties.shapeName == 'Labuan') && selected_state == 'Wilayah Persekutuan') || selected_state == null",
-                        "value": 1
-                    },
-                    "value": 0.3
-                }
-            }
-        },
-        {
-            "data": {
-                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/geoBoundaries.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "PHLADM0gbOpen"
-                }
-            },
-            "mark": {
-                "type": "geoshape",
-                "fill": "lightgray",
-                "stroke": "white"
-            }
-        },
-        {
-            "data": {
-                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/geoBoundaries.topojson",
-                "format": {
-                    "type": "topojson",
                     "feature": "THAADM0gbOpen"
                 }
             },
@@ -97,6 +62,15 @@
                 "type": "geoshape",
                 "fill": "lightgray",
                 "stroke": "white"
+            },
+            "encoding": {
+                "opacity": {
+                    "condition": {
+                        "test": "datum.state != selected_state && selected_state != null",
+                        "value": 0.3
+                    },
+                    "value": 1
+                }   
             }
         },
         {
@@ -111,35 +85,78 @@
                 "type": "geoshape",
                 "fill": "lightgray",
                 "stroke": "white"
+            },
+            "encoding": {
+                "opacity": {
+                    "condition": {
+                        "test": "datum.state != selected_state && selected_state != null",
+                        "value": 0.3
+                    },
+                    "value": 1
+                }
             }
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/APIMS-monthly-by-station.csv"
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/choropleth.geojson",
+                "format": {
+                    "type": "json",
+                    "property": "features"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "strokeWidth": 1.5,
+                "stroke": "white"
+            },
+            "encoding": {
+                "color": {
+                    "value": "#e8e8e8"
+                },
+                "opacity": {
+                    "condition": {
+                        "test": "datum.state != selected_state && selected_state != null",
+                        "value": 0.3
+                    },
+                    "value": 1
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/APIMS-monthly-avg-by-state.csv",
+                "format": {
+                    "type": "csv"
+                }
             },
             "transform": [
                 {
                     "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
                 },
                 {
-                    "filter": "selected_state == null || datum.state == selected_state"
+                    "lookup": "shapeISO",
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/choropleth.geojson",
+                            "format": {
+                                "type": "json",
+                                "property": "features"
+                            }
+                        },
+                        "key": "properties.shapeISO"
+                    },
+                    "as": "geo"
                 }
             ],
             "mark": {
-                "type": "circle",
-                "size": 100,
-                "tooltip": {
-                    "content": "data"
-                }
+                "type": "geoshape",
+                "stroke": "white",
+                "strokeWidth": 1.5
             },
             "encoding": {
-                "longitude": {
-                    "field": "lon",
-                    "type": "quantitative"
-                },
-                "latitude": {
-                    "field": "lat",
-                    "type": "quantitative"
+                "shape": {
+                    "field": "geo",
+                    "type": "geojson"
                 },
                 "color": {
                     "field": "aqi",
@@ -147,18 +164,20 @@
                     "type": "quantitative",
                     "scale": {
                         "scheme": "orangered",
-                        "domain": [0, 100]
+                        "domain": [0,100]
                     },
                     "legend": {
                         "tickCount": 7
                     }
                 },
-                "tooltip": [
-                    {
-                        "field": "station",
-                        "type": "nominal",
-                        "title": "Location"
+                "opacity": {
+                    "condition": {
+                        "test": "datum.state != selected_state && selected_state != null",
+                        "value": 0.3
                     },
+                    "value": 1
+                },
+                "tooltip": [
                     {
                         "field": "state",
                         "type": "nominal",
@@ -168,16 +187,6 @@
                         "field": "aqi",
                         "type": "quantitative",
                         "title": "AQI"
-                    },
-                    {
-                        "field": "lat",
-                        "type": "quantitative",
-                        "title": "Latitude"
-                    },
-                    {
-                        "field": "lon",
-                        "type": "quantitative",
-                        "title": "Longitude"
                     },
                     {
                         "field": "date",

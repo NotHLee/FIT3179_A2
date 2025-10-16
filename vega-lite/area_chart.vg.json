@@ -127,7 +127,7 @@
                     "type": "temporal"
                 },
                 "y": {
-                    "datum": 45,
+                    "datum": 90,
                     "type": "quantitative"
                 },
                 "text": {
@@ -139,22 +139,38 @@
             }
         },
         {
+            "mark": {"type": "rule", "color": "orangered", "strokeWidth": 0.1, "strokeDash": [8, 4]},
+            "encoding": {
+                "x": {
+                    "datum": {"year": 2006, "month": 10},
+                    "type": "temporal"
+                },
+                "y": {
+                    "datum": 110,
+                    "type": "quantitative"
+                },
+                "opacity": {
+                    "value": 0.05
+                }
+            }
+        },
+        {
             "mark": {
                 "type": "text",
                 "align": "center",
                 "baseline": "middle",
-                "dx": 4,
-                "dy": -84,
+                "dx": 0,
+                "dy": -72,
                 "fontSize": 14,
                 "fontWeight": "normal"
             },
             "encoding": {
                 "x": {
-                    "datum": {"year": 2013, "month": 5},
+                    "datum": {"year": 2013, "month": 6},
                     "type": "temporal"
                 },
                 "y": {
-                    "datum": 45,
+                    "datum": 90,
                     "type": "quantitative"
                 },
                 "text": {
@@ -166,22 +182,38 @@
             }
         },
         {
+            "mark": {"type": "rule", "color": "orangered", "strokeWidth": 0.1, "strokeDash": [8, 4]},
+            "encoding": {
+                "x": {
+                    "datum": {"year": 2013, "month": 6},
+                    "type": "temporal"
+                },
+                "y": {
+                    "datum": 110,
+                    "type": "quantitative"
+                },
+                "opacity": {
+                    "value": 0.1
+                }
+            }
+        },
+        {
             "mark": {
                 "type": "text",
                 "align": "center",
-                "baseline": "line-top",
-                "dx": 4,
-                "dy": -128,
+                "baseline": "middle",
+                "dx": 0,
+                "dy": -72,
                 "fontSize": 14,
                 "fontWeight": "normal"
             },
             "encoding": {
                 "x": {
-                    "datum": {"year": 2019, "month": 8},
+                    "datum": {"year": 2019, "month": 9},
                     "type": "temporal"
                 },
                 "y": {
-                    "datum": 45,
+                    "datum": 90,
                     "type": "quantitative"
                 },
                 "text": {
@@ -189,6 +221,22 @@
                 },
                 "color": {
                     "value": "orangered"
+                }
+            }
+        },
+        {
+            "mark": {"type": "rule", "color": "orangered", "strokeWidth": 0.1, "strokeDash": [8, 4]},
+            "encoding": {
+                "x": {
+                    "datum": {"year": 2019, "month": 9},
+                    "type": "temporal"
+                },
+                "y": {
+                    "datum": 110,
+                    "type": "quantitative"
+                },
+                "opacity": {
+                    "value": 0.1
                 }
             }
         },
