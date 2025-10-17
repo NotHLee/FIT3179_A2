@@ -27,7 +27,7 @@
             "field": "aqi",
             "as": "mean_aqi"
             }],
-            "groupby": ["shapeiso", "date", "state"]
+            "groupby": ["shapeiso", "date", "state", "selected_date"]
         }
     ],
     "width": 1270,

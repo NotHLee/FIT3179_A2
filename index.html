@@ -21,22 +21,31 @@
   </style>
 </head>
 
-<!-- Air Quality in Malaysia -->
-<div class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-  
-  <header class="bg-gradient-to-r from-slate-800 to-slate-900 text-white py-12 px-8 shadow-xl">
-    <div class="max-w-7xl mx-auto">
-      <h1 class="header-title text-6xl font-black mb-3 tracking-tight">Air Pollution in Malaysia</h1>
-      <p class="text-slate-300 text-lg font-light">Tracking air quality across the nation</p>
-    </div>
-  </header>
+<!-- Sight lines -->
+<!-- <div class="pointer-events-none fixed inset-0 z-50 flex mx-16 border-x-2 border-black-500">
+  <div class="w-1/4 border-r-2 border-black-500"></div>
+  <div class="w-1/4 border-r-2 border-black-500"></div>
+  <div class="w-1/4 border-r-2 border-black-500"></div>
+</div> -->
 
-  <div class="flex flex-row min-h-screen justify-center">
-    <div class="flex flex-col my-8 mx-16">
-      <span id="timeLabel" class="text-lg font-semibold">Oct 2005</span>
-      <div class="flex flex-row">
-        <div id="stations" class=""></div>
-        <div class="bg-white rounded-lg shadow-lg p-6 max-w-md ml-4">
+<!-- Header -->
+<header class="bg-gradient-to-r from-slate-800 to-slate-900 text-white py-12 px-8 shadow-xl">
+  <div class="max-w-7xl mx-auto">
+    <h1 class="header-title text-6xl font-black mb-3 tracking-tight">Air Pollution in Malaysia</h1>
+    <p class="text-slate-300 text-lg font-light">Tracking air quality across the nation</p>
+  </div>
+</header>
+
+<div class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+  <div class="mx-16">
+    <div class="grid grid-cols-4">
+
+      <!-- Air Quality Across Malaysia -->
+      <div id ="stations" class="col-span-3"></div>
+
+      <!-- AQI description -->
+      <div>
+        <div class="bg-white rounded-lg shadow-lg p-6 mt-5 pb-21">
           <h2 class="text-xl font-bold mb-3 text-gray-800">Air Quality Index in Malaysia</h2>
           <p class="text-gray-700 mb-4">
             The Air Quality Index (AQI) measures air pollution levels across Malaysia's monitoring stations.
@@ -52,24 +61,28 @@
               </li>
               <li class="flex items-start">
                 <span class="mr-2">📊</span>
-                <span>Click on any <strong>bar in the chart below</strong> to select and highlight a specific state</span>
+                <span>Click on any <strong>bar in the chart below</strong> to select and highlight a specific
+                  state</span>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <input type="range" id="timeSlider" min="9" max="208" value="9" step="1" class="mt-4 w-[1280px]"
-        autocomplete="off">
-      <div class="flex flex-row">
-        <div id="aqi_monthly" class="-translate-x-8"></div>
-        <div id="aqi_states" class=""></div>
+
+      <!-- Selected year and slider-->
+      <div class="col-span-4 flex flex-col">
+        <div>
+          <span class="text-sm font-medium text-gray-500">Selected year:</span>
+          <span id="timeLabel" class="text-sm font-medium text-gray-500">Oct 2005</span>
+        </div>
+        <input type="range" id="timeSlider" min="9" max="208" value="9" step="1" class="mt-4 w-[1280px]"
+          autocomplete="off">
       </div>
+
+      <!-- Area chart and bar chart -->
+      <div id="aqi_monthly" class="col-span-3 -translate-x-8"></div>
+      <div id="aqi_states" class="col-span-1 -translate-x-4"></div>
+     
     </div>
-  </div>
-</div>
-
-
-
-
 
 </html>
