@@ -45,7 +45,7 @@
 
       <!-- AQI description -->
       <div>
-        <div class="bg-white rounded-lg shadow-lg p-6 mt-5 pb-21">
+        <div class="bg-white rounded-lg shadow-lg p-6 mt-5 pb-9">
           <h2 class="text-xl font-bold mb-3 text-gray-800">Air Quality Index in Malaysia</h2>
           <p class="text-gray-700 mb-4">
             The Air Quality Index (AQI) measures air pollution levels across Malaysia's monitoring stations.
@@ -63,6 +63,11 @@
                 <span class="mr-2">📊</span>
                 <span>Click on any <strong>bar in the chart below</strong> to select and highlight a specific
                   state</span>
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2">🚫</span>
+                <span>Click on any<strong> empty space in chart below</strong> to unselect <br>
+                  the state</span>
               </li>
             </ul>
           </div>
@@ -82,6 +87,8 @@
       <!-- Area chart and bar chart -->
       <div id="aqi_monthly" class="col-span-3 -translate-x-8"></div>
       <div id="aqi_states" class="col-span-1 -translate-x-4"></div>
+
+
      
     </div>
 
