@@ -1,41 +1,35 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Violin plot showing AQI distribution for Selangor",
+  "description": "Violin plot showing AQI distribution by state using precomputed KDE",
   "data": {
-    "url": "../data/api/APIMS-final-with-state.csv",
+    "url": "../data/api/aqi_kde_by_state.csv",
     "format": {
       "type": "csv",
       "parse": {
-        "aqi": "number"
+        "aqi": "number",
+        "density": "number"
       }
     }
   },
   "transform": [
     {
-      "filter": "isValid(datum.aqi)"
+      "filter": "isValid(datum.aqi) && isValid(datum.density)"
     },
     {
-      "joinaggregate": [
-        {
-          "op": "mean",
-          "field": "aqi",
-          "as": "mean_aqi"
-        }
-      ],
-      "groupby": [
-        "state"
-      ]
-    },
-    {
-      "density": "aqi",
-      "groupby": [
-        "state",
-        "mean_aqi"
-      ],
-      "extent": [
-        0,
-        100
-      ]
+      "lookup": "state",
+      "from": {
+        "data": {
+          "url": "../data/api/mean_aqi_per_state.csv",
+          "format": {
+            "type": "csv",
+            "parse": {
+              "mean_aqi": "number"
+            }
+          }
+        },
+        "key": "state",
+        "fields": ["mean_aqi"]
+      }
     }
   ],
   "facet": {
@@ -45,7 +39,7 @@
       "title": "State",
       "sort": {
         "field": "mean_aqi",
-        "op": "max",
+        "op": "mean",
         "order": "descending"
       }
     }
@@ -58,11 +52,12 @@
         "mark": "area",
         "encoding": {
           "x": {
-            "field": "value",
+            "field": "aqi",
             "type": "quantitative",
             "title": "Air Quality Index (AQI)",
             "scale": {
-              "zero": false
+              "zero": false,
+              "domain": [0, 120]
             }
           },
           "y": {
@@ -88,10 +83,7 @@
           "type": "rule",
           "color": "black",
           "strokeWidth": 0.1,
-          "strokeDash": [
-            8,
-            4
-          ]
+          "strokeDash": [8, 4]
         },
         "encoding": {
           "x": {
