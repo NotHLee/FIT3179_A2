@@ -20,6 +20,14 @@
         {
             "calculate": "datetime((floor(time_select / 12) + 2005), (time_select % 12), 1)",
             "as": "selected_date"
+        },
+        {
+            "aggregate": [{
+            "op": "mean",
+            "field": "aqi",
+            "as": "mean_aqi"
+            }],
+            "groupby": ["shapeiso", "date", "state"]
         }
     ],
     "width": 1270,
@@ -56,7 +64,7 @@
                     "title": null
                 },
                 "y": {
-                    "field": "aqi",
+                    "field": "mean_aqi",
                     "type": "quantitative",
                     "scale": {
                         "domain": [0, 130]
@@ -67,7 +75,7 @@
                 },
                 "tooltip": [
                     {
-                        "field": "aqi",
+                        "field": "mean_aqi",
                         "type": "quantitative",
                         "title": "AQI"
                     },
