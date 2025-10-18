@@ -1,48 +1,76 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-    "data": {
-        "url": "../data/api/aqi_forest_malaysia.csv"
-    },
     "width": 800,
     "height": 450,
     "background": null,
     "title": "Forest to Land Ratio in Malaysia (2005-2022)",
-    "mark": {
-        "type": "line",
-        "color": "green"
-    },
-    "encoding": {
-        "x": {
-            "field": "year",
-            "type": "ordinal",
-            "title": "Year",
-            "axis": {
-                "labelAngle": 0
-            }
-        },
-        "y": {
-            "field": "forest_cover_percentage",
-            "type": "quantitative",
-            "scale": {
-                "domain": [
-                    14,
-                    15
+    "layer": [
+        {
+            "data": {
+                "url": "../data/api/aqi_forest_malaysia.csv"
+            },
+            "mark": {
+                "type": "line",
+                "color": "green"
+            },
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "ordinal",
+                    "title": "Year",
+                    "axis": {
+                        "labelAngle": 0
+                    }
+                },
+                "y": {
+                    "field": "forest_cover_percentage",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            14,
+                            15
+                        ]
+                    },
+                    "title": "Forest to Land Ratio (%)"
+                },
+                "tooltip": [
+                    {
+                        "field": "year",
+                        "type": "nominal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "forest_cover_percentage",
+                        "type": "quantitative",
+                        "title": "Forest to Land Ratio (%)",
+                        "format": ".2f"
+                    }
                 ]
-            },
-            "title": "Forest to Land Ratio (%)"
-        },
-        "tooltip": [
-            {
-                "field": "year",
-                "type": "nominal",
-                "title": "Year"
-            },
-            {
-                "field": "forest_cover_percentage",
-                "type": "quantitative",
-                "title": "Forest to Land Ratio (%)",
-                "format": ".2f"
             }
-        ]
-    }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {"type": "rule", "color": "lightslategrey", "strokeWidth": 2, "strokeDash": [8, 4]},
+            "encoding": {
+                "x": {
+                    "datum": "2009",
+                    "type": "nominal"
+                }
+            }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {"type": "rule", "color": "lightslategrey", "strokeWidth": 2, "strokeDash": [8, 4]},
+            "encoding": {
+                "x": {
+                    "datum": "2016",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
 }

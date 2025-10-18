@@ -107,7 +107,31 @@
           "value": "white"
         }
       }
-    }
+    },
+    {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {"type": "rule", "color": "lightslategrey", "strokeWidth": 2, "strokeDash": [8, 4]},
+            "encoding": {
+                "x": {
+                    "datum": "2009",
+                    "type": "nominal"
+                }
+            }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {"type": "rule", "color": "lightslategrey", "strokeWidth": 2, "strokeDash": [8, 4]},
+            "encoding": {
+                "x": {
+                    "datum": "2016",
+                    "type": "nominal"
+                }
+            }
+        }
   ],
   "config": {"text": {"fontWeight": "bold", "color": "#404040"}}
 }
