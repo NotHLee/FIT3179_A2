@@ -30,6 +30,19 @@
                 ]
             },
             "title": "Forest to Land Ratio (%)"
-        }
+        },
+        "tooltip": [
+            {
+                "field": "year",
+                "type": "nominal",
+                "title": "Year"
+            },
+            {
+                "field": "forest_cover_percentage",
+                "type": "quantitative",
+                "title": "Forest to Land Ratio (%)",
+                "format": ".2f"
+            }
+        ]
     }
 }

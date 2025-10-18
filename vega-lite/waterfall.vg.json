@@ -53,10 +53,22 @@
               "test": "datum.year === 'Begin' || datum.year === 'End'",
               "value": "#f7e0b6"
             },
-            {"test": "datum.sum < datum.previous_sum", "value": "#f78a64"}
+            {"test": "datum.sum < datum.previous_sum", "value": "#93c4aa"}
           ],
-          "value": "#93c4aa"
-        }
+          "value": "#f78a64"
+        },
+        "tooltip": [
+          {
+            "field": "sum",
+            "type": "quantitative",
+            "title": "AQI"
+          },
+          {
+            "field": "amount",
+            "type": "quantitative",
+            "title": "Difference"
+          }
+        ]
       }
     },
     {
