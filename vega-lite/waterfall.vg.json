@@ -131,6 +131,156 @@
                     "type": "nominal"
                 }
             }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 14,
+                "dx": 10,
+                "dy": 10,
+                "fontWeight": "bold"
+            },
+            "encoding": {
+                "x": {
+                    "datum": "2007",
+                    "type": "nominal"
+                },
+                "y": {
+                    "datum": 30,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "Building resilence"
+                }
+            }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "dx": 10,
+                "dy": 30,
+                "fontWeight": "normal"
+            },
+            "encoding": {
+                "x": {
+                    "datum": "2007",
+                    "type": "nominal"
+                },
+                "y": {
+                    "datum": 30,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": ["As forest recovers,", "air quality stabilizes"]
+                }
+            }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 14,
+                "dx": -30,
+                "dy": 10,
+                "fontWeight": "bold"
+            },
+            "encoding": {
+                "x": {
+                    "datum": "2013",
+                    "type": "nominal"
+                },
+                "y": {
+                    "datum": 30,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "Peak protection"
+                }
+            }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "dx": -30,
+                "dy": 30,
+                "fontWeight": "normal"
+            },
+            "encoding": {
+                "x": {
+                    "datum": "2013",
+                    "type": "nominal"
+                },
+                "y": {
+                    "datum": 30,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": ["Stable forests = Stable AQI", "±3 points maximum change"]
+                }
+            }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 14,
+                "dx": -10,
+                "dy": 10,
+                "fontWeight": "bold"
+            },
+            "encoding": {
+                "x": {
+                    "datum": "2019",
+                    "type": "nominal"
+                },
+                "y": {
+                    "datum": 30,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "Lost Protection"
+                }
+            }
+        },
+        {   
+            "data": {
+                "values":[{}]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "dx": -10,
+                "dy": 30,
+                "fontWeight": "normal"
+            },
+            "encoding": {
+                "x": {
+                    "datum": "2019",
+                    "type": "nominal"
+                },
+                "y": {
+                    "datum": 30,
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": ["Forest decline → AQI spikes", "2019 crisis: +19.84"]
+                }
+            }
         }
   ],
   "config": {"text": {"fontWeight": "bold", "color": "#404040"}}
