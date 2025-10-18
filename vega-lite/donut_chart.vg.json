@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "A simple donut chart with embedded data.",
+  "width": 400,
+  "height": 400,
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "source": "Motor Vehicles",
+            "tonnage": "1997005"
+          },
+          {
+            "source": "Industries",
+            "tonnage": "8547"
+          },
+          {
+            "source": "Power stations",
+            "tonnage": "61153"
+          },
+          {
+            "source": "Others",
+            "tonnage": "4204"
+          }
+        ]
+      },
+      "mark": {
+        "type": "arc",
+        "innerRadius": 100
+      },
+      "encoding": {
+        "theta": {
+          "field": "tonnage",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "source",
+          "type": "nominal",
+          "title": "Pollution Source"
+        },
+        "tooltip": [
+          {
+            "field": "tonnage",
+            "title": "Tonnage",
+            "type": "quantitative"
+          },
+          {
+            "field": "source",
+            "title": "Source",
+            "type": "nominal"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "dy": -24
+      },
+      "encoding": {
+        "text": {
+          "value": "Total CO Emissions:"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "dy": 14
+      },
+      "encoding": {
+        "text": {
+          "value": "2070909 "
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "dy": 36
+      },
+      "encoding": {
+        "text": {
+          "value": "metric tonnes"
+        }
+      }
+    }
+  ],
+  "config": {
+    "legend": {
+      "orient": "left"
+    }
+  }
+}
