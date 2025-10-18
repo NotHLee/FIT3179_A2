@@ -41,7 +41,7 @@
     <div class="grid grid-cols-4">
 
       <!-- Air Quality Across Malaysia -->
-      <div id ="stations" class="col-span-3"></div>
+      <div id="stations" class="col-span-3"></div>
 
       <!-- AQI description -->
       <div>
@@ -89,14 +89,53 @@
       <div id="aqi_states" class="col-span-1 -translate-x-4"></div>
 
       <!-- section 2 -->
-      <div id="aqi_dist" class="col-span-2"></div>
+      <div id="aqi_dist" class="col-span-1"></div>
+      <div class="col-span-1 m-8">
+        <div class="space-y-2">
+          <div class="rounded-lg bg-[#72b7b2] p-6 shadow-lg">
+            <h3 class="mb-3 text-lg font-bold text-white">South West Coast</h3>
+            <p class="text-sm leading-relaxed text-white/90">
+              Most affected by transboundary haze from Indonesian fires, carried by southwest monsoon winds across the
+              Strait of Malacca. High urbanization worsens the impact, making this region Malaysia's pollution hotspot.
+            </p>
+          </div>
+
+          <div class="rounded-lg bg-[#e45756] p-6 shadow-lg">
+            <h3 class="mb-3 text-lg font-bold text-white">North West Coast</h3>
+            <p class="text-sm leading-relaxed text-white/90">
+              Dense population and industrial activities drive higher baseline pollution, especially in Pulau Pinang.
+              During haze episodes, local emissions combine with transboundary smoke for a double impact.
+            </p>
+          </div>
+
+          <div class="rounded-lg bg-[#f58518] p-6 shadow-lg">
+            <h3 class="mb-3 text-lg font-bold text-white">East Coast</h3>
+            <p class="text-sm leading-relaxed text-white/90">
+              Protected by the Titiwangsa mountain range and cleaner oceanic winds. Generally maintains moderate air
+              quality, though occasional spikes occur from local industrial and agricultural activities.
+            </p>
+          </div>
+
+          <div class="rounded-lg bg-[#4c78a8] p-6 shadow-lg">
+            <h3 class="mb-3 text-lg font-bold text-white">Borneo</h3>
+            <p class="text-sm leading-relaxed text-white/90">
+              Maintains the cleanest air due to low population density, fewer industries, and distance from major haze
+              sources. Natural rainforests and favorable wind patterns help keep pollution levels low.
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+
       <div class="ml-8 col-span-2 flex flex-col">
         <div id="roads" class="-translate-x-12"></div>
         <div id="donut" class="mt-8 -translate-x-12"></div>
       </div>
-      
+
       <!-- section 3 -->
       <div id="waterfall" class="col-span-2"></div>
       <div id="line" class="col-span-2 ml-12"></div>
     </div>
+
 </html>

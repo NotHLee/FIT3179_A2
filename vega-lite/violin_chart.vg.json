@@ -52,7 +52,7 @@
   },
   "spec": {
     "width": 350,
-    "height": 35,
+    "height": 30,
     "layer": [
       {
         "mark": {
@@ -84,7 +84,8 @@
             "type": "ordinal",
             "scale": {
               "scheme": "tableau10"
-            }
+            },
+            "title": "Region"
           },
           "tooltip": [
             {
@@ -115,5 +116,14 @@
         }
       }
     ]
+  },
+  "config": {
+    "legend": {
+      "orient": "top"
+    },
+    "title": {
+      "offset": 10,
+      "dx": 100
+    }
   }
 }
