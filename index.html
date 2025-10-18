@@ -40,7 +40,14 @@
   <div class="mx-16 mt-4">
     <div class="grid grid-cols-4">
 
-      <!-- Air Quality Across Malaysia -->
+      <!-- ========== SECTION 1: Air Quality Overview ========== -->
+      <div class="col-span-4 mt-8 mb-6">
+        <h2 class="text-4xl font-bold text-gray-800 mb-2">Air Quality Monitoring Across Malaysia</h2>
+        <p class="text-gray-600 text-lg">Explore historical air quality data from monitoring stations nationwide</p>
+        <div class="h-1 w-24 bg-gradient-to-r from-slate-800 to-slate-600 mt-3"></div>
+      </div>
+
+      <!-- Section 1 -->
       <div id="stations" class="col-span-3"></div>
 
       <!-- AQI description -->
@@ -88,10 +95,24 @@
       <div id="aqi_monthly" class="col-span-3 -translate-x-8"></div>
       <div id="aqi_states" class="col-span-1 -translate-x-4"></div>
 
-      <!-- section 2 -->
+      <!-- ========== SECTION 2A: Regional Air Quality Patterns ========== -->
+      <div class="col-span-2 mt-16 mb-6">
+        <h2 class="text-4xl font-bold text-gray-800 mb-2">Regional Variations in Air Quality</h2>
+        <p class="text-gray-600 text-lg">Understanding how geography and monsoon patterns shape Malaysia's air pollution</p>
+        <div class="h-1 w-24 bg-gradient-to-r from-slate-800 to-slate-600 mt-3"></div>
+      </div>
+
+      <!-- ========== SECTION 2B: Transportation & Emissions ========== -->
+      <div class="col-span-2 mt-16 mb-6">
+        <h2 class="text-4xl font-bold text-gray-800 mb-2">The Traffic-Pollution Connection</h2>
+        <p class="text-gray-600 text-lg">How Malaysia's busiest roads and vehicle emissions impact local air quality</p>
+        <div class="h-1 w-24 bg-gradient-to-r from-slate-800 to-slate-600 mt-3"></div>
+      </div>
+
+      <!-- Section 2 - first half -->
       <div id="aqi_dist" class="col-span-1"></div>
       <div class="col-span-1 m-8">
-        <div class="space-y-2">
+        <div class="space-y-2 mr-8">
           <div class="rounded-lg bg-[#72b7b2] p-6 shadow-lg">
             <h3 class="mb-3 text-lg font-bold text-white">South West Coast</h3>
             <p class="text-sm leading-relaxed text-white/90">
@@ -126,6 +147,7 @@
         </div>
       </div>
 
+      <!-- Section 2 - second half -->
       <div class="ml-8 col-span-1 flex flex-col">
         <div id="roads" class="-translate-x-12"></div>
         <div id="donut" class="mt-8"></div>
@@ -159,7 +181,14 @@
         </div>
       </div>
 
-      <!-- section 3 -->
+      <!-- ========== SECTION 3: Environmental Impact & Forest Coverage ========== -->
+      <div class="col-span-4 mt-16 mb-6">
+        <h2 class="text-4xl font-bold text-gray-800 mb-2">Forest Coverage & Air Quality Correlation</h2>
+        <p class="text-gray-600 text-lg">Examining the relationship between Malaysia's forests and atmospheric health</p>
+        <div class="h-1 w-24 bg-gradient-to-r from-slate-800 to-slate-600 mt-3"></div>
+      </div>
+
+      <!-- Section 3 -->
       <div id="line" class="col-span-2"></div>
       <div id="waterfall" class="col-span-2 ml-12"></div>
       <div

@@ -46,7 +46,7 @@
                 "tooltip": [
                     {
                         "field": "tonnage",
-                        "title": "Tonnage",
+                        "title": "Metric Tonnes",
                         "type": "quantitative"
                     },
                     {

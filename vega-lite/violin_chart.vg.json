@@ -98,6 +98,17 @@
               "type": "quantitative",
               "title": "Average AQI",
               "format": ".2f"
+            },
+            {
+              "field": "density",
+              "type": "quantitative",
+              "title": "Density",
+              "format": ".4f"
+            },
+            {
+              "field": "state",
+              "type": "nominal",
+              "title": "State"
             }
           ]
         }
