@@ -7,7 +7,7 @@
     "layer": [
         {
             "data": {
-                "url": "../data/api/aqi_forest_malaysia.csv"
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/aqi_forest_malaysia.csv"
             },
             "mark": {
                 "type": "line",

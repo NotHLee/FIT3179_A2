@@ -3,7 +3,7 @@
   "title": "Distribution of AQI of States (2005-2022)",
   "background": null,
   "data": {
-    "url": "../data/api/aqi_kde_by_state.csv",
+    "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/aqi_kde_by_state.csv",
     "format": {
       "type": "csv",
       "parse": {
@@ -20,7 +20,7 @@
       "lookup": "state",
       "from": {
         "data": {
-          "url": "../data/api/mean_aqi_per_state.csv",
+          "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/mean_aqi_per_state.csv",
           "format": {
             "type": "csv",
             "parse": {
