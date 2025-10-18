@@ -70,7 +70,7 @@
         },
         {
             "data": {
-                "url": "../data/map/malaysia only.topojson",
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/malaysia%20only.topojson",
                 "format": {
                     "type": "topojson",
                     "feature": "MYSADM1gbOpen"
@@ -85,7 +85,7 @@
         },
         {
             "data": {
-                "url": "../data/map/merged_traffic_roads.geojson",
+                "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/merged_traffic_roads.geojson",
                 "format": {"type": "json", "property": "features"}
             },
              "transform": [
