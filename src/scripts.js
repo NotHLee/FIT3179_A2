@@ -29,7 +29,7 @@ vegaEmbed("#stations", choropleth, {"actions": false}).then(function (result) {
 
 }).catch(console.error);
 
-vegaEmbed("#aqi_dist", area_chart, {"actions": false}).then(function (result) {
+vegaEmbed("#aqi_monthly", area_chart, {"actions": false}).then(function (result) {
     views.aqi_monthly = result.view;
 
 }).catch(console.error);
@@ -57,10 +57,22 @@ vegaEmbed('#aqi_states', bar_chart, {"actions": false}).then(function (result) {
 }).catch(console.error);
 
 var violin = "./vega-lite/violin_chart.vg.json"
+var roads = "./vega-lite/roads.vg.json"
+var donut = "./vega-lite/donut_chart.vg.json"
 
 // second section
 vegaEmbed("#aqi_dist", violin, {"actions": false}).then(function (result) {
-    views.test = result.view;
+    views.aqi_monthly = result.view;
+
+}).catch(console.error);
+
+vegaEmbed("#roads", roads, {"actions": false}).then(function (result) {
+    views.aqi_monthly = result.view;
+
+}).catch(console.error);
+
+vegaEmbed("#donut", donut, {"actions": false}).then(function (result) {
+    views.aqi_monthly = result.view;
 
 }).catch(console.error);
 

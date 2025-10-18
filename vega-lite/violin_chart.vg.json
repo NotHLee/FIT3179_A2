@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Violin plot showing AQI distribution by state using precomputed KDE",
+  "title": "Distribution of AQI of States (2005-2022)",
+  "background": null,
   "data": {
     "url": "../data/api/aqi_kde_by_state.csv",
     "format": {
@@ -13,7 +14,7 @@
   },
   "transform": [
     {
-      "filter": "isValid(datum.aqi) && isValid(datum.density)"
+      "filter": "datum.aqi <= 100"
     },
     {
       "lookup": "state",
@@ -28,7 +29,7 @@
           }
         },
         "key": "state",
-        "fields": ["mean_aqi"]
+        "fields": ["mean_aqi", "region"]
       }
     }
   ],
@@ -37,6 +38,11 @@
       "field": "state",
       "type": "nominal",
       "title": "State",
+      "header": {
+        "labelAngle": 0,
+        "labelAlign": "left",
+        "title": null
+      },
       "sort": {
         "field": "mean_aqi",
         "op": "mean",
@@ -45,19 +51,22 @@
     }
   },
   "spec": {
-    "width": 400,
-    "height": 80,
+    "width": 350,
+    "height": 35,
     "layer": [
       {
-        "mark": "area",
+        "mark": {
+          "type": "area",
+          "color": "orange"
+        },
         "encoding": {
           "x": {
             "field": "aqi",
             "type": "quantitative",
-            "title": "Air Quality Index (AQI)",
+            "title": "AQI",
             "scale": {
               "zero": false,
-              "domain": [0, 120]
+              "domain": [0, 100]
             }
           },
           "y": {
@@ -66,24 +75,34 @@
             "title": "",
             "axis": {
               "labels": false,
-              "ticks": false,
-              "grid": false
+              "ticks": false
             },
-            "stack": "zero"
+            "stack": "center"
           },
-          "color": {
-            "field": "state",
-            "type": "nominal",
-            "legend": null
-          }
+          "tooltip": [
+            {
+              "field": "aqi",
+              "type": "quantitative",
+              "title": "AQI"
+            },
+            {
+              "field": "density",
+              "type": "quantitative",
+              "title": "Density"
+            },
+            {
+              "field": "mean_aqi",
+              "type": "quantitative",
+              "title": "Average"
+            }
+          ]
         }
       },
       {
         "mark": {
           "type": "rule",
           "color": "black",
-          "strokeWidth": 0.1,
-          "strokeDash": [8, 4]
+          "strokeWidth": 0.5
         },
         "encoding": {
           "x": {

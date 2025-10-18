@@ -1,20 +1,21 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 600,
-    "height": 600,
+    "width": 400,
+    "height": 400,
+    "title": "Top 10 Busiests Roads in Peninsular Malaysia (2015 - 2022)",
+    "background": null,
     "projection": {
         "type": "mercator",
         "center": [102, 4],
-        "scale": 6000
+        "scale": 4000
     },
     "params": [
         {
             "name": "year_select",
-            "value": null,
+            "value": "2015",
             "bind": {
                 "input": "select",
                 "options": [
-                    null,
                     "2015",
                     "2016",
                     "2017",
@@ -27,7 +28,6 @@
                     "2024"
                 ],
                 "labels": [
-                    "None",
                     "2015",
                     "2016",
                     "2017",
@@ -76,9 +76,9 @@
                     "feature": "MYSADM1gbOpen"
                 }
             },
-            "mark": {
+            "mark": {   
                 "type": "geoshape",
-                "fill": "#1e272e",
+                "fill": "darkslategray",
                 "stroke": "white",
                 "strokeWidth": 1.5
             }
@@ -107,7 +107,7 @@
                         "domain": [39894, 71954, 112099, 147756, 211188],
                         "range": ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20", "#bd0026", "#800026"]
                     },
-                    "title": "Average Daily Traffic (ADT)"
+                    "title": "Average Daily Traffic"
                 },
                 "tooltip": [
                     {
