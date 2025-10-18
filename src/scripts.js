@@ -78,4 +78,18 @@ vegaEmbed("#donut", donut, {"actions": false}).then(function (result) {
 
 }).catch(console.error);
 
+// third section
+var waterfall = "./vega-lite/waterfall.vg.json"
+var line = "./vega-lite/line.vg.json"
+
+vegaEmbed("#waterfall", waterfall, {"actions": false}).then(function (result) {
+    views.line = result.view
+
+}).catch(console.error);
+
+vegaEmbed("#line", line, {"actions": false}).then(function (result) {
+    views.line = result.view
+
+}).catch(console.error);
+
 

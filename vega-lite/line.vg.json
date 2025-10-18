@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "data": {
+        "url": "../data/api/aqi_forest_malaysia.csv"
+    },
+    "width": 800,
+    "height": 450,
+    "background": null,
+    "title": "Forest to Land Ratio in Malaysia (2005-2022)",
+    "mark": {
+        "type": "line",
+        "color": "green"
+    },
+    "encoding": {
+        "x": {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year",
+            "axis": {
+                "labelAngle": 0
+            }
+        },
+        "y": {
+            "field": "forest_cover_percentage",
+            "type": "quantitative",
+            "scale": {
+                "domain": [
+                    14,
+                    15
+                ]
+            },
+            "title": "Forest to Land Ratio (%)"
+        }
+    }
+}
