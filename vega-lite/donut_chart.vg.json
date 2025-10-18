@@ -38,7 +38,10 @@
                 "color": {
                     "field": "source",
                     "type": "nominal",
-                    "title": "Pollution Source"
+                    "title": "Pollution Source",
+                    "scale": {
+                        "scheme": "accent"
+                    }
                 },
                 "tooltip": [
                     {

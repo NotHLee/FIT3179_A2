@@ -79,6 +79,13 @@
             },
             "stack": "center"
           },
+          "color": {
+            "field": "region",
+            "type": "ordinal",
+            "scale": {
+              "scheme": "tableau10"
+            }
+          },
           "tooltip": [
             {
               "field": "aqi",
@@ -86,14 +93,10 @@
               "title": "AQI"
             },
             {
-              "field": "density",
-              "type": "quantitative",
-              "title": "Density"
-            },
-            {
               "field": "mean_aqi",
               "type": "quantitative",
-              "title": "Average"
+              "title": "Average AQI",
+              "format": ".2f"
             }
           ]
         }
