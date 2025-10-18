@@ -18,6 +18,12 @@
     .header-title {
       font-family: 'Playfair Display', serif;
     }
+
+    .source-text {
+      font-size: 0.65rem;
+      color: #9ca3af;
+      font-style: italic;
+    }
   </style>
 </head>
 
@@ -95,10 +101,20 @@
       <div id="aqi_monthly" class="col-span-3 -translate-x-8"></div>
       <div id="aqi_states" class="col-span-1 -translate-x-4"></div>
 
+      <div class="col-span-4">
+        <div class="source-text">
+          <a href="https://www.kaggle.com/datasets/ynshung/malaysia-air-pollution-index"
+            class="underline hover:text-gray-700">
+            Source: Kaggle • Air Pollution Index (API) in Malaysia
+          </a>
+        </div>
+      </div>
+
       <!-- ========== SECTION 2A: Regional Air Quality Patterns ========== -->
       <div class="col-span-2 mt-16 mb-6">
         <h2 class="text-4xl font-bold text-gray-800 mb-2">Regional Variations in Air Quality</h2>
-        <p class="text-gray-600 text-lg">Understanding how geography and monsoon patterns shape Malaysia's air pollution</p>
+        <p class="text-gray-600 text-lg">Understanding how geography and monsoon patterns shape Malaysia's air pollution
+        </p>
         <div class="h-1 w-24 bg-gradient-to-r from-slate-800 to-slate-600 mt-3"></div>
       </div>
 
@@ -181,10 +197,33 @@
         </div>
       </div>
 
+      <div class="col-span-2">
+        <div class="source-text">
+          <a href="https://www.kaggle.com/datasets/ynshung/malaysia-air-pollution-index"
+            class="underline hover:text-gray-700">
+            Source: Kaggle • Air Pollution Index (API) in Malaysia
+          </a>
+        </div>
+      </div>
+      <div class="col-span-2 flex flex-col">
+        <div class="source-text">
+          <a href="https://www.mot.gov.my/en/Statistik%20Tahunan%20Pengangkutan/Transport%20Statistics%20Malaysia%202024.pdf"
+            class="underline hover:text-gray-700">
+            Source: Ministry of Transport Malaysia • Transport Statistic Malaysia 2024
+          </a>
+        </div>
+        <div class="source-text">
+          <a href="https://edl.doe.gov.my/overview2?bibnumber=43023" class="underline hover:text-gray-700">
+            Source: Department of Environment Malaysia • Environment Quality Report 2022
+          </a>
+        </div>
+      </div>
+
       <!-- ========== SECTION 3: Environmental Impact & Forest Coverage ========== -->
       <div class="col-span-4 mt-16 mb-6">
         <h2 class="text-4xl font-bold text-gray-800 mb-2">Forest Coverage & Air Quality Correlation</h2>
-        <p class="text-gray-600 text-lg">Examining the relationship between Malaysia's forests and atmospheric health</p>
+        <p class="text-gray-600 text-lg">Examining the relationship between Malaysia's forests and atmospheric health
+        </p>
         <div class="h-1 w-24 bg-gradient-to-r from-slate-800 to-slate-600 mt-3"></div>
       </div>
 
@@ -221,8 +260,50 @@
             prove this approach works.</p>
         </div>
       </div>
+      <div class="col-span-4 flex flex-col">
+        <div class="source-text">
+          <a href="https://www.kaggle.com/datasets/ynshung/malaysia-air-pollution-index"
+            class="underline hover:text-gray-700">
+            Source: Kaggle • Air Pollution Index (API) in Malaysia
+          </a>
+        </div>
+        <div class="source-text">
+          <a href="https://data.gov.my/data-catalogue/forest_reserve_state" class="underline hover:text-gray-700">
+            Source: Department of Statistic Malaysia • Area of Permanent Forest Reserves by State
+          </a>
+        </div>
+      </div>
+      <div class="h-16"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-gradient-to-r from-slate-800 to-slate-900 text-white py-12 px-8 shadow-xl">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Footer Content Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Author Information -->
+      <div>
+        <h3 class="text-xl font-bold mb-3 text-slate-200">Author</h3>
+        <p class="text-slate-400">Hao Yang Lee</p>
+        <p class="text-slate-400 text-sm">FIT3179 Data Visualisation Assignment 2</p>
+        <p class="text-slate-400 text-sm">Monash University Malaysia • 2025</p>
+      </div>
+
+      <!-- License -->
+      <div>
+        <h3 class="text-xl font-bold mb-3 text-slate-200">License</h3>
+        <p class="text-slate-400 text-sm mb-2">🄯 Copyleft 2025</p>
+        <p class="text-slate-400 text-sm">This work is free to use, modify, and distribute under copyleft principles.
+        </p>
+      </div>
 
 
     </div>
+
+  </div>
+</footer>
 
 </html>
