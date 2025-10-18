@@ -47,6 +47,8 @@ vegaEmbed('#aqi_states', bar_chart, {"actions": false}).then(function (result) {
             selectedState = null
         }
 
+        console.log(selectedState)
+
         // update dot map to focus on state
         views.stations.signal('selected_state', selectedState).run();
 
@@ -62,17 +64,17 @@ var donut = "./vega-lite/donut_chart.vg.json"
 
 // second section
 vegaEmbed("#aqi_dist", violin, {"actions": false}).then(function (result) {
-    views.aqi_monthly = result.view;
+    views.aqi_dist = result.view;
 
 }).catch(console.error);
 
 vegaEmbed("#roads", roads, {"actions": false}).then(function (result) {
-    views.aqi_monthly = result.view;
+    views.roads = result.view;
 
 }).catch(console.error);
 
 vegaEmbed("#donut", donut, {"actions": false}).then(function (result) {
-    views.aqi_monthly = result.view;
+    views.donut = result.view;
 
 }).catch(console.error);
 

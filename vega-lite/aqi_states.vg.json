@@ -1,6 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-    "title": "Air Quality State Rankings",
+    "title": {
+        "text": {
+            "expr": "'Air Quality State Rankings for ' + timeFormat(datetime(floor(time_select / 12) + 2005, time_select % 12, 1), '%B %Y')"
+        }
+    },
     "data": {
         "url": "https://raw.githubusercontent.com/NotHLee/FIT3179_data/refs/heads/main/APIMS-monthly-avg-by-state.csv",
         "format": {
@@ -26,7 +30,9 @@
             "name": "selected_state",
             "select": {
                 "type": "point",
-                "fields": ["state"],
+                "fields": [
+                    "state"
+                ],
                 "on": "click"
             },
             "value": null
@@ -40,12 +46,18 @@
             "filter": "year(datum.date) == (floor(time_select / 12) + 2005) && month(datum.date) == (time_select % 12)"
         },
         {
-            "aggregate": [{
-            "op": "mean",
-            "field": "aqi",
-            "as": "mean_aqi"
-            }],
-            "groupby": ["shapeiso", "date", "state"]
+            "aggregate": [
+                {
+                    "op": "mean",
+                    "field": "aqi",
+                    "as": "mean_aqi"
+                }
+            ],
+            "groupby": [
+                "shapeiso",
+                "date",
+                "state"
+            ]
         }
     ],
     "mark": {
@@ -73,14 +85,20 @@
             "field": "mean_aqi",
             "type": "quantitative",
             "scale": {
-                "domain": [0, 120]
+                "domain": [
+                    0,
+                    120
+                ]
             },
             "axis": {
                 "title": "AQI"
             }
         },
         "fillOpacity": {
-            "condition": {"param": "selected_state", "value": 1},
+            "condition": {
+                "param": "selected_state",
+                "value": 1
+            },
             "value": 0.3
         },
         "strokeWidth": {
