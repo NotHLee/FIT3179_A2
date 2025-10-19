@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 400,
     "height": 400,
-    "title": "Top 10 Busiests Roads in Peninsular Malaysia (2015 - 2022)",
+    "title": "Top 10 Busiest Roads in Peninsular Malaysia (2015 - 2022)",
     "background": null,
     "projection": {
         "type": "mercator",
